@@ -1,0 +1,4 @@
+a,b,delta_ndcg_pp,ci95_pp,usuarios,repeticiones
+Híbrido repetir/explorar,Caminata aleatoria (PPR),-1.9810571655052007,"[-2.192917050500437, -1.783490871315503]",20000,1000
+Híbrido repetir/explorar,ALS (factores latentes),9.99608032491804,"[9.661430998103244, 10.29956091080799]",20000,1000
+Híbrido repetir/explorar,Híbrido fijo (w=0.50),-1.569715759273903,"[-1.719829912443829, -1.4346799352509958]",20000,1000

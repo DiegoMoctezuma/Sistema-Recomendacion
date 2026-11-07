@@ -1,0 +1,37 @@
+segmento,modelo,relevantes,aciertos,usuarios_con_objetivo,recall_micro_pct
+0 pedidos previos,Popularidad,317,0,311,0.0
+1–50 pedidos previos,Popularidad,1225,0,1156,0.0
+nuevos para usuario,Popularidad,21894,54,15411,0.24664291586736092
+0 pedidos previos,Popularidad reciente (14 días),317,0,311,0.0
+1–50 pedidos previos,Popularidad reciente (14 días),1225,0,1156,0.0
+nuevos para usuario,Popularidad reciente (14 días),21894,400,15411,1.8269845619804512
+0 pedidos previos,Lo de siempre,317,0,311,0.0
+1–50 pedidos previos,Lo de siempre,1225,159,1156,12.979591836734693
+nuevos para usuario,Lo de siempre,21894,218,15411,0.9957065862793459
+0 pedidos previos,Contenido,317,12,311,3.7854889589905363
+1–50 pedidos previos,Contenido,1225,79,1156,6.448979591836735
+nuevos para usuario,Contenido,21894,645,15411,2.9460126061934777
+0 pedidos previos,CF ítem-ítem,317,0,311,0.0
+1–50 pedidos previos,CF ítem-ítem,1225,71,1156,5.795918367346939
+nuevos para usuario,CF ítem-ítem,21894,2079,15411,9.495752260893395
+0 pedidos previos,ALS (factores latentes),317,0,311,0.0
+1–50 pedidos previos,ALS (factores latentes),1225,0,1156,0.0
+nuevos para usuario,ALS (factores latentes),21894,2157,15411,9.852014250479584
+0 pedidos previos,SVD truncado,317,0,311,0.0
+1–50 pedidos previos,SVD truncado,1225,0,1156,0.0
+nuevos para usuario,SVD truncado,21894,738,15411,3.3707865168539324
+0 pedidos previos,Caminata aleatoria (PPR),317,0,311,0.0
+1–50 pedidos previos,Caminata aleatoria (PPR),1225,160,1156,13.061224489795919
+nuevos para usuario,Caminata aleatoria (PPR),21894,1444,15411,6.595414268749429
+0 pedidos previos,Híbrido fijo (w=0.25),317,0,311,0.0
+1–50 pedidos previos,Híbrido fijo (w=0.25),1225,6,1156,0.4897959183673469
+nuevos para usuario,Híbrido fijo (w=0.25),21894,1841,15411,8.408696446515027
+0 pedidos previos,Híbrido fijo (w=0.50),317,0,311,0.0
+1–50 pedidos previos,Híbrido fijo (w=0.50),1225,102,1156,8.326530612244898
+nuevos para usuario,Híbrido fijo (w=0.50),21894,1607,15411,7.3399104777564625
+0 pedidos previos,Híbrido fijo (w=0.75),317,0,311,0.0
+1–50 pedidos previos,Híbrido fijo (w=0.75),1225,152,1156,12.408163265306122
+nuevos para usuario,Híbrido fijo (w=0.75),21894,1504,15411,6.869461953046497
+0 pedidos previos,Híbrido repetir/explorar,317,0,311,0.0
+1–50 pedidos previos,Híbrido repetir/explorar,1225,72,1156,5.877551020408164
+nuevos para usuario,Híbrido repetir/explorar,21894,1695,15411,7.741847081392162
