@@ -1,0 +1,56 @@
+/* The demo is the main experience; project material lives in a quiet menu. */
+body main{height:100dvh}
+#modo-demo{scroll-behavior:auto}
+.demo-shell{padding:28px 3.4vw 90px;max-width:1440px}
+.demo-marca{width:fit-content;margin-bottom:35px;font-size:19px;gap:10px}
+.demo-marca .marca-icono{width:39px;height:39px;font-size:35px;padding:0 8px 7px 4px}
+.demo-marca small{font-size:6px;letter-spacing:1.9px}
+.detalle-top{margin-bottom:16px}.detalle-contexto{font-size:10px;color:var(--muted)}
+.perfil-demo{display:block;margin-bottom:24px}
+.perfil-resumen{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:22px 26px;background:var(--green);color:var(--cream);border-radius:8px}
+.perfil-persona{display:flex;align-items:center;gap:19px;min-width:0}
+.perfil-persona .retrato-perfil{width:80px;height:80px}
+.perfil-persona .etiqueta{font-size:9px;letter-spacing:1px;color:var(--yellow)}
+.perfil-persona h1{font-size:43px;line-height:1;margin:7px 0 8px}
+.perfil-persona p:not(.etiqueta){font-size:11px;line-height:1.5}
+.perfil-guia{font-size:11px;line-height:1.6;max-width:24ch;color:#e5e9d4}
+.historial-resumen{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 15px;padding:20px 24px;border:1px solid var(--line);border-radius:6px}
+.historial-resumen b{display:block;font:800 34px/1 var(--display);color:var(--green)}
+.historial-resumen span{display:block;font-size:11px;margin-top:8px;color:var(--muted)}
+.historial-pista{font-size:12px;line-height:1.6;margin-bottom:28px;color:var(--muted)}
+.metodo-demo{margin-top:32px;max-width:1000px;border-top:1px solid var(--line);padding-top:17px}
+.metodo-demo>summary{cursor:pointer;font-size:11px;font-weight:600;color:var(--muted);padding:8px 0}
+.metodo-demo .demo-fuente{margin-top:12px;font-size:10px}
+.proyecto-menu{position:fixed;right:17px;bottom:17px;z-index:25;width:43px;height:43px;border:1px solid #173e2e30;border-radius:50%;background:#fff8e5f5;box-shadow:0 3px 12px #173e2e12;color:var(--green);font-size:17px;letter-spacing:1px;display:grid;place-items:center}
+.proyecto-menu:hover{background:var(--yellow)}
+#indice{width:min(520px,calc(100vw - 32px));padding:30px;border-radius:15px}
+#indice .indice-cabecera{margin-bottom:22px}
+#indice .indice-cabecera .etiqueta{font-size:9px;margin-bottom:9px}
+#indice .indice-cabecera h2{font-size:37px}
+.navegacion-proyecto{display:grid;gap:10px}
+.navegacion-proyecto button{border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--green);padding:17px;text-align:left;min-height:75px}
+.navegacion-proyecto button:hover{background:#e9e7d4}
+.navegacion-proyecto button[aria-current=page]{border-color:var(--green);background:#e8edda}
+.navegacion-proyecto strong{display:block;font-size:15px;margin-bottom:6px}
+.navegacion-proyecto span{display:block;font-size:11px;line-height:1.5;color:var(--muted)}
+.indice-secundario{border-top:1px solid var(--line);margin-top:22px;padding-top:18px}
+.indice-secundario>summary{cursor:pointer;font-size:12px;padding:5px 0}
+#lista-indice{grid-template-columns:1fr;margin-top:14px}
+#lista-indice button{font-size:11px;padding:12px}
+.controles{padding-right:65px}
+.escenario:fullscreen{width:100vw;height:100dvh;background:var(--cream);padding:0;display:flex}
+.escenario:fullscreen .slide{max-width:none;width:100%;height:100%;margin:0;border-radius:0}
+.escenario:fullscreen .slide.activa{animation:fundido-slide .2s ease-out}
+.escenario:fullscreen .folio{display:none}
+.escenario:fullscreen .slide::after{border:0}
+@keyframes fundido-slide{from{opacity:.5}to{opacity:1}}
+@media(max-width:1000px){.perfil-resumen{gap:20px}.perfil-guia{max-width:20ch}}
+@media(max-width:700px){
+ .demo-shell{padding:22px 18px 85px}.demo-marca{margin-bottom:27px;font-size:17px}.demo-marca .marca-icono{width:35px;height:35px;font-size:30px}
+ .detalle-contexto{display:none}.detalle-top{margin-bottom:12px}.perfil-resumen{padding:19px 16px;display:block}.perfil-persona{gap:14px}.perfil-persona .retrato-perfil{width:69px;height:69px}.perfil-persona h1{font-size:35px}.perfil-persona .etiqueta{font-size:8px}.perfil-persona p:not(.etiqueta){font-size:10px}.perfil-guia{display:none}.perfil-demo{margin-bottom:19px}
+ .demo-tabs button{font-size:11px;padding-left:0;padding-right:0;gap:5px}.demo-tabs{justify-content:space-between;gap:13px}
+ .historial-resumen{grid-template-columns:1fr 1fr;padding:18px;gap:22px 16px}.historial-resumen span{font-size:10px}.historial-pista{font-size:11px}
+ .controles{margin-left:15px;margin-right:15px;padding-right:58px;gap:12px}.posicion #titulo-slide{display:none}.posicion{font-size:10px}.flechas{gap:5px}.flechas button{width:34px;height:34px;font-size:18px}
+ .proyecto-menu{width:40px;height:40px;right:13px;bottom:12px}#indice{padding:23px}
+}
+@media(max-width:360px){.demo-shell{padding-left:13px;padding-right:13px}.perfil-persona h1{font-size:29px}.perfil-persona .retrato-perfil{width:58px;height:58px}.demo-tabs button{font-size:9px}}
