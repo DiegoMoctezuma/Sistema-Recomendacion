@@ -98,3 +98,7 @@ Se revisaron visualmente los doce retratos y se verificaron doce archivos con ha
 La entrada sigue siendo el demo, con la presentación y su índice en el menú inferior. La selección se restauró a la versión por categorías, tres personajes y vista previa; se conserva el perfil compacto al abrir la lista y sus cifras completas en Historial. La pantalla completa muestra únicamente la diapositiva.
 
 Las tarjetas y fichas narran las recomendaciones en tercera persona mediante `razonPersonaje()`: por ejemplo, «Tere ha pedido en este restaurante 24 veces». Se verificaron los 120 motivos sin alterar los datos originales. `FLUJO.md` describe el recorrido y la revisión de esta corrección; las comprobaciones anteriores de este archivo corresponden a las iteraciones descritas en cada sección.
+
+## Icono de la pestaña
+
+`favicon.svg` reproduce el círculo rojo y la «a.» crema de la marca, con la letra convertida en trazos para no depender de fuentes instaladas. `favicon.ico` incluye tamaños de 16, 32, 48 y 64 px; `apple-touch-icon.png` ofrece una versión de 180 px. La página principal y el catálogo de iconos declaran estos recursos.
