@@ -85,7 +85,8 @@ lleva la prueba y el demo. Quien abre cierra, para que la historia cierre el cí
 ### El resultado · slide del 28.06% · 5:05 – 5:35
 
 > Con eso: veintiocho punto cero seis de NDCG en las diez recomendaciones.
-> Casi siete por ciento arriba de simplemente repetirle a la persona su propio historial, que en delivery es un rival durísimo. Y treinta veces mejor que el ranking de los más populares, que es lo que usa hoy casi cualquier app chica.
+> Casi siete por ciento arriba de simplemente repetirle a la persona su propio historial, que en delivery es un rival durísimo. Esa es la comparación que importa. ///
+> Contra el ranking de los más populares la distancia es de unas treinta veces, pero eso dice más del ranking que de nosotros: sin saber dónde vive ni qué pide cada persona, casi nunca atina.
 
 ### El demo · 5:35 – 7:10
 
@@ -93,18 +94,18 @@ lleva la prueba y el demo. Quien abre cierra, para que la historia cierre el cí
 
 > Pero mejor véanlo.
 > Estos son doce clientes reales del conjunto de datos. El nombre es inventado; el historial y las recomendaciones son reales.
-> Los escogimos por su perfil, con una semilla fija, **antes** de ver si acertábamos. No elegimos los que salen bien.
-> *(clic en Ale)* Ale lleva doscientos noventa y seis pedidos en treinta y ocho lugares, casi siempre a las cuatro de la tarde.
+> Cada grupo se definió solo con lo que pasó antes del corte, y dentro de cada grupo las personas se sortearon con una semilla fija, **sin** ver si acertábamos. No elegimos los que salen bien.
+> *(clic en Ale)* Ale lleva treinta y dos pedidos en solo dos lugares, casi siempre a las cinco de la tarde.
 > El motor solo vio lo anterior al corte. Estas son sus diez recomendaciones, y aquí está por qué recomendó cada una. ///
-> En los quince días siguientes, Ale fue a doce lugares distintos. Seis estaban en esta lista. ///
-> Sin preguntarle nada. Solo con lo que ya hacía.
+> En los quince días siguientes, Ale fue a tres lugares distintos. Uno estaba en esta lista. ///
+> Y para que no dependa de un caso: en su grupo, nueve de cada diez personas tuvieron al menos un acierto.
 
 ### La defensa honesta · 7:10 – 8:10
 
-*(B escoge ahora un cliente que salió en cero: Mar, Dani o Kari. Es el momento más importante del pitch.)*
+*(B escoge ahora un cliente que salió en cero: Niko, Kari o Pau. Es el momento más importante del pitch.)*
 
 > Ahora escojamos a alguien donde no le atinamos. *(clic)*
-> Cero de dos. Y quiero explicarles exactamente por qué, porque esto es lo más interesante del proyecto.
+> Cero de uno. Y quiero explicarles exactamente por qué, porque esto es lo más interesante del proyecto.
 > Los seis clientes donde fallamos tienen todos la misma característica: los lugares a los que fueron eran lugares que **nunca habían pisado**. No había nada en su historia que apuntara ahí. ///
 > Y eso no es un defecto de nuestro modelo, es la física del problema. En veinte mil clientes evaluados: cuando entre sus destinos hay aunque sea un lugar conocido, acertamos en el noventa y seis por ciento de los casos. Cuando todos sus destinos son nuevos, en el nueve.
 > Repetir ya está resuelto. Descubrir es el problema abierto. ///

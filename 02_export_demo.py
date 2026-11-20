@@ -4,6 +4,22 @@ Reusa el protocolo del notebook 01: historial congelado al cierre del entrenamie
 grafo de co-visitas podado a 15 vecinos, caminata aleatoria con reinicio (alfa 0.6)
 y candidatos restringidos al geohash del último pedido más sus ocho vecinos.
 
+Selección de personas: cada arquetipo se define solo con pedidos anteriores al
+corte (entrenamiento). Dentro de cada arquetipo se sortean personas con semilla
+fija entre quienes tienen pedidos en la ventana de prueba, sin mirar si
+repitieron o descubrieron. Para cada arquetipo se reporta además el acierto
+promedio de una muestra aleatoria del grupo, para que los casos mostrados se
+lean frente al promedio y no como ejemplos escogidos.
+
+Explicaciones: la caminata con reinicio es proporcional a sum_h w_h * z_h, donde
+w_h es el peso del restaurante h en el historial y z_h la caminata que parte solo
+de h. Por eso el aporte de cada restaurante del historial al puntaje de una
+recomendación se calcula de forma exacta, sin aproximar por vecinos directos.
+
+Sincronía: este script repite a propósito parámetros y funciones del notebook
+(alfa, poda del grafo, geohash, top-k determinista). Si cambia alguno en
+01_motor_recomendacion.ipynb, debe cambiarse aquí también y volver a exportar.
+
 Uso:  python3 02_export_demo.py            (desde la carpeta del proyecto)
 Salida: web/demo.json
 """
@@ -135,6 +151,39 @@ def ppr(idx):
     return x
 
 
+def caminata_desde(origenes):
+    """Caminata con reinicio que parte de cada restaurante por separado.
+
+    Sin redistribuir la masa de nodos colgantes: así la caminata del notebook es
+    exactamente proporcional a sum_h w_h * z_h, y z_h mide el aporte de h.
+    """
+    e = np.zeros((len(origenes), len(vendor_idx)))
+    e[np.arange(len(origenes)), origenes] = 1.0
+    z = e.copy()
+    for _ in range(PPR_MAX_ITER * 4):
+        nuevo = ALFA * (z @ P) + (1 - ALFA) * e
+        residuo = float(np.abs(nuevo - z).sum(axis=1).max())
+        z = nuevo
+        if residuo < PPR_TOL / 10:
+            break
+    return z
+
+
+def aportes_historial(fila_usuario, hist_idx):
+    """Matriz historial × catálogo: aporte de cada restaurante visitado."""
+    if not len(hist_idx):
+        return np.zeros((0, len(vendor_idx)))
+    pesos = M[fila_usuario, hist_idx].toarray().ravel()
+    pesos = pesos / pesos.sum()
+    aportes = pesos[:, None] * caminata_desde(hist_idx)
+    # Comprobación: la suma de aportes es proporcional al puntaje de la caminata.
+    puntaje = ppr(np.array([fila_usuario]))[0]
+    suma = aportes.sum(axis=0)
+    escala = puntaje.sum() / suma.sum()
+    assert np.abs(suma * escala - puntaje).max() <= 1e-4 * puntaje.max(), "Atribución inconsistente"
+    return aportes
+
+
 # --- Candidatos por zona (geohash del último pedido) --------------------------
 _GEO = "0123456789bcdefghjkmnpqrstuvwxyz"
 
@@ -264,23 +313,33 @@ con_test["nuevos"] = [len(test_sets[c] - hist_sets[c]) for c in con_test.index]
 con_test["concentracion"] = con_test.pedidos / con_test.vendors
 
 
-def elegir(filtro, n, orden):
-    sub = con_test[filtro].sort_values(orden, ascending=False)
-    return list(sub.head(n * 6).sample(min(n, len(sub)), random_state=SEED).index)
+# Arquetipos definidos solo con entrenamiento. Se exige tener pedidos en la
+# ventana de prueba (igual que en la evaluación), pero no se mira qué pidieron.
+ARQUETIPOS = {
+    "El fiel": (con_test.pedidos >= 12) & (con_test.concentracion >= 3),
+    "El explorador": (con_test.vendors >= 10) & (con_test.concentracion < 1.4),
+    "El ocasional": con_test.pedidos.between(2, 4),
+}
+POR_ARQUETIPO, MUESTRA_GRUPO = 3, 2000
+sorteo = np.random.default_rng(SEED + 7)
 
 
-elegidos = []
-elegidos += [(c, "El fiel") for c in elegir(
-    (con_test.pedidos >= 12) & (con_test.concentracion >= 3) & (con_test.repetidos > 0),
-    3, "pedidos")]
-elegidos += [(c, "El explorador") for c in elegir(
-    (con_test.vendors >= 10) & (con_test.concentracion < 1.4) & (con_test.nuevos > 0),
-    3, "vendors")]
-elegidos += [(c, "El ocasional") for c in elegir(
-    (con_test.pedidos.between(2, 4)) & (con_test.nuevos > 0), 3, "pedidos")]
+def sortear(indices, n):
+    indices = np.array(sorted(indices), dtype=object)
+    return list(sorteo.permutation(indices)[:min(n, len(indices))])
 
-nuevos_usuarios = [c for c in test_sets.index if c not in hist_sets.index][:400]
-elegidos += [(c, "Sin historial") for c in list(rng.permutation(np.array(nuevos_usuarios, dtype=object))[:3])]
+
+elegidos, muestras_grupo, elegibles_grupo = [], {}, {}
+for perfil, filtro in ARQUETIPOS.items():
+    miembros = con_test.index[filtro]
+    elegibles_grupo[perfil] = len(miembros)
+    elegidos += [(c, perfil) for c in sortear(miembros, POR_ARQUETIPO)]
+    muestras_grupo[perfil] = sortear(miembros, MUESTRA_GRUPO)
+
+nuevos_usuarios = [c for c in test_sets.index if c not in hist_sets.index]
+elegibles_grupo["Sin historial"] = len(nuevos_usuarios)
+elegidos += [(c, "Sin historial") for c in sortear(nuevos_usuarios, POR_ARQUETIPO)]
+muestras_grupo["Sin historial"] = sortear(nuevos_usuarios, MUESTRA_GRUPO)
 print("usuarios elegidos:", len(elegidos), flush=True)
 
 con_hist = [(c, p) for c, p in elegidos if p != "Sin historial"]
@@ -300,24 +359,32 @@ for fila, (cid, perfil) in enumerate(con_hist):
     conocidos = set(M[pos[fila]].indices.tolist())
     objetivo = {int(v_pos[v]) for v in test_sets[cid] if v in v_pos.index}
 
-    # ¿por qué? el restaurante del historial que más empuja a cada recomendado
+    # ¿Por qué? Aporte exacto de cada restaurante del historial al puntaje.
     hist_idx = np.array(sorted(conocidos), dtype=int)
+    aportes = aportes_historial(pos[fila], hist_idx)
     recs = []
     for j in top:
         if j in conocidos:
             veces = int(M[pos[fila], j])
             razon = f"Ya pediste aquí {veces} {'vez' if veces == 1 else 'veces'}"
+            origen = None
         else:
-            pesos = np.asarray(P[hist_idx, j].todense()).ravel() if len(hist_idx) else np.array([])
-            if pesos.size and pesos.max() > 0:
-                origen = ficha(int(hist_idx[int(np.argmax(pesos))]))
-                etiqueta = origen["especialidad"] or origen["cocina"] or origen["id"]
-                razon = f"Clientes que piden en «{etiqueta}» también piden aquí"
+            col = aportes[:, j]
+            total = float(col.sum())
+            if total > 0:
+                h = int(np.argmax(col))
+                info = ficha(int(hist_idx[h]))
+                etiqueta = info["especialidad"] or info["cocina"] or info["id"]
+                pct = int(round(100 * col[h] / total))
+                razon = f"Por tus pedidos en «{etiqueta}» ({pct}% del puntaje)"
+                origen = {"id": info["id"], "etiqueta": etiqueta, "aporte_pct": pct,
+                          "vecino_directo": bool(P[hist_idx[h], j] > 0)}
             else:
-                razon = "Popular en tu zona"
+                razon = "Sin relación con tu historial; completa la lista"
+                origen = None
         f = ficha(int(j))
         f.update(tipo="conocido" if j in conocidos else "nuevo", razon=razon,
-                 acierto=bool(j in objetivo))
+                 origen=origen, acierto=bool(j in objetivo))
         recs.append(f)
 
     cocinas = historia.vid.map(cocina).dropna().str.strip().value_counts()
@@ -359,6 +426,41 @@ for cid, perfil in [(c, p) for c, p in elegidos if p == "Sin historial"]:
                      "objetivos": len(objetivo)},
     })
 
+# --- Acierto promedio de cada arquetipo (muestra aleatoria del grupo) ----------
+def resumen_grupo(perfil, clientes):
+    aciertos, objetivos, con_acierto = [], [], 0
+    for ini in range(0, len(clientes), 500):
+        lote = clientes[ini:ini + 500]
+        if perfil == "Sin historial":
+            listas = [top_determinista(pop_rec[_todos], _todos)] * len(lote)
+        else:
+            filas_lote = u_pos.loc[lote].to_numpy(dtype=int)
+            puntos = ppr(filas_lote)
+            ultimos = (ped_tr[ped_tr.cid.isin(set(lote))]
+                       .sort_values(["dia", "order_time", "order_id"])
+                       .drop_duplicates("cid", keep="last").set_index("cid").geohash)
+            listas = []
+            for k, cid in enumerate(lote):
+                cands = candidatos(str(ultimos[cid]))
+                listas.append(top_determinista(puntos[k][cands], cands))
+        for cid, lista in zip(lote, listas):
+            objetivo = {int(v_pos[v]) for v in test_sets[cid] if v in v_pos.index}
+            n_obj = len(test_sets[cid])
+            hits = len(set(lista.tolist()) & objetivo)
+            aciertos.append(hits); objetivos.append(n_obj); con_acierto += hits > 0
+    aciertos, objetivos = np.array(aciertos), np.array(objetivos)
+    return {"elegibles": int(elegibles_grupo[perfil]), "evaluados": int(len(clientes)),
+            "pct_con_algun_acierto": float(100 * con_acierto / max(len(clientes), 1)),
+            "aciertos_promedio": float(aciertos.mean()) if len(aciertos) else 0.0,
+            "objetivos_promedio": float(objetivos.mean()) if len(objetivos) else 0.0,
+            "recall_medio_pct": float(100 * np.mean(aciertos / np.maximum(objetivos, 1)))
+            if len(aciertos) else 0.0}
+
+
+arquetipos = {perfil: resumen_grupo(perfil, clientes) for perfil, clientes in muestras_grupo.items()}
+for perfil, r in arquetipos.items():
+    print(f"  grupo {perfil:14s} {r}", flush=True)
+
 demo = {
     "generado": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
     "ciudad": CIUDADES[CITY],
@@ -367,6 +469,10 @@ demo = {
                    "min_clientes_compartidos": MIN_COMPARTIDOS, "top_k": TOP_K},
     "nota_nombres": ("El dataset no publica el nombre de los restaurantes: se identifican "
                      "por su tipo de cocina y por su producto más pedido."),
+    "seleccion": ("Cada grupo se define solo con pedidos anteriores al corte. Las personas "
+                  "se sortearon con semilla fija entre quienes pidieron en la ventana de "
+                  "prueba, sin mirar si repitieron o descubrieron."),
+    "arquetipos": arquetipos,
     "usuarios": salida_usuarios,
 }
 SALIDA.write_text(json.dumps(demo, ensure_ascii=False, indent=1), encoding="utf-8")
