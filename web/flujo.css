@@ -54,3 +54,6 @@ body main{height:100dvh}
  .proyecto-menu{width:40px;height:40px;right:13px;bottom:12px}#indice{padding:23px}
 }
 @media(max-width:360px){.demo-shell{padding-left:13px;padding-right:13px}.perfil-persona h1{font-size:29px}.perfil-persona .retrato-perfil{width:58px;height:58px}.demo-tabs button{font-size:9px}}
+
+/* Intrinsic dimensions reserve space without stretching responsive illustrations. */
+.ilustracion,.avatar-muestra{height:auto}

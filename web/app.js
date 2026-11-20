@@ -3,15 +3,24 @@ const nf=new Intl.NumberFormat('es-MX');
 const miles=n=>nf.format(Math.round(n));
 const dec=(n,d=2)=>Number(n).toFixed(d);
 const pct=n=>dec(n)+'%';
-const AVATARES={'El fiel':'fiel','El explorador':'explorador','El ocasional':'ocasional','Sin historial':'nuevo'};
-const avatar=(perfil,clase='avatar')=>`<img class="${clase}" src="img/personaje-${AVATARES[perfil]||'ocasional'}.png" alt="" loading="lazy">`;
 const RETRATOS_PERSONAS={'Ale':'ale','Rubén':'ruben','Tere':'tere','Niko':'niko','Sofi':'sofi','Beto':'beto','Mar':'mar','Kari':'kari','Pau':'pau','Dani':'dani','Lupe':'lupe','Chava':'chava'};
-const avatarPersona=(nombre,clase='avatar')=>{const retrato=RETRATOS_PERSONAS[nombre];return retrato?`<img class="${clase}" src="img/personas/${retrato}.jpg" alt="" loading="lazy" data-retrato="${retrato}">`:`<span class="${clase} avatar-sin-retrato" aria-hidden="true">◉</span>`;};
+const avatarPersona=(nombre,clase='avatar')=>{
+  const retrato=RETRATOS_PERSONAS[nombre];if(!retrato)return `<span class="${clase} avatar-sin-retrato" aria-hidden="true">◉</span>`;
+  const size=clase==='avatar-muestra'?'230px':clase.includes('retrato-elenco')?'(max-width:900px) 110px, 14vh':clase.includes('integrante-0')?'(max-width:520px) 86px, (max-width:800px) 80px, (max-width:1100px) 115px, 145px':clase.includes('retrato-integrante')?'(max-width:520px) 66px, (max-width:800px) 60px, (max-width:1100px) 88px, 110px':clase==='retrato-perfil'?'80px':'52px';
+  return `<img class="${clase}" sizes="${size}" srcset="img/personas/${retrato}.webp 192w, img/personas/${retrato}-480.webp 480w" src="img/personas/${retrato}.webp" width="192" height="192" alt="" loading="lazy" decoding="async" data-retrato="${retrato}">`;
+};
 const icono=t=>ICONOS_ADOMICILIO.svg(t);
-const foto=(slug,alt)=>`<figure class="visual"><img class="ilustracion" src="img/${slug}.png" alt="${alt}"></figure>`;
+const foto=(slug,alt)=>`<figure class="visual"><img class="ilustracion" sizes="(max-width:900px) calc(100vw - 60px), 50vw" srcset="img/${slug}-960.webp 960w, img/${slug}.webp 1536w" src="img/${slug}.webp" width="1536" height="1024" alt="${alt}" loading="lazy" decoding="async"></figure>`;
+function cargaImagenesSlide(slide){
+  slide.querySelectorAll('img[data-src]').forEach((img,i)=>{
+    img.loading='eager';if(i===0)img.fetchPriority='high';
+    if(img.dataset.srcset){img.srcset=img.dataset.srcset;delete img.dataset.srcset;}
+    img.src=img.dataset.src;delete img.dataset.src;
+  });
+}
 let SLIDES=[],actual=0;
 if(!location.hash)history.replaceState(null,'','#demo');
-function pinta(i,hash=true){actual=Math.max(0,Math.min(i,SLIDES.length-1));document.querySelectorAll('.slide').forEach((s,j)=>{s.classList.toggle('activa',j===actual);s.setAttribute('aria-hidden',j!==actual);if(j===actual)s.scrollTop=0;});document.getElementById('cuenta').textContent=`${String(actual+1).padStart(2,'0')} / ${SLIDES.length}`;document.getElementById('titulo-slide').textContent=SLIDES[actual].t;document.getElementById('progreso').style.width=((actual+1)/SLIDES.length*100)+'%';document.getElementById('atras').disabled=actual===0;document.getElementById('adelante').disabled=actual===SLIDES.length-1;document.querySelectorAll('[data-slide]').forEach(b=>b.setAttribute('aria-current',+b.dataset.slide===actual));if(hash)history.replaceState(null,'','#'+(actual+1));}
+function pinta(i,hash=true){actual=Math.max(0,Math.min(i,SLIDES.length-1));document.querySelectorAll('.slide').forEach((s,j)=>{s.classList.toggle('activa',j===actual);s.setAttribute('aria-hidden',j!==actual);if(j===actual){s.scrollTop=0;if(document.getElementById('modo-slides').classList.contains('activo'))cargaImagenesSlide(s);}});document.getElementById('cuenta').textContent=`${String(actual+1).padStart(2,'0')} / ${SLIDES.length}`;document.getElementById('titulo-slide').textContent=SLIDES[actual].t;document.getElementById('progreso').style.width=((actual+1)/SLIDES.length*100)+'%';document.getElementById('atras').disabled=actual===0;document.getElementById('adelante').disabled=actual===SLIDES.length-1;document.querySelectorAll('[data-slide]').forEach(b=>b.setAttribute('aria-current',+b.dataset.slide===actual));if(hash)history.replaceState(null,'','#'+(actual+1));}
 function actualizaModo(modo){
   document.body.dataset.modo=modo;
   document.querySelectorAll('#modos [data-modo]').forEach(b=>{if(b.dataset.modo===modo)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
@@ -50,7 +59,7 @@ document.addEventListener('keydown',e=>{
 });
 actualizaModo(location.hash.startsWith('#demo')?'demo':'slides');
 let xInicial=null;const stage=document.getElementById('escenario');stage.addEventListener('touchstart',e=>{xInicial=e.changedTouches[0].clientX},{passive:true});stage.addEventListener('touchend',e=>{if(xInicial===null||!SLIDES.length)return;const dx=e.changedTouches[0].clientX-xInicial;if(Math.abs(dx)>75)pinta(actual+(dx<0?1:-1));xInicial=null},{passive:true});
-async function iniciaSlides(){try{const D=(location.protocol==='file:'?window.DATOS_PROYECTO:null)||await fetch('datos.json').then(r=>{if(!r.ok)throw Error();return r.json()});SLIDES=construyeSlides(D);stage.innerHTML=SLIDES.map((s,i)=>`<article class="slide ${s.c||''}" aria-label="${i+1}. ${s.t}"><span class="folio">A DOMICILIO / ${String(i+1).padStart(2,'0')}</span>${s.html}${s.f?`<p class="fuente">${s.f}</p>`:''}</article>`).join('');document.getElementById('lista-indice').innerHTML=SLIDES.map((s,i)=>`<button data-slide="${i}"><span>${String(i+1).padStart(2,'0')}</span>${s.t}</button>`).join('');pinta((parseInt(location.hash.slice(1),10)||1)-1,!location.hash.startsWith('#demo'));}catch(e){stage.innerHTML='<div class="copy"><h2>No pudimos cargar la presentación.</h2><p>Comprueba que datos.json y contenido.js estén junto a index.html y vuelve a abrir la página.</p></div>';}}
+async function iniciaSlides(){try{const D=(location.protocol==='file:'?window.DATOS_PROYECTO:null)||await fetch('datos.json').then(r=>{if(!r.ok)throw Error();return r.json()});SLIDES=construyeSlides(D);stage.innerHTML=SLIDES.map((s,i)=>`<article class="slide ${s.c||''}" aria-label="${i+1}. ${s.t}"><span class="folio">A DOMICILIO / ${String(i+1).padStart(2,'0')}</span>${s.html}${s.f?`<p class="fuente">${s.f}</p>`:''}</article>`).join('').replaceAll(' src="',' data-src="').replaceAll(' srcset="',' data-srcset="');document.getElementById('lista-indice').innerHTML=SLIDES.map((s,i)=>`<button data-slide="${i}"><span>${String(i+1).padStart(2,'0')}</span>${s.t}</button>`).join('');pinta((parseInt(location.hash.slice(1),10)||1)-1,!location.hash.startsWith('#demo'));}catch(e){stage.innerHTML='<div class="copy"><h2>No pudimos cargar la presentación.</h2><p>Comprueba que datos.json y contenido.js estén junto a index.html y vuelve a abrir la página.</p></div>';}}
 iniciaSlides();
 function construyeSlides(D){
 const E=D.escala,G=D.ganador,P=D.modelos_test.find(x=>x.modelo===G.modelo),seg=D.repeticion.por_segmento;

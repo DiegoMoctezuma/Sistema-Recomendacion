@@ -1,5 +1,7 @@
 # Retratos individuales — A domicilio
 
+> Actualización WebP: las rutas JPEG/PNG de generación son históricas y sus originales se conservan en el respaldo. La web usa ahora variantes WebP; consulta `OPTIMIZACION.md` y `rendimiento-imagenes.json`.
+
 Fecha: 17 de noviembre de 2026.
 
 La demo contiene doce perfiles del dataset. Los nombres y retratos son ficticios. Se conservaron cuatro ilustraciones existentes y se generaron ocho nuevas con la herramienta integrada ImageGen, una llamada independiente por personaje, usando `img/personaje-fiel.png` como referencia visual de estilo. Cada archivo es un retrato individual, exportado a JPEG con lado máximo de 900 px y calidad 88.

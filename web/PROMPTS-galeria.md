@@ -1,5 +1,7 @@
 # Galería por restaurante y corrección de portada
 
+> Actualización WebP: las rutas JPEG/PNG de generación son históricas y sus originales se conservan en el respaldo. La web usa ahora variantes WebP; consulta `OPTIMIZACION.md` y `rendimiento-imagenes.json`.
+
 Modo: herramienta integrada de generación de imágenes. Las fotografías son representaciones ilustrativas del producto, no fotos de los restaurantes reales. Cada ID de restaurante conserva una imagen canónica en tarjetas y fichas. Las copias JPEG para web se exportan a un máximo de 1200 píxeles de lado largo y calidad 82; no se cambia su composición.
 
 ## Portada corregida · img/portada-v2.png
