@@ -5,8 +5,7 @@
 <p align="center">
   <a href="https://diegomoctezuma.github.io/Sistema-Recomendacion/"><b>Probar la demo</b></a> ·
   <a href="https://diegomoctezuma.github.io/Sistema-Recomendacion/#1"><b>Ver la presentación</b></a> ·
-  <a href="reporte/ProyectoFinal_MoctezumaRamirez.pdf"><b>Leer el reporte</b></a> ·
-  <a href="PITCH.md"><b>Guion del pitch</b></a>
+  <a href="reporte/ProyectoFinal_MoctezumaRamirez.pdf"><b>Leer el reporte</b></a>
 </p>
 
 ---
