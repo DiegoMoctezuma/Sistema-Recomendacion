@@ -1,0 +1,7 @@
+split,a,b,delta_ndcg_pp,ci95_pp,usuarios,repeticiones
+validacion,Híbrido repetir/explorar (calibrado),Híbrido fijo (w=0.25),0.7181946187434667,"[0.5741276231584652, 0.8701884461593978]",20000,1000
+validacion,Híbrido repetir/explorar (calibrado),Híbrido fijo (w=0.50),-1.9508916349737533,"[-2.1066990496475357, -1.8010656700069545]",20000,1000
+validacion,Híbrido repetir/explorar (calibrado),Híbrido fijo (w=0.75),-2.383588205792422,"[-2.5428889336526526, -2.2217119793856037]",20000,1000
+test,Híbrido repetir/explorar (calibrado),Híbrido fijo (w=0.25),0.8395043822090121,"[0.6853407056578912, 0.9907479438306185]",20000,1000
+test,Híbrido repetir/explorar (calibrado),Híbrido fijo (w=0.50),-1.569715759273903,"[-1.719829912443829, -1.4346799352509958]",20000,1000
+test,Híbrido repetir/explorar (calibrado),Híbrido fijo (w=0.75),-1.9585427103115627,"[-2.1245463481551474, -1.812088749790874]",20000,1000

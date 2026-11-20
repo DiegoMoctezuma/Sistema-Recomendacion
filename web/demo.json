@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17 17:56",
+ "generado": "2026-11-19 18:29",
  "ciudad": "Singapur",
  "modelo": "Caminata aleatoria (PPR)",
  "parametros": {
@@ -9,572 +9,773 @@
   "top_k": 10
  },
  "nota_nombres": "El dataset no publica el nombre de los restaurantes: se identifican por su tipo de cocina y por su producto más pedido.",
+ "seleccion": "Cada grupo se define solo con pedidos anteriores al corte. Las personas se sortearon con semilla fija entre quienes pidieron en la ventana de prueba, sin mirar si repitieron o descubrieron.",
+ "arquetipos": {
+  "El fiel": {
+   "elegibles": 2808,
+   "evaluados": 2000,
+   "pct_con_algun_acierto": 91.6,
+   "aciertos_promedio": 1.7095,
+   "objetivos_promedio": 2.487,
+   "recall_medio_pct": 73.51416125541125
+  },
+  "El explorador": {
+   "elegibles": 6458,
+   "evaluados": 2000,
+   "pct_con_algun_acierto": 52.95,
+   "aciertos_promedio": 0.738,
+   "objetivos_promedio": 2.652,
+   "recall_medio_pct": 28.53707792207792
+  },
+  "El ocasional": {
+   "elegibles": 46703,
+   "evaluados": 2000,
+   "pct_con_algun_acierto": 38.1,
+   "aciertos_promedio": 0.413,
+   "objetivos_promedio": 1.3405,
+   "recall_medio_pct": 32.38351190476191
+  },
+  "Sin historial": {
+   "elegibles": 36766,
+   "evaluados": 2000,
+   "pct_con_algun_acierto": 0.95,
+   "aciertos_promedio": 0.0095,
+   "objetivos_promedio": 1.1255,
+   "recall_medio_pct": 0.8999999999999999
+  }
+ },
  "usuarios": [
   {
-   "id": "50acf8536f",
+   "id": "49adcf25fc",
    "perfil": "El fiel",
    "resumen": {
-    "pedidos": 296,
-    "restaurantes": 38,
-    "hora_tipica": 16,
-    "zona": "w21z6",
+    "pedidos": 32,
+    "restaurantes": 2,
+    "hora_tipica": 17,
+    "zona": "w21zs",
     "cocinas": [
      [
-      "chicken rice",
-      80
-     ],
-     [
-      "chinese",
-      67
-     ],
-     [
-      "japanese",
-      65
+      "mala xiang guo",
+      32
      ]
     ],
-    "candidatos_en_zona": 3492
+    "candidatos_en_zona": 3970
    },
    "historial": [
     {
-     "id": "60257fe4",
-     "cocina": "chicken rice",
-     "especialidad": "Chicken Drumstick 鸡腿饭",
-     "zona": "w21z6",
-     "pedidos_train": 538,
-     "veces": 72
+     "id": "c343689c",
+     "cocina": "mala xiang guo",
+     "especialidad": "Rice 饭",
+     "zona": "w21z8",
+     "pedidos_train": 290,
+     "veces": 24
     },
     {
-     "id": "91704ac5",
-     "cocina": "japanese",
-     "especialidad": "Chawanmushi (KJM)",
-     "zona": "w21z6",
-     "pedidos_train": 358,
-     "veces": 60
-    },
-    {
-     "id": "61081731",
-     "cocina": "chinese",
-     "especialidad": "B2. Pan-fried Shanghai Pork Bun 上海生煎包",
-     "zona": "w21z7",
-     "pedidos_train": 555,
-     "veces": 33
-    },
-    {
-     "id": "dd15e080",
-     "cocina": "noodles",
-     "especialidad": "Mushroom Minced Meat Noodles",
-     "zona": "w21z6",
-     "pedidos_train": 187,
-     "veces": 26
+     "id": "2d0b2dfb",
+     "cocina": "mala xiang guo",
+     "especialidad": "Instant Noodle快熟面",
+     "zona": "w21zt",
+     "pedidos_train": 550,
+     "veces": 8
     }
    ],
    "recomendaciones": [
     {
-     "id": "60257fe4",
-     "cocina": "chicken rice",
-     "especialidad": "Chicken Drumstick 鸡腿饭",
-     "zona": "w21z6",
-     "pedidos_train": 538,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 72 veces",
-     "acierto": true
-    },
-    {
-     "id": "91704ac5",
-     "cocina": "japanese",
-     "especialidad": "Chawanmushi (KJM)",
-     "zona": "w21z6",
-     "pedidos_train": 358,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 60 veces",
-     "acierto": true
-    },
-    {
-     "id": "61081731",
-     "cocina": "chinese",
-     "especialidad": "B2. Pan-fried Shanghai Pork Bun 上海生煎包",
-     "zona": "w21z7",
-     "pedidos_train": 555,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 33 veces",
-     "acierto": true
-    },
-    {
-     "id": "dd15e080",
-     "cocina": "noodles",
-     "especialidad": "Mushroom Minced Meat Noodles",
-     "zona": "w21z6",
-     "pedidos_train": 187,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 26 veces",
-     "acierto": true
-    },
-    {
-     "id": "9bb29e44",
-     "cocina": "chinese",
-     "especialidad": "Steamed BBQ Pork Bun 蚝皇叉烧包",
-     "zona": "w21z6",
-     "pedidos_train": 395,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 18 veces",
-     "acierto": true
-    },
-    {
-     "id": "551de398",
-     "cocina": "thai",
-     "especialidad": "Sweet And Sour Pork 咕噜肉",
-     "zona": "w21z6",
-     "pedidos_train": 50,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 15 veces",
-     "acierto": false
-    },
-    {
-     "id": "77a79d1c",
-     "cocina": "soups",
-     "especialidad": "Samsui Ginger Chicken 三水姜茸鸡",
-     "zona": "w21z6",
-     "pedidos_train": 260,
+     "id": "2d0b2dfb",
+     "cocina": "mala xiang guo",
+     "especialidad": "Instant Noodle快熟面",
+     "zona": "w21zt",
+     "pedidos_train": 550,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 8 veces",
+     "origen": null,
      "acierto": true
     },
     {
-     "id": "083ad332",
-     "cocina": "dessert",
-     "especialidad": "Vanilla Custard Pie Cream Puff",
-     "zona": "w21z7",
-     "pedidos_train": 76,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 9 veces",
-     "acierto": false
-    },
-    {
-     "id": "ff3fd5ba",
-     "cocina": "chinese",
-     "especialidad": "Shumai",
-     "zona": "w21z7",
-     "pedidos_train": 27,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 8 veces",
-     "acierto": false
-    },
-    {
-     "id": "d6d62c84",
-     "cocina": "yong tau foo",
-     "especialidad": "2. Koo Kee Special Noodle 高记招牌面",
-     "zona": "w21z6",
-     "pedidos_train": 432,
+     "id": "8f3f16f3",
+     "cocina": "rice dishes",
+     "especialidad": "28. Plain Rice",
+     "zona": "w21zt",
+     "pedidos_train": 539,
      "tipo": "nuevo",
-     "razon": "Clientes que piden en «Mushroom Minced Meat Noodles» también piden aquí",
+     "razon": "Por tus pedidos en «Rice 饭» (96% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 96,
+      "vecino_directo": true
+     },
      "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "29c13e61",
-      "cocina": "pizza",
-      "especialidad": "Bundle for 1",
-      "zona": "w21z7",
-      "pedidos_train": 533
-     },
-     {
-      "id": "77a79d1c",
-      "cocina": "soups",
-      "especialidad": "Samsui Ginger Chicken 三水姜茸鸡",
-      "zona": "w21z6",
-      "pedidos_train": 260
-     },
-     {
-      "id": "61081731",
-      "cocina": "chinese",
-      "especialidad": "B2. Pan-fried Shanghai Pork Bun 上海生煎包",
-      "zona": "w21z7",
-      "pedidos_train": 555
-     },
-     {
-      "id": "9bb29e44",
-      "cocina": "chinese",
-      "especialidad": "Steamed BBQ Pork Bun 蚝皇叉烧包",
-      "zona": "w21z6",
-      "pedidos_train": 395
-     },
-     {
-      "id": "a63189e5",
-      "cocina": "chinese",
-      "especialidad": "Chicken Rice Set",
-      "zona": "w21z6",
-      "pedidos_train": 179
-     },
-     {
-      "id": "dd15e080",
-      "cocina": "noodles",
-      "especialidad": "Mushroom Minced Meat Noodles",
-      "zona": "w21z6",
-      "pedidos_train": 187
-     }
-    ],
-    "aciertos": 6,
-    "objetivos": 12
-   }
-  },
-  {
-   "id": "67095ddcff",
-   "perfil": "El fiel",
-   "resumen": {
-    "pedidos": 144,
-    "restaurantes": 19,
-    "hora_tipica": 13,
-    "zona": "w21zt",
-    "cocinas": [
-     [
-      "chinese",
-      76
-     ],
-     [
-      "soups",
-      22
-     ],
-     [
-      "dessert",
-      18
-     ]
-    ],
-    "candidatos_en_zona": 1732
-   },
-   "historial": [
+    },
     {
-     "id": "ea32cb70",
+     "id": "f799b57a",
      "cocina": "chinese",
-     "especialidad": "Steamed BBQ Pork Bun 蚝皇叉烧包",
+     "especialidad": "Seaweed Strips Salads 凉拌海带丝",
      "zona": "w21zt",
-     "pedidos_train": 539,
-     "veces": 50
+     "pedidos_train": 388,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (78% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 78,
+      "vecino_directo": true
+     },
+     "acierto": false
     },
     {
-     "id": "aa65eeb5",
-     "cocina": "soups",
-     "especialidad": "Lotus Root Soup With Pork Rib & Peanut养颜莲藕花生排骨汤",
+     "id": "ac907557",
+     "cocina": "mala xiang guo",
+     "especialidad": "Rice 白饭",
      "zona": "w21zt",
-     "pedidos_train": 549,
-     "veces": 20
+     "pedidos_train": 354,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (89% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 89,
+      "vecino_directo": true
+     },
+     "acierto": false
     },
     {
-     "id": "63fd4ece",
-     "cocina": "dessert",
-     "especialidad": "102. Mango Pomelo Sago 杨枝甘露",
-     "zona": "w21zt",
-     "pedidos_train": 545,
-     "veces": 16
-    },
-    {
-     "id": "78e7877d",
+     "id": "23ab9ecc",
      "cocina": "chinese",
-     "especialidad": "Kway Teow Goreng with Petai & Prawns 虾仁臭豆炒河粉",
+     "especialidad": "S1. Yang Zhou Fried Rice, Prawn Paste Wings, Sunny Egg  扬州炒饭 + 虾酱鸡 + 荷包蛋",
      "zona": "w21zt",
+     "pedidos_train": 522,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (77% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 77,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "5d48b676",
+     "cocina": "mala xiang guo",
+     "especialidad": "Dry 干",
+     "zona": "w21ze",
      "pedidos_train": 534,
-     "veces": 15
-    }
-   ],
-   "recomendaciones": [
-    {
-     "id": "ea32cb70",
-     "cocina": "chinese",
-     "especialidad": "Steamed BBQ Pork Bun 蚝皇叉烧包",
-     "zona": "w21zt",
-     "pedidos_train": 539,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 50 veces",
-     "acierto": true
-    },
-    {
-     "id": "aa65eeb5",
-     "cocina": "soups",
-     "especialidad": "Lotus Root Soup With Pork Rib & Peanut养颜莲藕花生排骨汤",
-     "zona": "w21zt",
-     "pedidos_train": 549,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 20 veces",
-     "acierto": true
-    },
-    {
-     "id": "63fd4ece",
-     "cocina": "dessert",
-     "especialidad": "102. Mango Pomelo Sago 杨枝甘露",
-     "zona": "w21zt",
-     "pedidos_train": 545,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 16 veces",
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (99% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "78e7877d",
-     "cocina": "chinese",
-     "especialidad": "Kway Teow Goreng with Petai & Prawns 虾仁臭豆炒河粉",
-     "zona": "w21zt",
-     "pedidos_train": 534,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 15 veces",
-     "acierto": false
-    },
-    {
-     "id": "6f08e654",
-     "cocina": "chinese",
-     "especialidad": "108. Porridge with Minced Meat,Century Egg,Salted Egg & Egg 干贝三色蛋肉碎粥",
-     "zona": "w21zt",
+     "id": "483d322b",
+     "cocina": "mala xiang guo",
+     "especialidad": "白饭 White Rice",
+     "zona": "w21zv",
      "pedidos_train": 535,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 7 veces",
-     "acierto": true
-    },
-    {
-     "id": "6d98d0d6",
-     "cocina": "coffee",
-     "especialidad": "Teh C (Large)",
-     "zona": "w21zt",
-     "pedidos_train": 547,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 8 veces",
-     "acierto": true
-    },
-    {
-     "id": "9f8a4ee2",
-     "cocina": "thai",
-     "especialidad": "C709 Thai Fragrant Steam Rice 白米饭",
-     "zona": "w21zt",
-     "pedidos_train": 425,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 7 veces",
-     "acierto": false
-    },
-    {
-     "id": "a6a7834f",
-     "cocina": "coffee",
-     "especialidad": "Curry Chicken with Rice",
-     "zona": "w21zt",
-     "pedidos_train": 564,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 4 veces",
-     "acierto": true
-    },
-    {
-     "id": "1636df05",
-     "cocina": "chinese",
-     "especialidad": "5. Fish Roe Siew Mai",
-     "zona": "w21zt",
-     "pedidos_train": 224,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 4 veces",
-     "acierto": false
-    },
-    {
-     "id": "ca1e9dfd",
-     "cocina": "japanese",
-     "especialidad": "Kagoshima Pork Belly Don",
-     "zona": "w21zt",
-     "pedidos_train": 539,
      "tipo": "nuevo",
-     "razon": "Clientes que piden en «Steamed BBQ Pork Bun 蚝皇叉烧包» también piden aquí",
+     "razon": "Por tus pedidos en «Rice 饭» (99% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "f3062690",
+     "cocina": "chinese",
+     "especialidad": "Potato Strips Salads 凉拌土豆丝",
+     "zona": "w21zv",
+     "pedidos_train": 450,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (98% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 98,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "9fc4ffb8",
+     "cocina": "japanese",
+     "especialidad": "1.Salmon + Teriyaki Chicken Bento 三文鱼+照烧鸡扒饭盒 ",
+     "zona": "w21zt",
+     "pedidos_train": 567,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (81% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 81,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "e611b361",
+     "cocina": "singaporean",
+     "especialidad": "(01-49) Fried Black Carrot Cake Large only",
+     "zona": "w21zt",
+     "pedidos_train": 385,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Rice 饭» (94% del puntaje)",
+     "origen": {
+      "id": "c343689c",
+      "etiqueta": "Rice 饭",
+      "aporte_pct": 94,
+      "vecino_directo": true
+     },
      "acierto": false
     }
    ],
    "realidad": {
     "pidio": [
      {
-      "id": "7535c7d2",
-      "cocina": "yong tau foo",
-      "especialidad": "2. Koo Kee Special Noodle 高记招牌面",
+      "id": "7770fff0",
+      "cocina": "bubble tea",
+      "especialidad": "Large",
       "zona": "w21zt",
-      "pedidos_train": 327
+      "pedidos_train": 263
      },
      {
-      "id": "aa65eeb5",
-      "cocina": "soups",
-      "especialidad": "Lotus Root Soup With Pork Rib & Peanut养颜莲藕花生排骨汤",
-      "zona": "w21zt",
-      "pedidos_train": 549
+      "id": "c343689c",
+      "cocina": "mala xiang guo",
+      "especialidad": "Rice 饭",
+      "zona": "w21z8",
+      "pedidos_train": 290
      },
      {
-      "id": "6d98d0d6",
-      "cocina": "coffee",
-      "especialidad": "Teh C (Large)",
+      "id": "2d0b2dfb",
+      "cocina": "mala xiang guo",
+      "especialidad": "Instant Noodle快熟面",
       "zona": "w21zt",
-      "pedidos_train": 547
-     },
-     {
-      "id": "a6a7834f",
-      "cocina": "coffee",
-      "especialidad": "Curry Chicken with Rice",
-      "zona": "w21zt",
-      "pedidos_train": 564
-     },
-     {
-      "id": "6f08e654",
-      "cocina": "chinese",
-      "especialidad": "108. Porridge with Minced Meat,Century Egg,Salted Egg & Egg 干贝三色蛋肉碎粥",
-      "zona": "w21zt",
-      "pedidos_train": 535
-     },
-     {
-      "id": "ea32cb70",
-      "cocina": "chinese",
-      "especialidad": "Steamed BBQ Pork Bun 蚝皇叉烧包",
-      "zona": "w21zt",
-      "pedidos_train": 539
+      "pedidos_train": 550
      }
     ],
-    "aciertos": 5,
-    "objetivos": 8
+    "aciertos": 1,
+    "objetivos": 3
    }
   },
   {
-   "id": "656220243c",
+   "id": "5508f196a7",
    "perfil": "El fiel",
    "resumen": {
-    "pedidos": 103,
-    "restaurantes": 19,
-    "hora_tipica": 14,
+    "pedidos": 16,
+    "restaurantes": 3,
+    "hora_tipica": 8,
     "zona": "w21ze",
     "cocinas": [
      [
-      "chicken rice",
-      24
+      "noodles",
+      14
      ],
      [
-      "curry",
-      15
+      "chinese",
+      1
      ],
      [
-      "nasi lemak",
-      11
+      "singaporean",
+      1
      ]
     ],
     "candidatos_en_zona": 4196
    },
    "historial": [
     {
-     "id": "61395371",
-     "cocina": "chicken rice",
-     "especialidad": "2. Chicken Rice",
-     "zona": "w21zs",
-     "pedidos_train": 264,
-     "veces": 24
+     "id": "5e4ce204",
+     "cocina": "noodles",
+     "especialidad": "Fried Bee Hoon 炒米粉",
+     "zona": "w21ze",
+     "pedidos_train": 384,
+     "veces": 14
     },
     {
-     "id": "a8804f53",
-     "cocina": "curry",
-     "especialidad": "Chicken Cutlet Curry Rice",
-     "zona": "w21zs",
-     "pedidos_train": 557,
-     "veces": 15
+     "id": "2bedefbe",
+     "cocina": "chinese",
+     "especialidad": "Rice 饭",
+     "zona": "w21ze",
+     "pedidos_train": 405,
+     "veces": 1
     },
     {
-     "id": "54eaeed1",
-     "cocina": "chicken",
-     "especialidad": "Regular 正常份量",
-     "zona": "w21zt",
-     "pedidos_train": 109,
-     "veces": 11
-    },
-    {
-     "id": "6830f847",
-     "cocina": "vegetarian",
-     "especialidad": "Signature Laksa",
-     "zona": "w21zs",
-     "pedidos_train": 569,
-     "veces": 10
+     "id": "5a08d4cc",
+     "cocina": "singaporean",
+     "especialidad": "5 Pcs (Bowl) No Separation Of Sauce",
+     "zona": "w21ze",
+     "pedidos_train": 330,
+     "veces": 1
     }
    ],
    "recomendaciones": [
     {
-     "id": "61395371",
-     "cocina": "chicken rice",
-     "especialidad": "2. Chicken Rice",
-     "zona": "w21zs",
-     "pedidos_train": 264,
+     "id": "5e4ce204",
+     "cocina": "noodles",
+     "especialidad": "Fried Bee Hoon 炒米粉",
+     "zona": "w21ze",
+     "pedidos_train": 384,
      "tipo": "conocido",
-     "razon": "Ya pediste aquí 24 veces",
+     "razon": "Ya pediste aquí 14 veces",
+     "origen": null,
      "acierto": true
     },
     {
-     "id": "a8804f53",
-     "cocina": "curry",
-     "especialidad": "Chicken Cutlet Curry Rice",
-     "zona": "w21zs",
-     "pedidos_train": 557,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 15 veces",
-     "acierto": true
+     "id": "94db9c0b",
+     "cocina": "chinese",
+     "especialidad": "S1. Yang Zhou Fried Rice, Prawn Paste Wings, Sunny Egg  扬州炒饭 + 虾酱鸡 + 荷包蛋",
+     "zona": "w21ze",
+     "pedidos_train": 421,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (99% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
     },
     {
-     "id": "6830f847",
-     "cocina": "vegetarian",
-     "especialidad": "Signature Laksa",
-     "zona": "w21zs",
-     "pedidos_train": 569,
+     "id": "2bedefbe",
+     "cocina": "chinese",
+     "especialidad": "Rice 饭",
+     "zona": "w21ze",
+     "pedidos_train": 405,
      "tipo": "conocido",
-     "razon": "Ya pediste aquí 10 veces",
-     "acierto": true
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
     },
     {
-     "id": "44496756",
-     "cocina": "beverages",
-     "especialidad": "2 Peanuts, 2 Red Beans, 2 Cheese  2花生,2红豆,2乳酪",
-     "zona": "w21z7",
-     "pedidos_train": 89,
+     "id": "5a08d4cc",
+     "cocina": "singaporean",
+     "especialidad": "5 Pcs (Bowl) No Separation Of Sauce",
+     "zona": "w21ze",
+     "pedidos_train": 330,
      "tipo": "conocido",
-     "razon": "Ya pediste aquí 6 veces",
-     "acierto": true
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
     },
     {
-     "id": "dfdd4f79",
-     "cocina": "thai",
-     "especialidad": "Kaya Butter Toast",
-     "zona": "w21zs",
+     "id": "c4f4d34e",
+     "cocina": "yong tau foo",
+     "especialidad": "Koo Kee Special Noodle 高记招牌面",
+     "zona": "w21ze",
      "pedidos_train": 546,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (96% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 96,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "23309b37",
+     "cocina": "dim sum",
+     "especialidad": "09. Siew Mai 烧卖",
+     "zona": "w21ze",
+     "pedidos_train": 540,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (99% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "a6c4dcea",
+     "cocina": "coffee",
+     "especialidad": "Curry Chicken with Rice",
+     "zona": "w21ze",
+     "pedidos_train": 561,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (99% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "dc0530bc",
+     "cocina": "noodles",
+     "especialidad": "Small 小",
+     "zona": "w21zd",
+     "pedidos_train": 346,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (100% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 100,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "0c085848",
+     "cocina": "chicken",
+     "especialidad": "GF02. Flame Grilled Chicken With Black Pepper Sauce",
+     "zona": "w21ze",
+     "pedidos_train": 425,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (99% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "9e677272",
+     "cocina": "coffee",
+     "especialidad": "Kaya Butter Toast Set",
+     "zona": "w21ze",
+     "pedidos_train": 571,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Fried Bee Hoon 炒米粉» (99% del puntaje)",
+     "origen": {
+      "id": "5e4ce204",
+      "etiqueta": "Fried Bee Hoon 炒米粉",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "5e4ce204",
+      "cocina": "noodles",
+      "especialidad": "Fried Bee Hoon 炒米粉",
+      "zona": "w21ze",
+      "pedidos_train": 384
+     }
+    ],
+    "aciertos": 1,
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "4bdfb447f0",
+   "perfil": "El fiel",
+   "resumen": {
+    "pedidos": 20,
+    "restaurantes": 3,
+    "hora_tipica": 12,
+    "zona": "w21ze",
+    "cocinas": [
+     [
+      "soups",
+      18
+     ],
+     [
+      "sushi",
+      1
+     ],
+     [
+      "fish soup",
+      1
+     ]
+    ],
+    "candidatos_en_zona": 4196
+   },
+   "historial": [
+    {
+     "id": "c36b90a1",
+     "cocina": "soups",
+     "especialidad": "Sliced Fish Soup + Rice 鱼片汤饭",
+     "zona": "w21ze",
+     "pedidos_train": 234,
+     "veces": 18
+    },
+    {
+     "id": "b8e7f5da",
+     "cocina": "sushi",
+     "especialidad": "Yaki Salmon",
+     "zona": "w21ze",
+     "pedidos_train": 457,
+     "veces": 1
+    },
+    {
+     "id": "d2f0f41c",
+     "cocina": "fish soup",
+     "especialidad": "Double Fish Soup 双鱼汤",
+     "zona": "w21ze",
+     "pedidos_train": 315,
+     "veces": 1
+    }
+   ],
+   "recomendaciones": [
+    {
+     "id": "c36b90a1",
+     "cocina": "soups",
+     "especialidad": "Sliced Fish Soup + Rice 鱼片汤饭",
+     "zona": "w21ze",
+     "pedidos_train": 234,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 18 veces",
+     "origen": null,
+     "acierto": true
+    },
+    {
+     "id": "c4f4d34e",
+     "cocina": "yong tau foo",
+     "especialidad": "Koo Kee Special Noodle 高记招牌面",
+     "zona": "w21ze",
+     "pedidos_train": 546,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (97% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 97,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "d2f0f41c",
+     "cocina": "fish soup",
+     "especialidad": "Double Fish Soup 双鱼汤",
+     "zona": "w21ze",
+     "pedidos_train": 315,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "94db9c0b",
+     "cocina": "chinese",
+     "especialidad": "S1. Yang Zhou Fried Rice, Prawn Paste Wings, Sunny Egg  扬州炒饭 + 虾酱鸡 + 荷包蛋",
+     "zona": "w21ze",
+     "pedidos_train": 421,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (99% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "a6c4dcea",
+     "cocina": "coffee",
+     "especialidad": "Curry Chicken with Rice",
+     "zona": "w21ze",
+     "pedidos_train": 561,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (96% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 96,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "b8e7f5da",
+     "cocina": "sushi",
+     "especialidad": "Yaki Salmon",
+     "zona": "w21ze",
+     "pedidos_train": 457,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "0c085848",
+     "cocina": "chicken",
+     "especialidad": "GF02. Flame Grilled Chicken With Black Pepper Sauce",
+     "zona": "w21ze",
+     "pedidos_train": 425,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (99% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "3cbbdcff",
+     "cocina": "rice dishes",
+     "especialidad": "Roasted Chicken Rice 烧鸡饭",
+     "zona": "w21ze",
+     "pedidos_train": 245,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (99% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 99,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "23309b37",
+     "cocina": "dim sum",
+     "especialidad": "09. Siew Mai 烧卖",
+     "zona": "w21ze",
+     "pedidos_train": 540,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (95% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 95,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "9e677272",
+     "cocina": "coffee",
+     "especialidad": "Kaya Butter Toast Set",
+     "zona": "w21ze",
+     "pedidos_train": 571,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Sliced Fish Soup + Rice 鱼片汤饭» (95% del puntaje)",
+     "origen": {
+      "id": "c36b90a1",
+      "etiqueta": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "aporte_pct": 95,
+      "vecino_directo": true
+     },
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "c36b90a1",
+      "cocina": "soups",
+      "especialidad": "Sliced Fish Soup + Rice 鱼片汤饭",
+      "zona": "w21ze",
+      "pedidos_train": 234
+     }
+    ],
+    "aciertos": 1,
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "76241852c5",
+   "perfil": "El explorador",
+   "resumen": {
+    "pedidos": 15,
+    "restaurantes": 11,
+    "hora_tipica": 14,
+    "zona": "w21ze",
+    "cocinas": [
+     [
+      "coffee",
+      3
+     ],
+     [
+      "mala xiang guo",
+      3
+     ],
+     [
+      "singaporean",
+      3
+     ]
+    ],
+    "candidatos_en_zona": 4196
+   },
+   "historial": [
+    {
+     "id": "fe29a10d",
+     "cocina": "mala xiang guo",
+     "especialidad": "Instant Noodle 快熟面",
+     "zona": "w21zs",
+     "pedidos_train": 179,
+     "veces": 3
+    },
+    {
+     "id": "bd44e455",
+     "cocina": "singaporean",
+     "especialidad": "R16) Chicken Rice (Roasted/Steamed)",
+     "zona": "w21zk",
+     "pedidos_train": 453,
+     "veces": 2
+    },
+    {
+     "id": "5f5550bc",
+     "cocina": "coffee",
+     "especialidad": "Kaya Toast with Butter",
+     "zona": "w21zs",
+     "pedidos_train": 564,
+     "veces": 2
+    },
+    {
+     "id": "0b6dd7a0",
+     "cocina": "sushi",
+     "especialidad": "Salmon Sushi",
+     "zona": "w21zk",
+     "pedidos_train": 301,
+     "veces": 1
+    }
+   ],
+   "recomendaciones": [
+    {
+     "id": "fe29a10d",
+     "cocina": "mala xiang guo",
+     "especialidad": "Instant Noodle 快熟面",
+     "zona": "w21zs",
+     "pedidos_train": 179,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 3 veces",
+     "origen": null,
      "acierto": false
     },
     {
-     "id": "0f1e104c",
-     "cocina": "coffee",
-     "especialidad": "Chee Cheong Fun and Siew Mai",
-     "zona": "w21zs",
-     "pedidos_train": 552,
+     "id": "bd44e455",
+     "cocina": "singaporean",
+     "especialidad": "R16) Chicken Rice (Roasted/Steamed)",
+     "zona": "w21zk",
+     "pedidos_train": 453,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 2 veces",
-     "acierto": true
-    },
-    {
-     "id": "935c7328",
-     "cocina": "nasi lemak",
-     "especialidad": "Popiah Prawn",
-     "zona": "w21zk",
-     "pedidos_train": 566,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
      "acierto": false
     },
     {
-     "id": "9af1399a",
-     "cocina": "korean",
-     "especialidad": "Hotplate Saba Fish & BBQ Chicken Set",
-     "zona": "w21zs",
-     "pedidos_train": 559,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «2. Chicken Rice» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "3bec2344",
+     "id": "5f5550bc",
      "cocina": "coffee",
-     "especialidad": "Ala Carte",
+     "especialidad": "Kaya Toast with Butter",
      "zona": "w21zs",
-     "pedidos_train": 551,
+     "pedidos_train": 564,
      "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "razon": "Ya pediste aquí 2 veces",
+     "origen": null,
      "acierto": false
     },
     {
@@ -585,1617 +786,1490 @@
      "pedidos_train": 539,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "27348036",
+     "cocina": "singaporean",
+     "especialidad": "736. Chicken WIngs",
+     "zona": "w21zs",
+     "pedidos_train": 576,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "0b6dd7a0",
+     "cocina": "sushi",
+     "especialidad": "Salmon Sushi",
+     "zona": "w21zk",
+     "pedidos_train": 301,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "ae42f9e5",
+     "cocina": "indian",
+     "especialidad": "Briyani Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 392,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "96d4724e",
+     "cocina": "american",
+     "especialidad": "Chocolate Pie",
+     "zona": "w21ze",
+     "pedidos_train": 570,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "e17b4ce1",
+     "cocina": "chinese",
+     "especialidad": "Steamed White Rice",
+     "zona": "w21zk",
+     "pedidos_train": 160,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "a1e3ad94",
+     "cocina": "sandwiches",
+     "especialidad": "2pc Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 569,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
      "acierto": false
     }
    ],
    "realidad": {
     "pidio": [
      {
-      "id": "a8804f53",
-      "cocina": "curry",
-      "especialidad": "Chicken Cutlet Curry Rice",
-      "zona": "w21zs",
-      "pedidos_train": 557
-     },
-     {
-      "id": "0f1e104c",
-      "cocina": "coffee",
-      "especialidad": "Chee Cheong Fun and Siew Mai",
-      "zona": "w21zs",
-      "pedidos_train": 552
-     },
-     {
-      "id": "44496756",
-      "cocina": "beverages",
-      "especialidad": "2 Peanuts, 2 Red Beans, 2 Cheese  2花生,2红豆,2乳酪",
-      "zona": "w21z7",
-      "pedidos_train": 89
-     },
-     {
-      "id": "6830f847",
-      "cocina": "vegetarian",
-      "especialidad": "Signature Laksa",
-      "zona": "w21zs",
-      "pedidos_train": 569
-     },
-     {
-      "id": "61395371",
-      "cocina": "chicken rice",
-      "especialidad": "2. Chicken Rice",
-      "zona": "w21zs",
-      "pedidos_train": 264
+      "id": "8643cfae",
+      "cocina": "fried chicken",
+      "especialidad": "2 pcs Chicken Meal",
+      "zona": "w21zk",
+      "pedidos_train": 539
      }
     ],
-    "aciertos": 5,
-    "objetivos": 5
+    "aciertos": 0,
+    "objetivos": 1
    }
   },
   {
-   "id": "100b3fde38",
+   "id": "c2a6adf06b",
    "perfil": "El explorador",
    "resumen": {
-    "pedidos": 97,
-    "restaurantes": 87,
-    "hora_tipica": 14,
-    "zona": "w21z6",
+    "pedidos": 14,
+    "restaurantes": 13,
+    "hora_tipica": 16,
+    "zona": "w21z8",
     "cocinas": [
      [
       "dessert",
-      9
+      2
      ],
      [
       "coffee",
-      9
+      2
+     ],
+     [
+      "dim sum",
+      1
+     ]
+    ],
+    "candidatos_en_zona": 1545
+   },
+   "historial": [
+    {
+     "id": "76e35c94",
+     "cocina": "coffee",
+     "especialidad": "Smith Waffle",
+     "zona": "w21z8",
+     "pedidos_train": 162,
+     "veces": 2
+    },
+    {
+     "id": "11851ce1",
+     "cocina": "pizza",
+     "especialidad": "6pcs Golden Roasted Drummets",
+     "zona": "w21z7",
+     "pedidos_train": 351,
+     "veces": 1
+    },
+    {
+     "id": "91f532ae",
+     "cocina": "dim sum",
+     "especialidad": "Steamed Pork & Shrimp Dumpling 'Siew Mai' 香菇烧卖皇",
+     "zona": "w21z7",
+     "pedidos_train": 139,
+     "veces": 1
+    },
+    {
+     "id": "800a7894",
+     "cocina": "chicken",
+     "especialidad": "1/4 Chicken and 2 Regular Sides and 1 Naughty Natas",
+     "zona": "w21z7",
+     "pedidos_train": 416,
+     "veces": 1
+    }
+   ],
+   "recomendaciones": [
+    {
+     "id": "76e35c94",
+     "cocina": "coffee",
+     "especialidad": "Smith Waffle",
+     "zona": "w21z8",
+     "pedidos_train": 162,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 2 veces",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "6a296d36",
+     "cocina": "korean",
+     "especialidad": "JINJJA Wings",
+     "zona": "w21z8",
+     "pedidos_train": 567,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "c78d2937",
+     "cocina": "nasi lemak",
+     "especialidad": "Buddy Meal A: 2 X Nasi Lemak + Bergedil + 2 Drinks (U.P 25)",
+     "zona": "w21z8",
+     "pedidos_train": 553,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "0f0a248f",
+     "cocina": "bubble tea",
+     "especialidad": "Very Grape Cheezo (Original)",
+     "zona": "w21z8",
+     "pedidos_train": 476,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "ff037abd",
+     "cocina": "dessert",
+     "especialidad": "Cookies and Cream",
+     "zona": "w21z8",
+     "pedidos_train": 374,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "e62bb753",
+     "cocina": "sushi",
+     "especialidad": "California Handroll",
+     "zona": "w21z8",
+     "pedidos_train": 90,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "dde63b32",
+     "cocina": "western",
+     "especialidad": "Rice Ball Crab Meat & Roe",
+     "zona": "w21z8",
+     "pedidos_train": 49,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "3db22cfb",
+     "cocina": "chinese",
+     "especialidad": "Fragrant Rice白饭",
+     "zona": "w21z8",
+     "pedidos_train": 146,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": true
+    },
+    {
+     "id": "9c10aeab",
+     "cocina": "dim sum",
+     "especialidad": "Pork Congee with Century & Salted Eggs 金银蛋瘦肉粥",
+     "zona": "w21z8",
+     "pedidos_train": 566,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Smith Waffle» (37% del puntaje)",
+     "origen": {
+      "id": "76e35c94",
+      "etiqueta": "Smith Waffle",
+      "aporte_pct": 37,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "48d6c8b2",
+     "cocina": "japanese",
+     "especialidad": "Teriyaki Chicken Bento",
+     "zona": "w21z8",
+     "pedidos_train": 549,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Smith Waffle» (38% del puntaje)",
+     "origen": {
+      "id": "76e35c94",
+      "etiqueta": "Smith Waffle",
+      "aporte_pct": 38,
+      "vecino_directo": true
+     },
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "779b6da7",
+      "cocina": "thai",
+      "especialidad": "K2. Thai Iced Tea",
+      "zona": "w21z8",
+      "pedidos_train": 165
+     },
+     {
+      "id": "3db22cfb",
+      "cocina": "chinese",
+      "especialidad": "Fragrant Rice白饭",
+      "zona": "w21z8",
+      "pedidos_train": 146
+     },
+     {
+      "id": "ff4e9f74",
+      "cocina": "dessert",
+      "especialidad": "1/2 Ltr with 3 Toppings",
+      "zona": "w21z8",
+      "pedidos_train": 123
+     },
+     {
+      "id": "02c75561",
+      "cocina": "western",
+      "especialidad": "502D. Chargrilled Chicken Chop & Chicken Sausage",
+      "zona": "w21z8",
+      "pedidos_train": 27
+     }
+    ],
+    "aciertos": 1,
+    "objetivos": 4
+   }
+  },
+  {
+   "id": "be4ed6ee8d",
+   "perfil": "El explorador",
+   "resumen": {
+    "pedidos": 19,
+    "restaurantes": 14,
+    "hora_tipica": 16,
+    "zona": "w21zk",
+    "cocinas": [
+     [
+      "sandwiches",
+      5
+     ],
+     [
+      "chinese",
+      3
      ],
      [
       "pizza",
-      9
+      3
+     ]
+    ],
+    "candidatos_en_zona": 3095
+   },
+   "historial": [
+    {
+     "id": "5f4ad3ab",
+     "cocina": "pizza",
+     "especialidad": "Regular Super Deal Combo",
+     "zona": "w21zk",
+     "pedidos_train": 545,
+     "veces": 3
+    },
+    {
+     "id": "458df2c0",
+     "cocina": "sandwiches",
+     "especialidad": "Cookie Meal",
+     "zona": "w21zs",
+     "pedidos_train": 313,
+     "veces": 2
+    },
+    {
+     "id": "c6ed620e",
+     "cocina": "coffee",
+     "especialidad": "Chicago Cheesecake",
+     "zona": "w21zs",
+     "pedidos_train": 539,
+     "veces": 2
+    },
+    {
+     "id": "b44aac4f",
+     "cocina": "sandwiches",
+     "especialidad": "2pc Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 564,
+     "veces": 2
+    }
+   ],
+   "recomendaciones": [
+    {
+     "id": "5f4ad3ab",
+     "cocina": "pizza",
+     "especialidad": "Regular Super Deal Combo",
+     "zona": "w21zk",
+     "pedidos_train": 545,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 3 veces",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "c6ed620e",
+     "cocina": "coffee",
+     "especialidad": "Chicago Cheesecake",
+     "zona": "w21zs",
+     "pedidos_train": 539,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 2 veces",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "b44aac4f",
+     "cocina": "sandwiches",
+     "especialidad": "2pc Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 564,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 2 veces",
+     "origen": null,
+     "acierto": true
+    },
+    {
+     "id": "458df2c0",
+     "cocina": "sandwiches",
+     "especialidad": "Cookie Meal",
+     "zona": "w21zs",
+     "pedidos_train": 313,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 2 veces",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "9af1399a",
+     "cocina": "korean",
+     "especialidad": "Hotplate Saba Fish & BBQ Chicken Set",
+     "zona": "w21zs",
+     "pedidos_train": 559,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "464ea214",
+     "cocina": "chicken",
+     "especialidad": "Chicken Katsu Curry",
+     "zona": "w21zs",
+     "pedidos_train": 387,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "708e6c16",
+     "cocina": "fried chicken",
+     "especialidad": "2pc Chickenjoy VM",
+     "zona": "w21zs",
+     "pedidos_train": 582,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "3722aba3",
+     "cocina": "american",
+     "especialidad": "Chocolate Pie",
+     "zona": "w21zk",
+     "pedidos_train": 573,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "de6a62bb",
+     "cocina": "chinese",
+     "especialidad": "Stir-Fried Cabbage 手撕包菜",
+     "zona": "w21zs",
+     "pedidos_train": 529,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "81f563a8",
+     "cocina": "sandwiches",
+     "especialidad": "Egg Mayo Sub",
+     "zona": "w21zs",
+     "pedidos_train": 251,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "b44aac4f",
+      "cocina": "sandwiches",
+      "especialidad": "2pc Chicken",
+      "zona": "w21zs",
+      "pedidos_train": 564
+     }
+    ],
+    "aciertos": 1,
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "dd8139553b",
+   "perfil": "El ocasional",
+   "resumen": {
+    "pedidos": 2,
+    "restaurantes": 2,
+    "hora_tipica": 18,
+    "zona": "w21zt",
+    "cocinas": [
+     [
+      "dessert",
+      1
+     ],
+     [
+      "roti prata",
+      1
+     ]
+    ],
+    "candidatos_en_zona": 1732
+   },
+   "historial": [
+    {
+     "id": "6123cb47",
+     "cocina": "dessert",
+     "especialidad": "102. Personalize Your Dessert",
+     "zona": "w21zt",
+     "pedidos_train": 550,
+     "veces": 1
+    },
+    {
+     "id": "7a15f57f",
+     "cocina": "roti prata",
+     "especialidad": "Teh Tarik",
+     "zona": "w21zt",
+     "pedidos_train": 493,
+     "veces": 1
+    }
+   ],
+   "recomendaciones": [
+    {
+     "id": "6123cb47",
+     "cocina": "dessert",
+     "especialidad": "102. Personalize Your Dessert",
+     "zona": "w21zt",
+     "pedidos_train": 550,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": true
+    },
+    {
+     "id": "7a15f57f",
+     "cocina": "roti prata",
+     "especialidad": "Teh Tarik",
+     "zona": "w21zt",
+     "pedidos_train": 493,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "5b2fb366",
+     "cocina": "american",
+     "especialidad": "Prosperity Beef Upsized Meal",
+     "zona": "w21zt",
+     "pedidos_train": 543,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Teh Tarik» (55% del puntaje)",
+     "origen": {
+      "id": "7a15f57f",
+      "etiqueta": "Teh Tarik",
+      "aporte_pct": 55,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "74f30679",
+     "cocina": "rice dishes",
+     "especialidad": "Beef Pepper Rice Bowl",
+     "zona": "w21zt",
+     "pedidos_train": 505,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Teh Tarik» (51% del puntaje)",
+     "origen": {
+      "id": "7a15f57f",
+      "etiqueta": "Teh Tarik",
+      "aporte_pct": 51,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "16da9cef",
+     "cocina": "dessert",
+     "especialidad": "3. Nine Fresh Signature 九鲜招牌",
+     "zona": "w21zt",
+     "pedidos_train": 563,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «102. Personalize Your Dessert» (98% del puntaje)",
+     "origen": {
+      "id": "6123cb47",
+      "etiqueta": "102. Personalize Your Dessert",
+      "aporte_pct": 98,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "9e027509",
+     "cocina": "snacks",
+     "especialidad": "Curry'O",
+     "zona": "w21zt",
+     "pedidos_train": 563,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «102. Personalize Your Dessert» (83% del puntaje)",
+     "origen": {
+      "id": "6123cb47",
+      "etiqueta": "102. Personalize Your Dessert",
+      "aporte_pct": 83,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "c648a753",
+     "cocina": "malaysian",
+     "especialidad": "Prata Kosong",
+     "zona": "w21zt",
+     "pedidos_train": 540,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Teh Tarik» (95% del puntaje)",
+     "origen": {
+      "id": "7a15f57f",
+      "etiqueta": "Teh Tarik",
+      "aporte_pct": 95,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "640eb36f",
+     "cocina": "sandwiches",
+     "especialidad": "2pc Chicken",
+     "zona": "w21zt",
+     "pedidos_train": 557,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Teh Tarik» (84% del puntaje)",
+     "origen": {
+      "id": "7a15f57f",
+      "etiqueta": "Teh Tarik",
+      "aporte_pct": 84,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "593054f4",
+     "cocina": "bubble tea",
+     "especialidad": "Tea with Fresh Milk",
+     "zona": "w21zt",
+     "pedidos_train": 550,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «102. Personalize Your Dessert» (98% del puntaje)",
+     "origen": {
+      "id": "6123cb47",
+      "etiqueta": "102. Personalize Your Dessert",
+      "aporte_pct": 98,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "1ecd4836",
+     "cocina": "nasi lemak",
+     "especialidad": "Popiah Prawn",
+     "zona": "w21zt",
+     "pedidos_train": 569,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Teh Tarik» (86% del puntaje)",
+     "origen": {
+      "id": "7a15f57f",
+      "etiqueta": "Teh Tarik",
+      "aporte_pct": 86,
+      "vecino_directo": true
+     },
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "6123cb47",
+      "cocina": "dessert",
+      "especialidad": "102. Personalize Your Dessert",
+      "zona": "w21zt",
+      "pedidos_train": 550
+     }
+    ],
+    "aciertos": 1,
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "610e14a47c",
+   "perfil": "El ocasional",
+   "resumen": {
+    "pedidos": 2,
+    "restaurantes": 2,
+    "hora_tipica": 15,
+    "zona": "w21z6",
+    "cocinas": [
+     [
+      "snacks",
+      1
+     ],
+     [
+      "cakes",
+      1
      ]
     ],
     "candidatos_en_zona": 3492
    },
    "historial": [
     {
-     "id": "c3fa90d1",
-     "cocina": "coffee",
-     "especialidad": "Lemon Meringue Cheesecake",
-     "zona": "w21zu",
-     "pedidos_train": 305,
-     "veces": 2
-    },
-    {
-     "id": "3569d4b8",
-     "cocina": "coffee",
-     "especialidad": "10 Inches Tortilla Pizza",
+     "id": "ffd14097",
+     "cocina": "snacks",
+     "especialidad": "Chicken Wing",
      "zona": "w21z6",
-     "pedidos_train": 511,
-     "veces": 2
+     "pedidos_train": 162,
+     "veces": 1
     },
     {
-     "id": "a1d333f8",
-     "cocina": "pizza",
-     "especialidad": "Single Bundle Plus For 1 - 2",
-     "zona": "w21xx",
-     "pedidos_train": 484,
-     "veces": 2
-    },
-    {
-     "id": "b14313f3",
-     "cocina": "japanese",
-     "especialidad": "Potato Salad",
-     "zona": "w21zc",
-     "pedidos_train": 430,
-     "veces": 2
+     "id": "216966dc",
+     "cocina": "cakes",
+     "especialidad": "Chicken Pie",
+     "zona": "w21z6",
+     "pedidos_train": 178,
+     "veces": 1
     }
    ],
    "recomendaciones": [
     {
-     "id": "3569d4b8",
-     "cocina": "coffee",
-     "especialidad": "10 Inches Tortilla Pizza",
+     "id": "ffd14097",
+     "cocina": "snacks",
+     "especialidad": "Chicken Wing",
      "zona": "w21z6",
-     "pedidos_train": 511,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "118bbadb",
-     "cocina": "chinese",
-     "especialidad": "G2 扬州炒饭 Yang Zhou Fried Rice (Contains Prawn)",
-     "zona": "w21z3",
-     "pedidos_train": 577,
+     "pedidos_train": 162,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
      "acierto": false
     },
     {
-     "id": "49093769",
+     "id": "216966dc",
+     "cocina": "cakes",
+     "especialidad": "Chicken Pie",
+     "zona": "w21z6",
+     "pedidos_train": 178,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "50a5b68e",
+     "cocina": "nasi lemak",
+     "especialidad": "Buddy Meal A: 2 X Nasi Lemak + Bergedil + 2 Drinks (U.P 25)",
+     "zona": "w21z6",
+     "pedidos_train": 551,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Wing» (54% del puntaje)",
+     "origen": {
+      "id": "ffd14097",
+      "etiqueta": "Chicken Wing",
+      "aporte_pct": 54,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "acc194dc",
      "cocina": "coffee",
-     "especialidad": "Kopi (Large)",
+     "especialidad": "Kaya Butter Toast Set",
+     "zona": "w21z6",
+     "pedidos_train": 546,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Pie» (53% del puntaje)",
+     "origen": {
+      "id": "216966dc",
+      "etiqueta": "Chicken Pie",
+      "aporte_pct": 53,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "ed76c881",
+     "cocina": "sandwiches",
+     "especialidad": "2pc Chicken",
      "zona": "w21z6",
      "pedidos_train": 558,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Wing» (57% del puntaje)",
+     "origen": {
+      "id": "ffd14097",
+      "etiqueta": "Chicken Wing",
+      "aporte_pct": 57,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "4b2eb250",
-     "cocina": "ramen",
-     "especialidad": "A3 Ebiko Prawn Paste Shrimp Ramen 鱼子虾滑赤汤面",
-     "zona": "w21z3",
-     "pedidos_train": 584,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "id": "3569d4b8",
+     "cocina": "coffee",
+     "especialidad": "10 Inches Tortilla Pizza",
+     "zona": "w21z6",
+     "pedidos_train": 511,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Wing» (54% del puntaje)",
+     "origen": {
+      "id": "ffd14097",
+      "etiqueta": "Chicken Wing",
+      "aporte_pct": 54,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "d9f645df",
-     "cocina": "fried chicken",
-     "especialidad": "2pc Chicken Meal",
-     "zona": "w21z3",
-     "pedidos_train": 542,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "id": "22c887de",
+     "cocina": "singaporean",
+     "especialidad": "5 Pcs (Bowl -No Separation Of Sauce)",
+     "zona": "w21z6",
+     "pedidos_train": 540,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Pie» (92% del puntaje)",
+     "origen": {
+      "id": "216966dc",
+      "etiqueta": "Chicken Pie",
+      "aporte_pct": 92,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "442b9508",
+     "id": "9bc49e13",
+     "cocina": "coffee",
+     "especialidad": "Kopi C (Large)",
+     "zona": "w21z6",
+     "pedidos_train": 491,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Wing» (84% del puntaje)",
+     "origen": {
+      "id": "ffd14097",
+      "etiqueta": "Chicken Wing",
+      "aporte_pct": 84,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "4b7bad66",
+     "cocina": "dessert",
+     "especialidad": "Chocolate Waffle",
+     "zona": "w21z6",
+     "pedidos_train": 125,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Pie» (60% del puntaje)",
+     "origen": {
+      "id": "216966dc",
+      "etiqueta": "Chicken Pie",
+      "aporte_pct": 60,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "4dde38d2",
      "cocina": "fried chicken",
      "especialidad": "2 pcs Chicken Meal",
-     "zona": "w21z7",
-     "pedidos_train": 540,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "9f32423b",
-     "cocina": "dessert",
-     "especialidad": "Store-selected Half Dozen",
-     "zona": "w21z7",
-     "pedidos_train": 381,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "729799c2",
-     "cocina": "pizza",
-     "especialidad": "Exclusive for foodpanda: Special Bundle (4-5 pax)",
      "zona": "w21z6",
-     "pedidos_train": 303,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "pedidos_train": 524,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Chicken Wing» (85% del puntaje)",
+     "origen": {
+      "id": "ffd14097",
+      "etiqueta": "Chicken Wing",
+      "aporte_pct": 85,
+      "vecino_directo": true
+     },
      "acierto": false
-    },
-    {
-     "id": "d4860ec4",
-     "cocina": "ayam penyet",
-     "especialidad": "Ayam Penyet (Fried Chicken)",
-     "zona": "w21z4",
-     "pedidos_train": 569,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "2290dadf",
-     "cocina": "dessert",
-     "especialidad": "(Cold) Classic Soymilk 经典豆浆",
-     "zona": "w21ze",
-     "pedidos_train": 557,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": true
     }
    ],
    "realidad": {
     "pidio": [
      {
-      "id": "df2bd223",
-      "cocina": "thai",
-      "especialidad": "I12. Basil with Rice and Egg",
-      "zona": "w21zg",
-      "pedidos_train": 543
-     },
-     {
-      "id": "e2763078",
-      "cocina": "thai",
-      "especialidad": "T601TD. Thai Basil Chicken With Rice",
-      "zona": "w21zu",
-      "pedidos_train": 540
-     },
-     {
-      "id": "afcbb851",
-      "cocina": "cakes",
-      "especialidad": "Box Of 3 Cupcakes (Reg)",
-      "zona": "w21zs",
-      "pedidos_train": 574
-     },
-     {
-      "id": "c43d715f",
-      "cocina": "pizza",
-      "especialidad": "Single Bundle Plus For 1 - 2",
-      "zona": "w21zs",
-      "pedidos_train": 330
-     },
-     {
-      "id": "543be059",
-      "cocina": "pizza",
-      "especialidad": "Single Bundle Plus For 1 - 2",
-      "zona": "w23b1",
-      "pedidos_train": 481
-     },
-     {
-      "id": "5cd1f3c0",
-      "cocina": "pizza",
-      "especialidad": "Bundle for 1",
+      "id": "77a1f54b",
+      "cocina": "chinese",
+      "especialidad": "Braised Egg ",
       "zona": "w21zc",
-      "pedidos_train": 544
+      "pedidos_train": 301
      }
     ],
-    "aciertos": 1,
-    "objetivos": 25
+    "aciertos": 0,
+    "objetivos": 1
    }
   },
   {
-   "id": "172adfca69",
-   "perfil": "El explorador",
+   "id": "6d28021dc3",
+   "perfil": "El ocasional",
    "resumen": {
-    "pedidos": 75,
-    "restaurantes": 55,
-    "hora_tipica": 13,
-    "zona": "w21z7",
+    "pedidos": 3,
+    "restaurantes": 3,
+    "hora_tipica": 22,
+    "zona": "w21zs",
     "cocinas": [
      [
-      "indian",
-      34
+      "fried rice",
+      1
      ],
      [
-      "coffee",
-      8
+      "mala xiang guo",
+      1
      ],
      [
-      "japanese",
-      4
+      "chicken rice",
+      1
      ]
     ],
-    "candidatos_en_zona": 3583
+    "candidatos_en_zona": 3970
    },
    "historial": [
     {
-     "id": "5e72a9f1",
-     "cocina": "indian",
-     "especialidad": "Chapati",
-     "zona": "w21z7",
-     "pedidos_train": 551,
-     "veces": 5
+     "id": "33cb3521",
+     "cocina": "fried rice",
+     "especialidad": "Small",
+     "zona": "w21zs",
+     "pedidos_train": 203,
+     "veces": 1
     },
     {
-     "id": "b44f5b7b",
-     "cocina": "indian",
-     "especialidad": "Butter Chicken",
-     "zona": "w21ze",
-     "pedidos_train": 209,
-     "veces": 4
+     "id": "702ecae6",
+     "cocina": "mala xiang guo",
+     "especialidad": "Ma La Xiang Guo 麻辣香锅",
+     "zona": "w21zk",
+     "pedidos_train": 386,
+     "veces": 1
     },
     {
-     "id": "0fe59038",
-     "cocina": "coffee",
-     "especialidad": "Brek 'O' Day",
-     "zona": "w21ze",
-     "pedidos_train": 404,
-     "veces": 3
-    },
-    {
-     "id": "768a9585",
-     "cocina": "western",
-     "especialidad": "Beef Pie with Mashed Potatoes & Double Cheese",
-     "zona": "w21z7",
-     "pedidos_train": 380,
-     "veces": 3
+     "id": "eb17eab0",
+     "cocina": "chicken rice",
+     "especialidad": "For 1 Pax (White) (Exclude Rice)",
+     "zona": "w21zk",
+     "pedidos_train": 548,
+     "veces": 1
     }
    ],
    "recomendaciones": [
     {
-     "id": "5e72a9f1",
-     "cocina": "indian",
-     "especialidad": "Chapati",
-     "zona": "w21z7",
-     "pedidos_train": 551,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 5 veces",
-     "acierto": false
-    },
-    {
-     "id": "b44f5b7b",
-     "cocina": "indian",
-     "especialidad": "Butter Chicken",
-     "zona": "w21ze",
-     "pedidos_train": 209,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 4 veces",
-     "acierto": false
-    },
-    {
-     "id": "0bbfdd16",
-     "cocina": "coffee",
-     "especialidad": "Traditional Kaya Toast",
-     "zona": "w21ze",
-     "pedidos_train": 557,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 3 veces",
-     "acierto": false
-    },
-    {
-     "id": "0fe59038",
-     "cocina": "coffee",
-     "especialidad": "Brek 'O' Day",
-     "zona": "w21ze",
-     "pedidos_train": 404,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 3 veces",
-     "acierto": false
-    },
-    {
-     "id": "768a9585",
-     "cocina": "western",
-     "especialidad": "Beef Pie with Mashed Potatoes & Double Cheese",
-     "zona": "w21z7",
-     "pedidos_train": 380,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 3 veces",
-     "acierto": false
-    },
-    {
-     "id": "c469908a",
-     "cocina": "indian",
-     "especialidad": "Pav Bhaji",
-     "zona": "w21z7",
-     "pedidos_train": 563,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "4fef0ff9",
-     "cocina": "indian",
-     "especialidad": "Executive North Meal",
-     "zona": "w21z7",
-     "pedidos_train": 348,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "64acc16c",
-     "cocina": "indian",
-     "especialidad": "Chettynad Chicken Set Meal",
-     "zona": "w21z7",
-     "pedidos_train": 231,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "aaf3765c",
-     "cocina": "indian",
-     "especialidad": "Garlic Naan",
-     "zona": "w21z7",
-     "pedidos_train": 157,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": true
-    },
-    {
-     "id": "6818f514",
-     "cocina": "indian",
-     "especialidad": "Veg Momos (5PCS)",
-     "zona": "w21z7",
-     "pedidos_train": 349,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "cc8e43ef",
-      "cocina": "thai",
-      "especialidad": "Extra Rice",
-      "zona": "w21z7",
-      "pedidos_train": 553
-     },
-     {
-      "id": "3174917e",
-      "cocina": "thai",
-      "especialidad": "Thai Iced Milk Tea",
-      "zona": "w21z6",
-      "pedidos_train": 87
-     },
-     {
-      "id": "aaf3765c",
-      "cocina": "indian",
-      "especialidad": "Garlic Naan",
-      "zona": "w21z7",
-      "pedidos_train": 157
-     },
-     {
-      "id": "cbbc0b00",
-      "cocina": "indian",
-      "especialidad": "Half",
-      "zona": "w21z7",
-      "pedidos_train": 29
-     },
-     {
-      "id": "580da185",
-      "cocina": "indian",
-      "especialidad": "Garlic Naan",
-      "zona": "w21z7",
-      "pedidos_train": 34
-     },
-     {
-      "id": "66f54cd8",
-      "cocina": "indian",
-      "especialidad": "South Indian Set Meal Rice",
-      "zona": "w21z7",
-      "pedidos_train": 427
-     }
-    ],
-    "aciertos": 1,
-    "objetivos": 12
-   }
-  },
-  {
-   "id": "de9aa3895f",
-   "perfil": "El explorador",
-   "resumen": {
-    "pedidos": 45,
-    "restaurantes": 38,
-    "hora_tipica": 12,
-    "zona": "w21z3",
-    "cocinas": [
-     [
-      "coffee",
-      8
-     ],
-     [
-      "dessert",
-      5
-     ],
-     [
-      "singaporean",
-      4
-     ]
-    ],
-    "candidatos_en_zona": 2057
-   },
-   "historial": [
-    {
-     "id": "2d28cfc5",
-     "cocina": "coffee",
-     "especialidad": "Caffe Latte",
-     "zona": "w21z3",
-     "pedidos_train": 296,
-     "veces": 3
-    },
-    {
-     "id": "f52740c9",
-     "cocina": "dessert",
-     "especialidad": "Cheng Tng 清汤",
-     "zona": "w21z3",
-     "pedidos_train": 174,
-     "veces": 2
-    },
-    {
-     "id": "5be84f1b",
-     "cocina": "singaporean",
-     "especialidad": "White Carrot Cake",
-     "zona": "w21z6",
-     "pedidos_train": 185,
-     "veces": 2
-    },
-    {
-     "id": "a0174ef3",
-     "cocina": "coffee",
-     "especialidad": "Chicago Cheesecake",
-     "zona": "w21z3",
-     "pedidos_train": 334,
-     "veces": 2
-    }
-   ],
-   "recomendaciones": [
-    {
-     "id": "2d28cfc5",
-     "cocina": "coffee",
-     "especialidad": "Caffe Latte",
-     "zona": "w21z3",
-     "pedidos_train": 296,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 3 veces",
-     "acierto": false
-    },
-    {
-     "id": "886f5bf2",
-     "cocina": "beverages",
-     "especialidad": "Jalapeno Cheese Brezel",
-     "zona": "w21z3",
-     "pedidos_train": 272,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "a0174ef3",
-     "cocina": "coffee",
-     "especialidad": "Chicago Cheesecake",
-     "zona": "w21z3",
-     "pedidos_train": 334,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "63f7a718",
-     "cocina": "sushi",
-     "especialidad": "Season Sushi Platter (38 pcs)",
-     "zona": "w21z3",
-     "pedidos_train": 287,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "f52740c9",
-     "cocina": "dessert",
-     "especialidad": "Cheng Tng 清汤",
-     "zona": "w21z3",
-     "pedidos_train": 174,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "5be84f1b",
-     "cocina": "singaporean",
-     "especialidad": "White Carrot Cake",
-     "zona": "w21z6",
-     "pedidos_train": 185,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 2 veces",
-     "acierto": false
-    },
-    {
-     "id": "1e79d2ac",
-     "cocina": "coffee",
-     "especialidad": "Homemade Nasi Lemak",
-     "zona": "w21z3",
+     "id": "eb17eab0",
+     "cocina": "chicken rice",
+     "especialidad": "For 1 Pax (White) (Exclude Rice)",
+     "zona": "w21zk",
      "pedidos_train": 548,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
      "acierto": false
     },
     {
-     "id": "ff52813f",
-     "cocina": "coffee",
-     "especialidad": "Traditional Kaya Toast",
-     "zona": "w21z3",
-     "pedidos_train": 557,
+     "id": "702ecae6",
+     "cocina": "mala xiang guo",
+     "especialidad": "Ma La Xiang Guo 麻辣香锅",
+     "zona": "w21zk",
+     "pedidos_train": 386,
      "tipo": "conocido",
      "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
      "acierto": false
     },
     {
-     "id": "328b7265",
+     "id": "33cb3521",
+     "cocina": "fried rice",
+     "especialidad": "Small",
+     "zona": "w21zs",
+     "pedidos_train": 203,
+     "tipo": "conocido",
+     "razon": "Ya pediste aquí 1 vez",
+     "origen": null,
+     "acierto": false
+    },
+    {
+     "id": "fd9fd403",
      "cocina": "dessert",
-     "especialidad": "102. Mango Pomelo Sago 杨枝甘露",
-     "zona": "w21z3",
-     "pedidos_train": 580,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
+     "especialidad": "48. Cheng Tang 清汤",
+     "zona": "w21zk",
+     "pedidos_train": 565,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Ma La Xiang Guo 麻辣香锅» (72% del puntaje)",
+     "origen": {
+      "id": "702ecae6",
+      "etiqueta": "Ma La Xiang Guo 麻辣香锅",
+      "aporte_pct": 72,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "4b45e972",
+     "id": "bf6ffc1c",
+     "cocina": "laksa",
+     "especialidad": "Small 小",
+     "zona": "w21zk",
+     "pedidos_train": 564,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Ma La Xiang Guo 麻辣香锅» (56% del puntaje)",
+     "origen": {
+      "id": "702ecae6",
+      "etiqueta": "Ma La Xiang Guo 麻辣香锅",
+      "aporte_pct": 56,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "f7c6669d",
+     "cocina": "chinese",
+     "especialidad": "Little Spicy 小辣",
+     "zona": "w21zk",
+     "pedidos_train": 537,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Ma La Xiang Guo 麻辣香锅» (91% del puntaje)",
+     "origen": {
+      "id": "702ecae6",
+      "etiqueta": "Ma La Xiang Guo 麻辣香锅",
+      "aporte_pct": 91,
+      "vecino_directo": true
+     },
+     "acierto": false
+    },
+    {
+     "id": "e78f7ae1",
      "cocina": "japanese",
-     "especialidad": "Kagoshima Pork Belly Don",
-     "zona": "w21z3",
-     "pedidos_train": 551,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "3f353912",
-      "cocina": "thai",
-      "especialidad": "N1. Signature Beef Boat Noodle",
-      "zona": "w21z3",
-      "pedidos_train": 222
+     "especialidad": "Customized Bento",
+     "zona": "w21zk",
+     "pedidos_train": 542,
+     "tipo": "nuevo",
+     "razon": "Por tus pedidos en «Ma La Xiang Guo 麻辣香锅» (68% del puntaje)",
+     "origen": {
+      "id": "702ecae6",
+      "etiqueta": "Ma La Xiang Guo 麻辣香锅",
+      "aporte_pct": 68,
+      "vecino_directo": true
      },
-     {
-      "id": "a85f2da6",
-      "cocina": "bakery",
-      "especialidad": "Butter Croissant",
-      "zona": "w21z9",
-      "pedidos_train": 150
-     },
-     {
-      "id": "207d148f",
-      "cocina": "coffee",
-      "especialidad": "Iced Coconutmilk White Mocha Macchiato",
-      "zona": "w21z6",
-      "pedidos_train": 29
-     },
-     {
-      "id": "dc5157a7",
-      "cocina": "indian",
-      "especialidad": "Chicken Briyani",
-      "zona": "w21z6",
-      "pedidos_train": 512
-     },
-     {
-      "id": "b26ed4dd",
-      "cocina": "indian",
-      "especialidad": "Roti John Chicken",
-      "zona": "w23b1",
-      "pedidos_train": 549
-     },
-     {
-      "id": "50925532",
-      "cocina": "indian",
-      "especialidad": "Vegetable Meal Vadai Payasam",
-      "zona": "w21z6",
-      "pedidos_train": 530
-     }
-    ],
-    "aciertos": 0,
-    "objetivos": 12
-   }
-  },
-  {
-   "id": "7fa2253904",
-   "perfil": "El ocasional",
-   "resumen": {
-    "pedidos": 4,
-    "restaurantes": 4,
-    "hora_tipica": 14,
-    "zona": "w21ze",
-    "cocinas": [
-     [
-      "indian",
-      1
-     ],
-     [
-      "dim sum",
-      1
-     ],
-     [
-      "seafood",
-      1
-     ]
-    ],
-    "candidatos_en_zona": 4196
-   },
-   "historial": [
-    {
-     "id": "c702a49c",
-     "cocina": "indian",
-     "especialidad": "NI46. Butter Chicken Masala",
-     "zona": "w21z9",
-     "pedidos_train": 524,
-     "veces": 1
-    },
-    {
-     "id": "bec616c7",
-     "cocina": "dim sum",
-     "especialidad": "09. Siew Mai 烧卖",
-     "zona": "w21ze",
-     "pedidos_train": 260,
-     "veces": 1
-    },
-    {
-     "id": "a01a0be7",
-     "cocina": "seafood",
-     "especialidad": "Rice",
-     "zona": "w21zg",
-     "pedidos_train": 220,
-     "veces": 1
-    },
-    {
-     "id": "52a576e9",
-     "cocina": "mala xiang guo",
-     "especialidad": "Spicy Fragrant Hotpot 麻辣香锅",
-     "zona": "w21zg",
-     "pedidos_train": 427,
-     "veces": 1
-    }
-   ],
-   "recomendaciones": [
-    {
-     "id": "52a576e9",
-     "cocina": "mala xiang guo",
-     "especialidad": "Spicy Fragrant Hotpot 麻辣香锅",
-     "zona": "w21zg",
-     "pedidos_train": 427,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
      "acierto": false
     },
     {
-     "id": "a01a0be7",
-     "cocina": "seafood",
-     "especialidad": "Rice",
-     "zona": "w21zg",
-     "pedidos_train": 220,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "bec616c7",
-     "cocina": "dim sum",
-     "especialidad": "09. Siew Mai 烧卖",
-     "zona": "w21ze",
-     "pedidos_train": 260,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "4d857200",
-     "cocina": "korean",
-     "especialidad": "Bibimbap 拌饭",
-     "zona": "w21zf",
-     "pedidos_train": 572,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Spicy Fragrant Hotpot 麻辣香锅» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "e39f4403",
-     "cocina": "chinese",
-     "especialidad": "White Rice 白饭",
-     "zona": "w21zg",
-     "pedidos_train": 541,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Rice» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "595c99a8",
-     "cocina": "coffee",
-     "especialidad": "Curry Chicken with Rice + Laksa + Ham and Cheese Sandwich",
-     "zona": "w21zg",
-     "pedidos_train": 559,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Rice» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "d4d6b2dc",
-     "cocina": "mala xiang guo",
-     "especialidad": "白饭 White Rice",
-     "zona": "w21zg",
-     "pedidos_train": 576,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Rice» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "a63b419f",
-     "cocina": "thai",
-     "especialidad": "Basil Minced Chicken with Rice 九层塔鸡肉碎饭",
-     "zona": "w21zg",
-     "pedidos_train": 538,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Spicy Fragrant Hotpot 麻辣香锅» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "aba5f587",
-     "cocina": "chinese",
-     "especialidad": "Mala Xiang Guo 麻辣香锅",
-     "zona": "w21zd",
-     "pedidos_train": 422,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Spicy Fragrant Hotpot 麻辣香锅» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "792d8263",
-     "cocina": "mala xiang guo",
-     "especialidad": "Mala Hotpot Base 麻辣香锅",
-     "zona": "w21zd",
-     "pedidos_train": 437,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Spicy Fragrant Hotpot 麻辣香锅» también piden aquí",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "b41d8a8a",
-      "cocina": "chinese",
-      "especialidad": "Steamed Rice 白米饭",
-      "zona": "w21ze",
-      "pedidos_train": 68
-     },
-     {
-      "id": "23309b37",
-      "cocina": "dim sum",
-      "especialidad": "09. Siew Mai 烧卖",
-      "zona": "w21ze",
-      "pedidos_train": 540
-     }
-    ],
-    "aciertos": 0,
-    "objetivos": 2
-   }
-  },
-  {
-   "id": "5c91e088af",
-   "perfil": "El ocasional",
-   "resumen": {
-    "pedidos": 4,
-    "restaurantes": 4,
-    "hora_tipica": 13,
-    "zona": "w21zv",
-    "cocinas": [
-     [
-      "soups",
-      2
-     ],
-     [
-      "japanese",
-      1
-     ],
-     [
-      "ramen",
-      1
-     ]
-    ],
-    "candidatos_en_zona": 1485
-   },
-   "historial": [
-    {
-     "id": "75b914bc",
-     "cocina": "soups",
-     "especialidad": "Lotus Root Peanut Rib Soup",
-     "zona": "w21zv",
-     "pedidos_train": 60,
-     "veces": 1
-    },
-    {
-     "id": "d546d7a6",
-     "cocina": "japanese",
-     "especialidad": "Monster Combo Curry (For 2 PAX)",
-     "zona": "w21zt",
-     "pedidos_train": 303,
-     "veces": 1
-    },
-    {
-     "id": "08e542f2",
-     "cocina": "soups",
-     "especialidad": "Pig's Stomach Soup",
-     "zona": "w21zt",
-     "pedidos_train": 192,
-     "veces": 1
-    },
-    {
-     "id": "83f29713",
-     "cocina": "ramen",
-     "especialidad": "Yuzu Ume Buddy Meal (U.P. $34.50)",
-     "zona": "w21zv",
-     "pedidos_train": 555,
-     "veces": 1
-    }
-   ],
-   "recomendaciones": [
-    {
-     "id": "83f29713",
-     "cocina": "ramen",
-     "especialidad": "Yuzu Ume Buddy Meal (U.P. $34.50)",
-     "zona": "w21zv",
-     "pedidos_train": 555,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "08e542f2",
-     "cocina": "soups",
-     "especialidad": "Pig's Stomach Soup",
-     "zona": "w21zt",
-     "pedidos_train": 192,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "75b914bc",
-     "cocina": "soups",
-     "especialidad": "Lotus Root Peanut Rib Soup",
-     "zona": "w21zv",
-     "pedidos_train": 60,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "d546d7a6",
-     "cocina": "japanese",
-     "especialidad": "Monster Combo Curry (For 2 PAX)",
-     "zona": "w21zt",
-     "pedidos_train": 303,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "7b97256c",
-     "cocina": "chinese",
-     "especialidad": "C506D. HK-style Stir-fried Beef Hor Fun",
-     "zona": "w21zv",
-     "pedidos_train": 552,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Lotus Root Peanut Rib Soup» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "c3950feb",
-     "cocina": "rice dishes",
-     "especialidad": "Chicken Katsu Don",
-     "zona": "w21zv",
-     "pedidos_train": 495,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Lotus Root Peanut Rib Soup» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "77848032",
-     "cocina": "chinese",
-     "especialidad": "Cereal Chicken Cutlet Rice 麦片鸡扒饭",
-     "zona": "w21zv",
-     "pedidos_train": 534,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Lotus Root Peanut Rib Soup» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "6f08e654",
-     "cocina": "chinese",
-     "especialidad": "108. Porridge with Minced Meat,Century Egg,Salted Egg & Egg 干贝三色蛋肉碎粥",
-     "zona": "w21zt",
-     "pedidos_train": 535,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Monster Combo Curry (For 2 PAX)» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "0f29a356",
+     "id": "95a6e214",
      "cocina": "chicken rice",
-     "especialidad": "Chicken Rice  鸡饭",
-     "zona": "w21zv",
-     "pedidos_train": 384,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Lotus Root Peanut Rib Soup» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "e8818130",
-     "cocina": "chinese",
-     "especialidad": "Salted Egg Diced Chicken with Rice 咸蛋鸡丁饭",
-     "zona": "w21zv",
-     "pedidos_train": 560,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Monster Combo Curry (For 2 PAX)» también piden aquí",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "a91b5567",
-      "cocina": "rice dishes",
-      "especialidad": "Wanton Soup",
-      "zona": "w21zv",
-      "pedidos_train": 140
-     }
-    ],
-    "aciertos": 0,
-    "objetivos": 1
-   }
-  },
-  {
-   "id": "5cc48e1b68",
-   "perfil": "El ocasional",
-   "resumen": {
-    "pedidos": 4,
-    "restaurantes": 4,
-    "hora_tipica": 16,
-    "zona": "w21xx",
-    "cocinas": [
-     [
-      "vegetarian",
-      2
-     ],
-     [
-      "thai",
-      1
-     ],
-     [
-      "singaporean",
-      1
-     ]
-    ],
-    "candidatos_en_zona": 836
-   },
-   "historial": [
-    {
-     "id": "65aff882",
-     "cocina": "vegetarian",
-     "especialidad": "White Rice 白饭",
-     "zona": "w21z8",
-     "pedidos_train": 339,
-     "veces": 1
-    },
-    {
-     "id": "f39f9725",
-     "cocina": "thai",
-     "especialidad": "Z1. Steamed Rice",
-     "zona": "w21z7",
-     "pedidos_train": 97,
-     "veces": 1
-    },
-    {
-     "id": "96e40f89",
-     "cocina": "vegetarian",
-     "especialidad": "Steamed Rice 蒸米饭",
-     "zona": "w21z8",
-     "pedidos_train": 213,
-     "veces": 1
-    },
-    {
-     "id": "445bdef2",
-     "cocina": "singaporean",
-     "especialidad": "White Rice 白饭",
-     "zona": "w21z8",
-     "pedidos_train": 536,
-     "veces": 1
-    }
-   ],
-   "recomendaciones": [
-    {
-     "id": "445bdef2",
-     "cocina": "singaporean",
-     "especialidad": "White Rice 白饭",
-     "zona": "w21z8",
-     "pedidos_train": 536,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "96e40f89",
-     "cocina": "vegetarian",
-     "especialidad": "Steamed Rice 蒸米饭",
-     "zona": "w21z8",
-     "pedidos_train": 213,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "65aff882",
-     "cocina": "vegetarian",
-     "especialidad": "White Rice 白饭",
-     "zona": "w21z8",
-     "pedidos_train": 339,
-     "tipo": "conocido",
-     "razon": "Ya pediste aquí 1 vez",
-     "acierto": false
-    },
-    {
-     "id": "438a3ae7",
-     "cocina": "vegetarian",
-     "especialidad": "Bento Set",
-     "zona": "w21z8",
-     "pedidos_train": 212,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «White Rice 白饭» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "893f309e",
-     "cocina": "coffee",
-     "especialidad": "Mee Siam",
-     "zona": "w21z8",
-     "pedidos_train": 580,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Steamed Rice 蒸米饭» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "0187f833",
-     "cocina": "western",
-     "especialidad": "406. CABONARA",
-     "zona": "w21z8",
-     "pedidos_train": 553,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «White Rice 白饭» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "992c4d60",
-     "cocina": "sandwiches",
-     "especialidad": "*NEW* Mushroom soup",
-     "zona": "w21z8",
-     "pedidos_train": 517,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «White Rice 白饭» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "56b5d714",
-     "cocina": "western",
-     "especialidad": "Hot U.S. Fries and Dips",
-     "zona": "w21z8",
-     "pedidos_train": 456,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «White Rice 白饭» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "ec75acc4",
-     "cocina": "noodles",
-     "especialidad": "Vegetarian White Bee Hoon 齋白米粉",
-     "zona": "w21z8",
-     "pedidos_train": 128,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Steamed Rice 蒸米饭» también piden aquí",
-     "acierto": false
-    },
-    {
-     "id": "2cdc608b",
-     "cocina": "dessert",
-     "especialidad": "Cheese Pancake",
-     "zona": "w21z8",
-     "pedidos_train": 368,
-     "tipo": "nuevo",
-     "razon": "Clientes que piden en «Steamed Rice 蒸米饭» también piden aquí",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "fb433aa6",
-      "cocina": "cakes",
-      "especialidad": "Brownie (Petite)",
-      "zona": "w21z7",
-      "pedidos_train": 14
-     }
-    ],
-    "aciertos": 0,
-    "objetivos": 1
-   }
-  },
-  {
-   "id": "0255908b25",
-   "perfil": "Sin historial",
-   "resumen": {
-    "pedidos": 0,
-    "restaurantes": 0,
-    "hora_tipica": null,
-    "zona": null,
-    "cocinas": [],
-    "candidatos_en_zona": 7411
-   },
-   "historial": [],
-   "recomendaciones": [
-    {
-     "id": "fd9acd2e",
-     "cocina": "fried rice",
-     "especialidad": "Egg Fried Rice With Seasoned Prawns",
-     "zona": "w21zu",
-     "pedidos_train": 398,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "9a4d6054",
-     "cocina": "chicken",
-     "especialidad": "M1A. Chicken Burger A La Carte",
-     "zona": "w23b4",
-     "pedidos_train": 368,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "b8613243",
-     "cocina": "fried rice",
-     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "especialidad": "Roasted Chicken Rice (Drumstick)",
      "zona": "w21zs",
-     "pedidos_train": 360,
+     "pedidos_train": 581,
      "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
+     "razon": "Por tus pedidos en «Small» (100% del puntaje)",
+     "origen": {
+      "id": "33cb3521",
+      "etiqueta": "Small",
+      "aporte_pct": 100,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "5d031bbe",
-     "cocina": "noodles",
-     "especialidad": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
-     "zona": "w21zg",
-     "pedidos_train": 375,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "1d4d321d",
-     "cocina": "soups",
-     "especialidad": "Pork Ribs Soup",
-     "zona": "w23b4",
-     "pedidos_train": 252,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "f98cbaa3",
+     "id": "647442ea",
      "cocina": "fried chicken",
-     "especialidad": "2pc Chickenjoy VM",
-     "zona": "w21z6",
-     "pedidos_train": 458,
+     "especialidad": "2 pcs Chicken Meal",
+     "zona": "w21zk",
+     "pedidos_train": 532,
      "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
+     "razon": "Por tus pedidos en «Ma La Xiang Guo 麻辣香锅» (72% del puntaje)",
+     "origen": {
+      "id": "702ecae6",
+      "etiqueta": "Ma La Xiang Guo 麻辣香锅",
+      "aporte_pct": 72,
+      "vecino_directo": true
+     },
      "acierto": false
     },
     {
-     "id": "fd899663",
-     "cocina": "singaporean",
-     "especialidad": "726. Kebab Cheese Chicken",
-     "zona": "w21zs",
-     "pedidos_train": 404,
+     "id": "3722aba3",
+     "cocina": "american",
+     "especialidad": "Chocolate Pie",
+     "zona": "w21zk",
+     "pedidos_train": 573,
      "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "ab0cc622",
-     "cocina": "dim sum",
-     "especialidad": "1 Shrimp Dumpling 虾饺",
-     "zona": "w21z7",
-     "pedidos_train": 397,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "100d4dc5",
-     "cocina": "mexican",
-     "especialidad": "Free Heineken 0.0",
-     "zona": "w21zt",
-     "pedidos_train": 315,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "830bd2e7",
-     "cocina": "bubble tea",
-     "especialidad": "Bubble Milk Tea",
-     "zona": "w23b4",
-     "pedidos_train": 423,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
+     "razon": "Por tus pedidos en «Ma La Xiang Guo 麻辣香锅» (89% del puntaje)",
+     "origen": {
+      "id": "702ecae6",
+      "etiqueta": "Ma La Xiang Guo 麻辣香锅",
+      "aporte_pct": 89,
+      "vecino_directo": true
+     },
      "acierto": false
     }
    ],
    "realidad": {
     "pidio": [
      {
-      "id": "b271aa3b",
-      "cocina": "pasta",
-      "especialidad": "Turkey Bacon Aglio",
-      "zona": "w23b4",
-      "pedidos_train": 555
-     },
-     {
-      "id": "17e14bbe",
-      "cocina": "american",
-      "especialidad": "Chocolate Pie",
-      "zona": "w23b4",
-      "pedidos_train": 562
-     }
-    ],
-    "aciertos": 0,
-    "objetivos": 2
-   }
-  },
-  {
-   "id": "005caa9920",
-   "perfil": "Sin historial",
-   "resumen": {
-    "pedidos": 0,
-    "restaurantes": 0,
-    "hora_tipica": null,
-    "zona": null,
-    "cocinas": [],
-    "candidatos_en_zona": 7411
-   },
-   "historial": [],
-   "recomendaciones": [
-    {
-     "id": "fd9acd2e",
-     "cocina": "fried rice",
-     "especialidad": "Egg Fried Rice With Seasoned Prawns",
-     "zona": "w21zu",
-     "pedidos_train": 398,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "9a4d6054",
-     "cocina": "chicken",
-     "especialidad": "M1A. Chicken Burger A La Carte",
-     "zona": "w23b4",
-     "pedidos_train": 368,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "b8613243",
-     "cocina": "fried rice",
-     "especialidad": "Egg Fried Rice With Seasoned Prawns",
-     "zona": "w21zs",
-     "pedidos_train": 360,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "5d031bbe",
-     "cocina": "noodles",
-     "especialidad": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
-     "zona": "w21zg",
-     "pedidos_train": 375,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "1d4d321d",
-     "cocina": "soups",
-     "especialidad": "Pork Ribs Soup",
-     "zona": "w23b4",
-     "pedidos_train": 252,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "f98cbaa3",
-     "cocina": "fried chicken",
-     "especialidad": "2pc Chickenjoy VM",
-     "zona": "w21z6",
-     "pedidos_train": 458,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "fd899663",
-     "cocina": "singaporean",
-     "especialidad": "726. Kebab Cheese Chicken",
-     "zona": "w21zs",
-     "pedidos_train": 404,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "ab0cc622",
-     "cocina": "dim sum",
-     "especialidad": "1 Shrimp Dumpling 虾饺",
-     "zona": "w21z7",
-     "pedidos_train": 397,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "100d4dc5",
-     "cocina": "mexican",
-     "especialidad": "Free Heineken 0.0",
-     "zona": "w21zt",
-     "pedidos_train": 315,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "830bd2e7",
-     "cocina": "bubble tea",
-     "especialidad": "Bubble Milk Tea",
-     "zona": "w23b4",
-     "pedidos_train": 423,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "b1122e14",
-      "cocina": "dim sum",
-      "especialidad": "Mee Hoon Kueh",
-      "zona": "w23b4",
-      "pedidos_train": 107
-     },
-     {
-      "id": "0dfaa309",
-      "cocina": "fried chicken",
-      "especialidad": "Party A",
-      "zona": "w23b4",
-      "pedidos_train": 543
-     }
-    ],
-    "aciertos": 0,
-    "objetivos": 2
-   }
-  },
-  {
-   "id": "007ea4722d",
-   "perfil": "Sin historial",
-   "resumen": {
-    "pedidos": 0,
-    "restaurantes": 0,
-    "hora_tipica": null,
-    "zona": null,
-    "cocinas": [],
-    "candidatos_en_zona": 7411
-   },
-   "historial": [],
-   "recomendaciones": [
-    {
-     "id": "fd9acd2e",
-     "cocina": "fried rice",
-     "especialidad": "Egg Fried Rice With Seasoned Prawns",
-     "zona": "w21zu",
-     "pedidos_train": 398,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "9a4d6054",
-     "cocina": "chicken",
-     "especialidad": "M1A. Chicken Burger A La Carte",
-     "zona": "w23b4",
-     "pedidos_train": 368,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "b8613243",
-     "cocina": "fried rice",
-     "especialidad": "Egg Fried Rice With Seasoned Prawns",
-     "zona": "w21zs",
-     "pedidos_train": 360,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "5d031bbe",
-     "cocina": "noodles",
-     "especialidad": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
-     "zona": "w21zg",
-     "pedidos_train": 375,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "1d4d321d",
-     "cocina": "soups",
-     "especialidad": "Pork Ribs Soup",
-     "zona": "w23b4",
-     "pedidos_train": 252,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "f98cbaa3",
-     "cocina": "fried chicken",
-     "especialidad": "2pc Chickenjoy VM",
-     "zona": "w21z6",
-     "pedidos_train": 458,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "fd899663",
-     "cocina": "singaporean",
-     "especialidad": "726. Kebab Cheese Chicken",
-     "zona": "w21zs",
-     "pedidos_train": 404,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "ab0cc622",
-     "cocina": "dim sum",
-     "especialidad": "1 Shrimp Dumpling 虾饺",
-     "zona": "w21z7",
-     "pedidos_train": 397,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "100d4dc5",
-     "cocina": "mexican",
-     "especialidad": "Free Heineken 0.0",
-     "zona": "w21zt",
-     "pedidos_train": 315,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    },
-    {
-     "id": "830bd2e7",
-     "cocina": "bubble tea",
-     "especialidad": "Bubble Milk Tea",
-     "zona": "w23b4",
-     "pedidos_train": 423,
-     "tipo": "nuevo",
-     "razon": "Lo más pedido en las últimas dos semanas",
-     "acierto": false
-    }
-   ],
-   "realidad": {
-    "pidio": [
-     {
-      "id": "60be2188",
-      "cocina": "grill",
-      "especialidad": "2 Meat Plate",
-      "zona": "w21z6",
-      "pedidos_train": 52
-     },
-     {
-      "id": "2e1195ae",
-      "cocina": "sushi",
-      "especialidad": "Inari Sushi",
-      "zona": "w21z7",
-      "pedidos_train": 451
-     },
-     {
-      "id": "ddd67421",
-      "cocina": "western",
-      "especialidad": "Old-Fashioned Apple Pie",
+      "id": "41af918c",
+      "cocina": "porridge",
+      "especialidad": "Crispy You Tiao",
       "zona": "w21zk",
-      "pedidos_train": 1
+      "pedidos_train": 548
      }
     ],
     "aciertos": 0,
-    "objetivos": 3
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "3317abdf26",
+   "perfil": "Sin historial",
+   "resumen": {
+    "pedidos": 0,
+    "restaurantes": 0,
+    "hora_tipica": null,
+    "zona": null,
+    "cocinas": [],
+    "candidatos_en_zona": 7411
+   },
+   "historial": [],
+   "recomendaciones": [
+    {
+     "id": "fd9acd2e",
+     "cocina": "fried rice",
+     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "zona": "w21zu",
+     "pedidos_train": 398,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "9a4d6054",
+     "cocina": "chicken",
+     "especialidad": "M1A. Chicken Burger A La Carte",
+     "zona": "w23b4",
+     "pedidos_train": 368,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "b8613243",
+     "cocina": "fried rice",
+     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "zona": "w21zs",
+     "pedidos_train": 360,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "5d031bbe",
+     "cocina": "noodles",
+     "especialidad": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
+     "zona": "w21zg",
+     "pedidos_train": 375,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "1d4d321d",
+     "cocina": "soups",
+     "especialidad": "Pork Ribs Soup",
+     "zona": "w23b4",
+     "pedidos_train": 252,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "f98cbaa3",
+     "cocina": "fried chicken",
+     "especialidad": "2pc Chickenjoy VM",
+     "zona": "w21z6",
+     "pedidos_train": 458,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "fd899663",
+     "cocina": "singaporean",
+     "especialidad": "726. Kebab Cheese Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 404,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "ab0cc622",
+     "cocina": "dim sum",
+     "especialidad": "1 Shrimp Dumpling 虾饺",
+     "zona": "w21z7",
+     "pedidos_train": 397,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "100d4dc5",
+     "cocina": "mexican",
+     "especialidad": "Free Heineken 0.0",
+     "zona": "w21zt",
+     "pedidos_train": 315,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "830bd2e7",
+     "cocina": "bubble tea",
+     "especialidad": "Bubble Milk Tea",
+     "zona": "w23b4",
+     "pedidos_train": 423,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "5ab655c3",
+      "cocina": "mala xiang guo",
+      "especialidad": "Mala Xiang Guo 麻辣香锅",
+      "zona": "w21zc",
+      "pedidos_train": 516
+     }
+    ],
+    "aciertos": 0,
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "6c9e85e464",
+   "perfil": "Sin historial",
+   "resumen": {
+    "pedidos": 0,
+    "restaurantes": 0,
+    "hora_tipica": null,
+    "zona": null,
+    "cocinas": [],
+    "candidatos_en_zona": 7411
+   },
+   "historial": [],
+   "recomendaciones": [
+    {
+     "id": "fd9acd2e",
+     "cocina": "fried rice",
+     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "zona": "w21zu",
+     "pedidos_train": 398,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "9a4d6054",
+     "cocina": "chicken",
+     "especialidad": "M1A. Chicken Burger A La Carte",
+     "zona": "w23b4",
+     "pedidos_train": 368,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "b8613243",
+     "cocina": "fried rice",
+     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "zona": "w21zs",
+     "pedidos_train": 360,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "5d031bbe",
+     "cocina": "noodles",
+     "especialidad": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
+     "zona": "w21zg",
+     "pedidos_train": 375,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "1d4d321d",
+     "cocina": "soups",
+     "especialidad": "Pork Ribs Soup",
+     "zona": "w23b4",
+     "pedidos_train": 252,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "f98cbaa3",
+     "cocina": "fried chicken",
+     "especialidad": "2pc Chickenjoy VM",
+     "zona": "w21z6",
+     "pedidos_train": 458,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "fd899663",
+     "cocina": "singaporean",
+     "especialidad": "726. Kebab Cheese Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 404,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "ab0cc622",
+     "cocina": "dim sum",
+     "especialidad": "1 Shrimp Dumpling 虾饺",
+     "zona": "w21z7",
+     "pedidos_train": 397,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "100d4dc5",
+     "cocina": "mexican",
+     "especialidad": "Free Heineken 0.0",
+     "zona": "w21zt",
+     "pedidos_train": 315,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "830bd2e7",
+     "cocina": "bubble tea",
+     "especialidad": "Bubble Milk Tea",
+     "zona": "w23b4",
+     "pedidos_train": 423,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "e389961a",
+      "cocina": "bubble tea",
+      "especialidad": "Pearl Milk Tea",
+      "zona": "w21xx",
+      "pedidos_train": 169
+     }
+    ],
+    "aciertos": 0,
+    "objetivos": 1
+   }
+  },
+  {
+   "id": "60983c0451",
+   "perfil": "Sin historial",
+   "resumen": {
+    "pedidos": 0,
+    "restaurantes": 0,
+    "hora_tipica": null,
+    "zona": null,
+    "cocinas": [],
+    "candidatos_en_zona": 7411
+   },
+   "historial": [],
+   "recomendaciones": [
+    {
+     "id": "fd9acd2e",
+     "cocina": "fried rice",
+     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "zona": "w21zu",
+     "pedidos_train": 398,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "9a4d6054",
+     "cocina": "chicken",
+     "especialidad": "M1A. Chicken Burger A La Carte",
+     "zona": "w23b4",
+     "pedidos_train": 368,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "b8613243",
+     "cocina": "fried rice",
+     "especialidad": "Egg Fried Rice With Seasoned Prawns",
+     "zona": "w21zs",
+     "pedidos_train": 360,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "5d031bbe",
+     "cocina": "noodles",
+     "especialidad": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
+     "zona": "w21zg",
+     "pedidos_train": 375,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "1d4d321d",
+     "cocina": "soups",
+     "especialidad": "Pork Ribs Soup",
+     "zona": "w23b4",
+     "pedidos_train": 252,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "f98cbaa3",
+     "cocina": "fried chicken",
+     "especialidad": "2pc Chickenjoy VM",
+     "zona": "w21z6",
+     "pedidos_train": 458,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "fd899663",
+     "cocina": "singaporean",
+     "especialidad": "726. Kebab Cheese Chicken",
+     "zona": "w21zs",
+     "pedidos_train": 404,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "ab0cc622",
+     "cocina": "dim sum",
+     "especialidad": "1 Shrimp Dumpling 虾饺",
+     "zona": "w21z7",
+     "pedidos_train": 397,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "100d4dc5",
+     "cocina": "mexican",
+     "especialidad": "Free Heineken 0.0",
+     "zona": "w21zt",
+     "pedidos_train": 315,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    },
+    {
+     "id": "830bd2e7",
+     "cocina": "bubble tea",
+     "especialidad": "Bubble Milk Tea",
+     "zona": "w23b4",
+     "pedidos_train": 423,
+     "tipo": "nuevo",
+     "razon": "Lo más pedido en las últimas dos semanas",
+     "acierto": false
+    }
+   ],
+   "realidad": {
+    "pidio": [
+     {
+      "id": "4a995636",
+      "cocina": "burgers",
+      "especialidad": "New Chicken Nuggets (5pcs)",
+      "zona": "w21zu",
+      "pedidos_train": 365
+     }
+    ],
+    "aciertos": 0,
+    "objetivos": 1
    }
   }
  ]

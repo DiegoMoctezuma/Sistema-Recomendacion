@@ -28,7 +28,7 @@ el comensal y el negocio pequeño; el motor es la guía. Las diapositivas están
 | 3:10–4:00 | 8–9 | Llega la guía y cómo decide | Alivio | Credibilidad | Propuesta en una frase, tres señales |
 | 4:00–4:40 | 10 | Cómo se mide | Confianza | Credibilidad | Línea de tiempo sellada |
 | 4:40–5:20 | 11 | El resultado | Satisfacción | Lógica | 28.06% y la comparación |
-| 5:20–7:00 | 12–13 | La prueba: demo en vivo | Sorpresa | Emoción + lógica | Demo con personajes, 6 de 12 |
+| 5:20–7:00 | 12–13 | La prueba: demo en vivo | Sorpresa | Emoción + lógica | Demo con personajes sorteados, 1 de 3 |
 | 7:00–7:50 | 14–15 | La objeción honesta y quién gana | Respeto | Credibilidad | 93.06% contra 9.85%; 13.06% en pequeños |
 | 7:50–8:40 | 16–17 | El modelo y por qué se puede construir | Interés | Lógica | Suscripción, tres tipos de cliente |
 | 8:40–9:20 | 18 | Lo que no prueba | Honestidad | Credibilidad | El piloto como siguiente paso |
@@ -87,17 +87,17 @@ Ritmo objetivo: 130 palabras por minuto. Las pausas marcadas con `///` son de do
 ### El resultado · slide 11 · 4:40–5:20
 
 > Veintiocho punto cero seis de NDCG en las diez recomendaciones.
-> Casi siete por ciento arriba de simplemente repetirle su historial, que en delivery es un rival durísimo. ///
-> Y treinta veces mejor que el ranking de los más populares, que es lo que usa hoy casi cualquier app chica.
+> Casi siete por ciento arriba de simplemente repetirle su historial, que en delivery es un rival durísimo. Esa es la comparación que importa. ///
+> Contra el ranking de los más populares la distancia es de unas treinta veces, pero eso dice más del ranking que de nosotros: sin saber dónde vive ni qué pide cada persona, casi nunca atina.
 
 ### La prueba · slides 12–13 · 5:20–7:00
 
 > Pero mejor véanlo. *(cambiar a la demo)*
 > Estos son doce clientes reales del conjunto de datos, con nombre inventado. Escojan uno. ///
-> *(Ale)* Ale lleva doscientos noventa y seis pedidos en treinta y ocho lugares, casi siempre a las cuatro de la tarde.
+> *(Ale)* Ale lleva treinta y dos pedidos en solo dos lugares, casi siempre a las cinco de la tarde.
 > El motor solo vio lo anterior al corte. Estas son sus diez recomendaciones, y aquí está por qué recomendó cada una.
-> En los quince días siguientes, Ale fue a doce lugares. Seis estaban en esta lista. ///
-> Sin preguntarle nada. Solo con lo que ya hacía.
+> En los quince días siguientes, Ale fue a tres lugares. Uno estaba en esta lista. ///
+> Y no la escogimos por salir bien: la sorteamos dentro de su grupo. En ese grupo, nueve de cada diez personas tuvieron al menos un acierto.
 
 ### La objeción honesta · slides 14–15 · 7:00–7:50
 
@@ -148,8 +148,10 @@ construcción (17) y la de honestidad (18), que pasa a una sola frase dentro del
 | "28.06% de NDCG@10, 6.86% sobre lo de siempre" | `tabla_modelos`, prueba final sellada | Cifra verificada |
 | "93.06% en conocidos contra 9.85% en nuevos" | `tabla_modelos`, columnas de recall por tipo | Cifra verificada |
 | "13.06% de recall en restaurantes con poca historia" | `arranque_frio` | Cifra verificada |
-| "Ale: 6 de 12 aciertos" | `web/demo.json`, generado con `02_export_demo.py` | Dato verificado en la demo |
-| "Se procesa en una laptop sin GPU y se reentrena en minutos" | `ejecucion.plataforma` (macOS arm64) y tiempos registrados en `resultados.json` | Dato verificado |
+| "Ale: 1 de 3 aciertos" | `web/demo.json`, generado con `02_export_demo.py`; persona sorteada con semilla fija | Dato verificado en la demo |
+| "Nueve de cada diez del grupo de Ale tienen al menos un acierto" | `web/demo.json`, `arquetipos["El fiel"].pct_con_algun_acierto` = 91.6%, 2,000 personas sorteadas | Cifra verificada |
+| "Unas treinta veces más que los más populares" | `ganador.ndcg` / `ganador.ndcg_popularidad` = 28.06 / 0.94; se dice siempre junto con que ese ranking casi no acierta | Cifra verificada, con contexto |
+| "Se procesa en una laptop sin GPU y se reentrena en minutos" | `ejecucion.plataforma` y tiempos registrados en `resultados.json` (la última ejecución completa tomó unos ocho minutos en Linux x86_64 con 2 núcleos, sin GPU) | Dato verificado |
 | "Las apps globales tienen 100+ ingenieros" | Orden de magnitud citado en prensa técnica, **sin fuente verificada en FUENTES** | **Estimación: decirlo como tal ("del orden de cientos")** |
 | "Suscripción por el motor" | Modelo propuesto, sin cliente firmado | **Propuesta del equipo: se presenta como plan** |
 | "Una app local pierde ventas hoy" | No medido en este trabajo | **Hipótesis: no afirmarlo como hecho** |

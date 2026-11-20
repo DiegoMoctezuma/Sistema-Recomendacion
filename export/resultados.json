@@ -6,14 +6,14 @@
     "seed": 42,
     "top_k": 10,
     "smoke": false,
-    "hilos": 1,
+    "hilos": 2,
     "n_eval_users_max": 20000,
     "n_seq_users_max": 30000,
-    "data_dir": "/Users/mikitl/Documents/FES/Ciencia de Datos/Clases/Datos Masivos/Proyecto/Data/DHRD",
+    "data_dir": "../../Data/DHRD",
     "smoke_alcance": "Evaluación y minería de cocinas/secuencias reducidas; carga, reglas de producto y grafo completos."
   },
   "entorno": {
-    "python": "3.13.5",
+    "python": "3.13.18",
     "paquetes": {
       "numpy": "2.1.3",
       "pandas": "2.2.3",
@@ -22,9 +22,9 @@
       "mlxtend": "0.23.4",
       "networkx": "3.4.2"
     },
-    "fuente_titulos": "DejaVu Sans"
+    "fuente_titulos": "Big Shoulders Display"
   },
-  "generado_utc": "2026-10-04T00:02:39.412071+00:00",
+  "generado_utc": "2026-11-20T00:31:24.625595+00:00",
   "auditoria_datos": {
     "train": {
       "lineas": 3431870,
@@ -99,7 +99,7 @@
     "precio_unidad": "normalizado; no moneda",
     "politica_oferta_sin_catalogo": "Conservar línea y vendor; nombre faltante explícito; no imputar desde otro vendor."
   },
-  "carga_segundos": 11.90259075164795,
+  "carga_segundos": 19.14914035797119,
   "pedidos_multi_vendor": 0,
   "pedidos_train": 1709414,
   "pedidos_test": 290586,
@@ -229,20 +229,20 @@
   "canastas_cocinas": 78,
   "canastas_poblacion": "usuarios con al menos una cocina identificada en train; una canasta por usuario",
   "canastas_muestra": false,
-  "fpgrowth_segundos": 5.106114334077574,
-  "apriori_segundos": 1.1300430829869583,
+  "fpgrowth_segundos": 7.009923433999916,
+  "apriori_segundos": 1.983937869999977,
   "benchmark_itemsets": {
     "repeticiones": 3,
     "estadistico": "mediana",
     "fpgrowth_segundos": [
-      5.169539041933604,
-      4.890468957950361,
-      5.106114334077574
+      7.111682373000008,
+      7.009923433999916,
+      6.848801951000041
     ],
     "apriori_segundos": [
-      1.1546374160097912,
-      1.0140896249795333,
-      1.1300430829869583
+      2.0352296349999506,
+      1.954284873000006,
+      1.983937869999977
     ],
     "resultados_equivalentes": true,
     "soporte_minimo": 0.02
@@ -250,18 +250,18 @@
   "itemsets_frecuentes": 39,
   "reglas_cocina": [
     {
-      "antecedente": "chinese",
-      "consecuente": "noodles",
-      "soporte": 3.398298855402709,
-      "confianza": 19.431034896846555,
-      "lift": 1.8694106655890825,
-      "usuarios_denominador": 476150
-    },
-    {
       "antecedente": "noodles",
       "consecuente": "chinese",
       "soporte": 3.398298855402709,
       "confianza": 32.69417279560333,
+      "lift": 1.8694106655890825,
+      "usuarios_denominador": 476150
+    },
+    {
+      "antecedente": "chinese",
+      "consecuente": "noodles",
+      "soporte": 3.398298855402709,
+      "confianza": 19.431034896846555,
       "lift": 1.8694106655890825,
       "usuarios_denominador": 476150
     },
@@ -540,7 +540,7 @@
     "tipo": "subsecuencias; no necesariamente consecutivas",
     "seed": 59
   },
-  "prefixspan_segundos": 0.35024213790893555,
+  "prefixspan_segundos": 0.4926180839538574,
   "patrones_secuencia": [
     {
       "patron": "chinese → chinese",
@@ -596,9 +596,9 @@
   "min_clientes_compartidos": 2,
   "n_nodos_aislados": 554,
   "pagerank_iteraciones": 95,
-  "pagerank_delta": 8.316754184341463e-11,
+  "pagerank_delta": 8.316754260913242e-11,
   "pagerank_convergencia": true,
-  "pagerank_segundos": 0.10854887962341309,
+  "pagerank_segundos": 0.09811234474182129,
   "top_pagerank": [
     {
       "vendor": "f3024b8e",
@@ -658,14 +658,14 @@
       "cocina": "dim sum ",
       "pedidos": 632,
       "clientes": 490,
-      "autoridad": 0.0606186738762015
+      "autoridad": 0.060618673876201505
     },
     {
       "vendor": "8ca2e257",
       "cocina": "asian",
       "pedidos": 547,
       "clientes": 481,
-      "autoridad": 0.05861757528569887
+      "autoridad": 0.05861757528569888
     },
     {
       "vendor": "1ef9084e",
@@ -686,35 +686,35 @@
       "cocina": "beverages",
       "pedidos": 540,
       "clientes": 447,
-      "autoridad": 0.05694195410077713
+      "autoridad": 0.05694195410077716
     },
     {
       "vendor": "6604079e",
       "cocina": "singaporean",
       "pedidos": 542,
       "clientes": 381,
-      "autoridad": 0.05678115081686378
+      "autoridad": 0.056781150816863794
     },
     {
       "vendor": "49de578b",
       "cocina": "asian",
       "pedidos": 565,
       "clientes": 430,
-      "autoridad": 0.05672019539815069
+      "autoridad": 0.056720195398150666
     },
     {
       "vendor": "8a54a8c1",
       "cocina": "coffee",
       "pedidos": 530,
       "clientes": 446,
-      "autoridad": 0.05663325848717189
+      "autoridad": 0.05663325848717191
     },
     {
       "vendor": "200155f3",
       "cocina": "chinese",
       "pedidos": 560,
       "clientes": 461,
-      "autoridad": 0.05656794219693688
+      "autoridad": 0.056567942196936935
     },
     {
       "vendor": "33e10dfe",
@@ -729,43 +729,43 @@
       "vendor": "e09f6517",
       "cocina": "asian",
       "pedidos": 336,
-      "autoridad": 0.9985876700188198
+      "autoridad": 0.9985876700188204
     },
     {
       "vendor": "0946c9e5",
       "cocina": "bak kut teh",
       "pedidos": 291,
-      "autoridad": 0.025557304913770194
+      "autoridad": 0.02555730491377021
     },
     {
       "vendor": "3c30529e",
       "cocina": "asian",
       "pedidos": 134,
-      "autoridad": 0.02211424370883303
+      "autoridad": 0.022114243708833036
     },
     {
       "vendor": "95d54bdd",
       "cocina": "asian",
       "pedidos": 523,
-      "autoridad": 0.01873896105028762
+      "autoridad": 0.01873896105028763
     },
     {
       "vendor": "f0b76186",
       "cocina": "indian",
       "pedidos": 470,
-      "autoridad": 0.01503305704287246
+      "autoridad": 0.015033057042872474
     },
     {
       "vendor": "dc7f9f87",
       "cocina": "coffee",
       "pedidos": 171,
-      "autoridad": 0.01488692721364348
+      "autoridad": 0.01488692721364349
     },
     {
       "vendor": "60257fe4",
       "cocina": "chicken rice",
       "pedidos": 538,
-      "autoridad": 0.011809539775503414
+      "autoridad": 0.011809539775503404
     },
     {
       "vendor": "61081731",
@@ -777,13 +777,13 @@
       "vendor": "91704ac5",
       "cocina": "japanese",
       "pedidos": 358,
-      "autoridad": 0.009433131445524906
+      "autoridad": 0.009433131445524899
     },
     {
       "vendor": "2963c19a",
       "cocina": "chicken rice",
       "pedidos": 532,
-      "autoridad": 0.006538518516204904
+      "autoridad": 0.00653851851620491
     }
   ],
   "correlacion_hits_popularidad": 0.9280787292807751,
@@ -792,23 +792,23 @@
     "principal": "binario: una interacción por usuario/vendor",
     "binario": {
       "iteraciones": 310,
-      "delta": 9.915829210250369e-09,
+      "delta": 9.915829559411749e-09,
       "convergio": true,
       "tol": 1e-08,
       "max_iter": 2000,
-      "segundos": 2.861115667037666
+      "segundos": 3.4587159250000923
     },
     "ponderado": {
       "iteraciones": 169,
-      "delta": 9.517149969700149e-09,
+      "delta": 9.517150073756357e-09,
       "convergio": true,
       "tol": 1e-08,
       "max_iter": 2000,
-      "segundos": 1.5848829159513116
+      "segundos": 1.9049019800000906
     },
-    "autoridad_max_binario": 0.0606186738762015,
-    "autoridad_max_ponderado": 0.9985876700188198,
-    "masa_cuadratica_max_ponderado_pct": 99.71773347136153,
+    "autoridad_max_binario": 0.060618673876201505,
+    "autoridad_max_ponderado": 0.9985876700188204,
+    "masa_cuadratica_max_ponderado_pct": 99.71773347136165,
     "vendor_max_ponderado": "e09f6517",
     "pedidos_vendor_max_ponderado": 336,
     "clientes_vendor_max_ponderado": 119,
@@ -818,29 +818,29 @@
     "principal": "binario: una interacción por usuario/vendor",
     "binario": {
       "iteraciones": 310,
-      "delta": 9.915829210250369e-09,
+      "delta": 9.915829559411749e-09,
       "convergio": true,
       "tol": 1e-08,
       "max_iter": 2000,
-      "segundos": 2.861115667037666
+      "segundos": 3.4587159250000923
     },
     "ponderado": {
       "iteraciones": 169,
-      "delta": 9.517149969700149e-09,
+      "delta": 9.517150073756357e-09,
       "convergio": true,
       "tol": 1e-08,
       "max_iter": 2000,
-      "segundos": 1.5848829159513116
+      "segundos": 1.9049019800000906
     },
-    "autoridad_max_binario": 0.0606186738762015,
-    "autoridad_max_ponderado": 0.9985876700188198,
-    "masa_cuadratica_max_ponderado_pct": 99.71773347136153,
+    "autoridad_max_binario": 0.060618673876201505,
+    "autoridad_max_ponderado": 0.9985876700188204,
+    "masa_cuadratica_max_ponderado_pct": 99.71773347136165,
     "vendor_max_ponderado": "e09f6517",
     "pedidos_vendor_max_ponderado": 336,
     "clientes_vendor_max_ponderado": 119,
     "pedidos_cliente_max_en_vendor_ponderado": 114
   },
-  "louvain_segundos": 0.5397967080352828,
+  "louvain_segundos": 1.2164929649999294,
   "n_comunidades": 16,
   "modularidad": 0.870077951913186,
   "comunidades_metadatos": {
@@ -944,9 +944,9 @@
     "precio": 0.3
   },
   "cf_vecinos": 50,
-  "als_segundos_validacion": 51.42485785484314,
-  "als_segundos_test": 57.63166093826294,
-  "als_segundos": 57.63166093826294,
+  "als_segundos_validacion": 40.018508195877075,
+  "als_segundos_test": 44.91857719421387,
+  "als_segundos": 44.91857719421387,
   "als_factores": 64,
   "ppr_diagnostico": {
     "validacion": {
@@ -954,7 +954,7 @@
       "tolerancia": 1e-05,
       "max_iteraciones": 17,
       "lotes_sin_convergencia": 0,
-      "residuo_max": 8.489723768434487e-06,
+      "residuo_max": 8.498691386193968e-06,
       "dangling": 786,
       "redistribucion": "masa dangling vuelve al perfil personalizado"
     },
@@ -963,7 +963,7 @@
       "tolerancia": 1e-05,
       "max_iteraciones": 17,
       "lotes_sin_convergencia": 0,
-      "residuo_max": 8.367627742700279e-06,
+      "residuo_max": 8.374806384381372e-06,
       "dangling": 554,
       "redistribucion": "masa dangling vuelve al perfil personalizado"
     }
@@ -977,7 +977,7 @@
       "recall repetidos": 94.32185393777121,
       "recall nuevos": 6.654877943586647,
       "cobertura": 83.47051679935231,
-      "segundos": 23.658091068267822
+      "segundos": 35.899993658065796
     },
     {
       "modelo": "Híbrido fijo (w=0.75)",
@@ -987,7 +987,7 @@
       "recall repetidos": 94.01717292955406,
       "recall nuevos": 6.680755628396446,
       "cobertura": 82.20213196599649,
-      "segundos": 6.034421920776367
+      "segundos": 7.25907301902771
     },
     {
       "modelo": "Híbrido fijo (w=0.50)",
@@ -997,7 +997,7 @@
       "recall repetidos": 90.20404394792725,
       "recall nuevos": 7.004226688518934,
       "cobertura": 78.36999055458102,
-      "segundos": 6.064617872238159
+      "segundos": 7.20320463180542
     },
     {
       "modelo": "Lo de siempre",
@@ -1007,17 +1007,7 @@
       "recall repetidos": 94.1556642969255,
       "recall nuevos": 0.9962908651772622,
       "cobertura": 82.60693563621643,
-      "segundos": 0.7983839511871338
-    },
-    {
-      "modelo": "Híbrido repetir/explorar",
-      "precision@10": 5.4265,
-      "recall@10": 32.194768578643576,
-      "ndcg@10": 25.804556276224467,
-      "recall repetidos": 84.47973409657465,
-      "recall nuevos": 7.344949538514621,
-      "cobertura": 67.95304277425448,
-      "segundos": 6.008206129074097
+      "segundos": 0.9265069961547852
     },
     {
       "modelo": "Híbrido fijo (w=0.25)",
@@ -1027,7 +1017,7 @@
       "recall repetidos": 77.87831225186963,
       "recall nuevos": 7.802121970154404,
       "cobertura": 60.396707596815546,
-      "segundos": 6.14789605140686
+      "segundos": 7.329174518585205
     },
     {
       "modelo": "ALS (factores latentes)",
@@ -1037,7 +1027,7 @@
       "recall repetidos": 47.3825131566799,
       "recall nuevos": 9.160700422668851,
       "cobertura": 36.594251787882875,
-      "segundos": 3.2237460613250732
+      "segundos": 2.3026280403137207
     },
     {
       "modelo": "Contenido",
@@ -1047,7 +1037,7 @@
       "recall repetidos": 42.1475394700397,
       "recall nuevos": 2.794789959458294,
       "cobertura": 99.12292538119013,
-      "segundos": 3.3655898571014404
+      "segundos": 2.384309768676758
     },
     {
       "modelo": "CF ítem-ítem",
@@ -1057,7 +1047,7 @@
       "recall repetidos": 12.787369587295725,
       "recall nuevos": 8.983869576468559,
       "cobertura": 91.86344622857914,
-      "segundos": 2.7926900386810303
+      "segundos": 2.7550177574157715
     },
     {
       "modelo": "SVD truncado",
@@ -1067,7 +1057,7 @@
       "recall repetidos": 12.861231649893822,
       "recall nuevos": 3.351160182868973,
       "cobertura": 12.103629739576306,
-      "segundos": 0.9792461395263672
+      "segundos": 0.8319339752197266
     },
     {
       "modelo": "Popularidad reciente (14 días)",
@@ -1077,7 +1067,7 @@
       "recall repetidos": 0.794017172929554,
       "recall nuevos": 1.475028034158544,
       "cobertura": 0.9715288085278639,
-      "segundos": 0.5700979232788086
+      "segundos": 0.5931317806243896
     },
     {
       "modelo": "Popularidad",
@@ -1087,7 +1077,7 @@
       "recall repetidos": 0.13849136737143383,
       "recall nuevos": 0.24583800569309067,
       "cobertura": 1.0255026312238564,
-      "segundos": 0.5723779201507568
+      "segundos": 0.6039905548095703
     }
   ],
   "tabla_modelos": [
@@ -1099,7 +1089,7 @@
       "recall repetidos": 93.06369130636914,
       "recall nuevos": 6.595414268749429,
       "cobertura": 84.9413034678181,
-      "segundos": 24.07393717765808
+      "segundos": 37.36623525619507
     },
     {
       "modelo": "Híbrido fijo (w=0.75)",
@@ -1109,7 +1099,7 @@
       "recall repetidos": 92.71966527196652,
       "recall nuevos": 6.869461953046496,
       "cobertura": 83.63243826744029,
-      "segundos": 6.019787073135376
+      "segundos": 7.315513372421265
     },
     {
       "modelo": "Híbrido fijo (w=0.50)",
@@ -1119,7 +1109,7 @@
       "recall repetidos": 89.1213389121339,
       "recall nuevos": 7.339910477756463,
       "cobertura": 79.40898664147888,
-      "segundos": 5.995778799057007
+      "segundos": 7.432124137878418
     },
     {
       "modelo": "Lo de siempre",
@@ -1129,17 +1119,7 @@
       "recall repetidos": 93.17526731752673,
       "recall nuevos": 0.9957065862793459,
       "cobertura": 84.14518958305221,
-      "segundos": 0.7692089080810547
-    },
-    {
-      "modelo": "Híbrido repetir/explorar",
-      "precision@10": 5.3885000000000005,
-      "recall@10": 33.04711488230239,
-      "ndcg@10": 26.082381118535775,
-      "recall repetidos": 84.44444444444444,
-      "recall nuevos": 7.741847081392163,
-      "cobertura": 70.17946296046418,
-      "segundos": 6.028868913650513
+      "segundos": 0.9470016956329346
     },
     {
       "modelo": "Híbrido fijo (w=0.25)",
@@ -1149,7 +1129,7 @@
       "recall repetidos": 77.05253370525337,
       "recall nuevos": 8.408696446515027,
       "cobertura": 60.85548508973148,
-      "segundos": 6.068230152130127
+      "segundos": 7.353034734725952
     },
     {
       "modelo": "ALS (factores latentes)",
@@ -1159,7 +1139,7 @@
       "recall repetidos": 47.23384472338447,
       "recall nuevos": 9.852014250479584,
       "cobertura": 37.255431115908785,
-      "segundos": 3.172498941421509
+      "segundos": 2.3694205284118652
     },
     {
       "modelo": "Contenido",
@@ -1169,7 +1149,7 @@
       "recall repetidos": 41.52487215248721,
       "recall nuevos": 2.9460126061934777,
       "cobertura": 99.04196464714613,
-      "segundos": 3.300112247467041
+      "segundos": 2.424315929412842
     },
     {
       "modelo": "CF ítem-ítem",
@@ -1179,7 +1159,7 @@
       "recall repetidos": 12.487215248721526,
       "recall nuevos": 9.495752260893395,
       "cobertura": 92.74052084738902,
-      "segundos": 2.7988181114196777
+      "segundos": 2.773129463195801
     },
     {
       "modelo": "SVD truncado",
@@ -1189,7 +1169,7 @@
       "recall repetidos": 12.682473268247326,
       "recall nuevos": 3.3707865168539324,
       "cobertura": 12.373498853056267,
-      "segundos": 0.9460070133209229
+      "segundos": 0.8675367832183838
     },
     {
       "modelo": "Popularidad reciente (14 días)",
@@ -1199,7 +1179,7 @@
       "recall repetidos": 1.2552301255230125,
       "recall nuevos": 1.8269845619804512,
       "cobertura": 1.0659829982458509,
-      "segundos": 0.5374898910522461
+      "segundos": 0.6280817985534668
     },
     {
       "modelo": "Popularidad",
@@ -1209,203 +1189,9 @@
       "recall repetidos": 0.19525801952580196,
       "recall nuevos": 0.2466429158673609,
       "cobertura": 1.092969909593847,
-      "segundos": 0.5635430812835693
+      "segundos": 0.5870168209075928
     }
   ],
-  "coeficientes_repetir": {
-    "n_pedidos": -0.09797869507090046,
-    "n_vendors": 0.32205072127811657,
-    "dias_desde_ultimo": -0.3530800802255402,
-    "hora_media": 0.015250045305339544,
-    "prop_finde": 0.02571604213720573,
-    "tasa_repeticion_previa": 0.05747403373304116,
-    "pedidos_por_vendor": 0.863805494062372
-  },
-  "auc_repetir": 0.6711256216566057,
-  "clasificador": {
-    "target": "primer pedido posterior al corte repite historia previa completa",
-    "features": "últimos treinta días; StandardScaler; sin balanceo de clases",
-    "calibracion": "sigmoid FrozenEstimator en ventana temporal disjunta",
-    "validacion": {
-      "sin_calibrar": {
-        "auc": 0.6701248092394058,
-        "brier": 0.2080767572154011,
-        "log_loss": 0.6452078265392993,
-        "tasa_real": 0.31895,
-        "probabilidad_media": 0.23048817768778207,
-        "n": 20000
-      },
-      "calibrado": {
-        "auc": 0.6701248092394058,
-        "brier": 0.2022390146012037,
-        "log_loss": 0.6094536212265721,
-        "tasa_real": 0.31895,
-        "probabilidad_media": 0.2728386456027494,
-        "n": 20000
-      },
-      "ventanas": {
-        "hist_fit": "<= 30",
-        "labels_fit": "31–45",
-        "hist_cal": "<= 45",
-        "labels_cal": "46–60"
-      }
-    },
-    "test": {
-      "sin_calibrar": {
-        "auc": 0.6711256216566057,
-        "brier": 0.206197025492045,
-        "log_loss": 0.6231708585849647,
-        "tasa_real": 0.32615,
-        "probabilidad_media": 0.2595360328892317,
-        "n": 20000
-      },
-      "calibrado": {
-        "auc": 0.6711256216566057,
-        "brier": 0.2031081865731253,
-        "log_loss": 0.6051316383379254,
-        "tasa_real": 0.32615,
-        "probabilidad_media": 0.2882077320994709,
-        "n": 20000
-      },
-      "ventanas": {
-        "hist_fit": "<= 45",
-        "labels_fit": "46–60",
-        "hist_cal": "<= 60",
-        "labels_cal": "61–75"
-      }
-    },
-    "calibracion_bins": [
-      {
-        "split": "validacion",
-        "bin": "(0.0343, 0.156]",
-        "n": 4000,
-        "probabilidad": 0.05547119507511647,
-        "frecuencia": 0.17325
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.156, 0.194]",
-        "n": 2004,
-        "probabilidad": 0.1758039642258484,
-        "frecuencia": 0.22904191616766467
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.194, 0.228]",
-        "n": 2009,
-        "probabilidad": 0.21057708512652426,
-        "frecuencia": 0.25286212045793927
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.228, 0.259]",
-        "n": 1988,
-        "probabilidad": 0.24315793705196143,
-        "frecuencia": 0.2575452716297787
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.259, 0.286]",
-        "n": 1999,
-        "probabilidad": 0.2720945836115335,
-        "frecuencia": 0.2651325662831416
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.286, 0.329]",
-        "n": 2000,
-        "probabilidad": 0.3049466077077132,
-        "frecuencia": 0.3325
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.329, 0.388]",
-        "n": 2000,
-        "probabilidad": 0.3592656540076257,
-        "frecuencia": 0.4065
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.388, 0.483]",
-        "n": 2000,
-        "probabilidad": 0.4301207887673828,
-        "frecuencia": 0.488
-      },
-      {
-        "split": "validacion",
-        "bin": "(0.483, 1.0]",
-        "n": 2000,
-        "probabilidad": 0.6217732354812683,
-        "frecuencia": 0.6115
-      },
-      {
-        "split": "test",
-        "bin": "(0.0628, 0.214]",
-        "n": 6000,
-        "probabilidad": 0.10464056902499627,
-        "frecuencia": 0.20116666666666666
-      },
-      {
-        "split": "test",
-        "bin": "(0.214, 0.247]",
-        "n": 2004,
-        "probabilidad": 0.22958418000625525,
-        "frecuencia": 0.249500998003992
-      },
-      {
-        "split": "test",
-        "bin": "(0.247, 0.276]",
-        "n": 1998,
-        "probabilidad": 0.2601739965417328,
-        "frecuencia": 0.25675675675675674
-      },
-      {
-        "split": "test",
-        "bin": "(0.276, 0.301]",
-        "n": 2000,
-        "probabilidad": 0.2882231364158782,
-        "frecuencia": 0.2815
-      },
-      {
-        "split": "test",
-        "bin": "(0.301, 0.341]",
-        "n": 1998,
-        "probabilidad": 0.3184768951943879,
-        "frecuencia": 0.32932932932932935
-      },
-      {
-        "split": "test",
-        "bin": "(0.341, 0.416]",
-        "n": 2000,
-        "probabilidad": 0.3802913547391871,
-        "frecuencia": 0.411
-      },
-      {
-        "split": "test",
-        "bin": "(0.416, 0.507]",
-        "n": 2000,
-        "probabilidad": 0.4557188801545275,
-        "frecuencia": 0.492
-      },
-      {
-        "split": "test",
-        "bin": "(0.507, 1.0]",
-        "n": 2000,
-        "probabilidad": 0.6358066533994754,
-        "frecuencia": 0.638
-      }
-    ],
-    "coeficientes_estandarizados_logit": {
-      "n_pedidos": -0.09797869507090046,
-      "n_vendors": 0.32205072127811657,
-      "dias_desde_ultimo": -0.3530800802255402,
-      "hora_media": 0.015250045305339544,
-      "prop_finde": 0.02571604213720573,
-      "tasa_repeticion_previa": 0.05747403373304116,
-      "pedidos_por_vendor": 0.863805494062372
-    },
-    "interpretacion_coeficientes": "asociaciones condicionales; no importancia ni causalidad"
-  },
   "componente_descubrimiento": "ALS (factores latentes)",
   "criterio_descubrimiento": "máximo recall micro de restaurantes nuevos en validación",
   "modelo_seleccionado_validacion": "Caminata aleatoria (PPR)",
@@ -1442,17 +1228,6 @@
         "ci95_pp": [
           1.6940299210123502,
           2.0084845422057462
-        ],
-        "usuarios": 20000,
-        "repeticiones": 1000
-      },
-      {
-        "a": "Caminata aleatoria (PPR)",
-        "b": "Híbrido repetir/explorar",
-        "delta_ndcg_pp": 2.4776566672120666,
-        "ci95_pp": [
-          2.259483313953338,
-          2.6948855752336085
         ],
         "usuarios": 20000,
         "repeticiones": 1000
@@ -1544,36 +1319,115 @@
   "lider_observado_test": "Caminata aleatoria (PPR)",
   "incertidumbre": {
     "metodo": "bootstrap pareado por usuario, 1000 réplicas; diferencia NDCG en puntos porcentuales",
+    "modelo_a": "Caminata aleatoria (PPR)",
+    "lectura": "delta > 0: el modelo elegido en validación supera a b en test; IC95 que incluye 0: sin diferencia concluyente",
     "comparaciones": [
       {
-        "a": "Híbrido repetir/explorar",
-        "b": "Caminata aleatoria (PPR)",
-        "delta_ndcg_pp": -1.9810571655052007,
+        "a": "Caminata aleatoria (PPR)",
+        "b": "Híbrido fijo (w=0.75)",
+        "delta_ndcg_pp": 0.02251445519363831,
         "ci95_pp": [
-          -2.192917050500437,
-          -1.783490871315503
+          -0.10503151908748867,
+          0.15451451406563094
         ],
         "usuarios": 20000,
         "repeticiones": 1000
       },
       {
-        "a": "Híbrido repetir/explorar",
-        "b": "ALS (factores latentes)",
-        "delta_ndcg_pp": 9.99608032491804,
-        "ci95_pp": [
-          9.661430998103244,
-          10.29956091080799
-        ],
-        "usuarios": 20000,
-        "repeticiones": 1000
-      },
-      {
-        "a": "Híbrido repetir/explorar",
+        "a": "Caminata aleatoria (PPR)",
         "b": "Híbrido fijo (w=0.50)",
-        "delta_ndcg_pp": -1.569715759273903,
+        "delta_ndcg_pp": 0.4113414062312979,
         "ci95_pp": [
-          -1.719829912443829,
-          -1.4346799352509958
+          0.2637959163651627,
+          0.5595834717244805
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "Lo de siempre",
+        "delta_ndcg_pp": 1.801556710280296,
+        "ci95_pp": [
+          1.6483069237241872,
+          1.950300551183006
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "Híbrido fijo (w=0.25)",
+        "delta_ndcg_pp": 2.8205615477142127,
+        "ci95_pp": [
+          2.598662955462786,
+          3.0485476570793746
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "ALS (factores latentes)",
+        "delta_ndcg_pp": 11.977137490423242,
+        "ci95_pp": [
+          11.572206018609135,
+          12.345636187583006
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "Contenido",
+        "delta_ndcg_pp": 15.697028610518345,
+        "ci95_pp": [
+          15.301073221085998,
+          16.075763846350565
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "CF ítem-ítem",
+        "delta_ndcg_pp": 22.54991524364363,
+        "ci95_pp": [
+          22.0085138352009,
+          23.08131736340975
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "SVD truncado",
+        "delta_ndcg_pp": 24.557282034773756,
+        "ci95_pp": [
+          24.062086403785663,
+          25.10304104575336
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "Popularidad reciente (14 días)",
+        "delta_ndcg_pp": 27.120910916178396,
+        "ci95_pp": [
+          26.611515266446133,
+          27.69085748943419
+        ],
+        "usuarios": 20000,
+        "repeticiones": 1000
+      },
+      {
+        "a": "Caminata aleatoria (PPR)",
+        "b": "Popularidad",
+        "delta_ndcg_pp": 27.970935619412707,
+        "ci95_pp": [
+          27.46678226313519,
+          28.528220196024687
         ],
         "usuarios": 20000,
         "repeticiones": 1000
@@ -1851,30 +1705,6 @@
       "aciertos": 1504,
       "usuarios_con_objetivo": 15411,
       "recall_micro_pct": 6.869461953046497
-    },
-    {
-      "segmento": "0 pedidos previos",
-      "modelo": "Híbrido repetir/explorar",
-      "relevantes": 317,
-      "aciertos": 0,
-      "usuarios_con_objetivo": 311,
-      "recall_micro_pct": 0.0
-    },
-    {
-      "segmento": "1–50 pedidos previos",
-      "modelo": "Híbrido repetir/explorar",
-      "relevantes": 1225,
-      "aciertos": 72,
-      "usuarios_con_objetivo": 1156,
-      "recall_micro_pct": 5.877551020408164
-    },
-    {
-      "segmento": "nuevos para usuario",
-      "modelo": "Híbrido repetir/explorar",
-      "relevantes": 21894,
-      "aciertos": 1695,
-      "usuarios_con_objetivo": 15411,
-      "recall_micro_pct": 7.741847081392162
     }
   ],
   "umbral_pequeno": 50,
@@ -1892,8 +1722,7 @@
     "Caminata aleatoria (PPR)": 13.061224489795919,
     "Híbrido fijo (w=0.25)": 0.4897959183673469,
     "Híbrido fijo (w=0.50)": 8.326530612244898,
-    "Híbrido fijo (w=0.75)": 12.408163265306122,
-    "Híbrido repetir/explorar": 5.877551020408164
+    "Híbrido fijo (w=0.75)": 12.408163265306122
   },
   "mejor_arranque_frio": "Caminata aleatoria (PPR)",
   "arranque_frio_interpretacion": "baja actividad 1–50; comparación descriptiva; no tamaño real de negocio",
@@ -1919,16 +1748,309 @@
       "recall repetidos": 0.0,
       "recall nuevos": 0.8074668981983937,
       "cobertura": 0.13493455673998112,
-      "segundos": 0.6907088756561279
+      "segundos": 1.123997688293457
     }
   },
-  "generado": "2026-10-03 18:08 CST",
+  "coeficientes_repetir": {
+    "n_pedidos": -0.09797869507067213,
+    "n_vendors": 0.3220507212778888,
+    "dias_desde_ultimo": -0.35308008022560117,
+    "hora_media": 0.015250045305338135,
+    "prop_finde": 0.025716042137206317,
+    "tasa_repeticion_previa": 0.057474033732878994,
+    "pedidos_por_vendor": 0.8638054940624714
+  },
+  "auc_repetir": 0.6711256216566057,
+  "clasificador": {
+    "target": "primer pedido posterior al corte repite historia previa completa",
+    "features": "últimos treinta días; StandardScaler; sin balanceo de clases",
+    "calibracion": "sigmoid FrozenEstimator en ventana temporal disjunta",
+    "validacion": {
+      "sin_calibrar": {
+        "auc": 0.6701248092394058,
+        "brier": 0.20807675721540492,
+        "log_loss": 0.6452078265393288,
+        "tasa_real": 0.31895,
+        "probabilidad_media": 0.23048817768777188,
+        "n": 20000
+      },
+      "calibrado": {
+        "auc": 0.6701248092394058,
+        "brier": 0.20223901460120777,
+        "log_loss": 0.609453621226586,
+        "tasa_real": 0.31895,
+        "probabilidad_media": 0.27283864560274623,
+        "n": 20000
+      },
+      "ventanas": {
+        "hist_fit": "<= 30",
+        "labels_fit": "31–45",
+        "hist_cal": "<= 45",
+        "labels_cal": "46–60"
+      }
+    },
+    "test": {
+      "sin_calibrar": {
+        "auc": 0.6711256216566057,
+        "brier": 0.20619702549204613,
+        "log_loss": 0.6231708585849706,
+        "tasa_real": 0.32615,
+        "probabilidad_media": 0.25953603288922544,
+        "n": 20000
+      },
+      "calibrado": {
+        "auc": 0.6711256216566057,
+        "brier": 0.20310818657312588,
+        "log_loss": 0.6051316383379277,
+        "tasa_real": 0.32615,
+        "probabilidad_media": 0.2882077320994718,
+        "n": 20000
+      },
+      "ventanas": {
+        "hist_fit": "<= 45",
+        "labels_fit": "46–60",
+        "hist_cal": "<= 60",
+        "labels_cal": "61–75"
+      }
+    },
+    "calibracion_bins": [
+      {
+        "split": "validacion",
+        "bin": "(0.0343, 0.156]",
+        "n": 4000,
+        "probabilidad": 0.05547119507507865,
+        "frecuencia": 0.17325
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.156, 0.194]",
+        "n": 2004,
+        "probabilidad": 0.1758039642257692,
+        "frecuencia": 0.22904191616766467
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.194, 0.228]",
+        "n": 2009,
+        "probabilidad": 0.2105770851265175,
+        "frecuencia": 0.25286212045793927
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.228, 0.259]",
+        "n": 1988,
+        "probabilidad": 0.24315793705202993,
+        "frecuencia": 0.2575452716297787
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.259, 0.286]",
+        "n": 1999,
+        "probabilidad": 0.27209458361167194,
+        "frecuencia": 0.2651325662831416
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.286, 0.329]",
+        "n": 2000,
+        "probabilidad": 0.30494660770778387,
+        "frecuencia": 0.3325
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.329, 0.388]",
+        "n": 2000,
+        "probabilidad": 0.3592656540076157,
+        "frecuencia": 0.4065
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.388, 0.483]",
+        "n": 2000,
+        "probabilidad": 0.4301207887673353,
+        "frecuencia": 0.488
+      },
+      {
+        "split": "validacion",
+        "bin": "(0.483, 1.0]",
+        "n": 2000,
+        "probabilidad": 0.621773235481179,
+        "frecuencia": 0.6115
+      },
+      {
+        "split": "test",
+        "bin": "(0.0628, 0.214]",
+        "n": 6000,
+        "probabilidad": 0.1046405690249958,
+        "frecuencia": 0.20116666666666666
+      },
+      {
+        "split": "test",
+        "bin": "(0.214, 0.247]",
+        "n": 2004,
+        "probabilidad": 0.2295841800062657,
+        "frecuencia": 0.249500998003992
+      },
+      {
+        "split": "test",
+        "bin": "(0.247, 0.276]",
+        "n": 1998,
+        "probabilidad": 0.2601739965417472,
+        "frecuencia": 0.25675675675675674
+      },
+      {
+        "split": "test",
+        "bin": "(0.276, 0.301]",
+        "n": 2000,
+        "probabilidad": 0.2882231364158964,
+        "frecuencia": 0.2815
+      },
+      {
+        "split": "test",
+        "bin": "(0.301, 0.341]",
+        "n": 1998,
+        "probabilidad": 0.31847689519439965,
+        "frecuencia": 0.32932932932932935
+      },
+      {
+        "split": "test",
+        "bin": "(0.341, 0.416]",
+        "n": 2000,
+        "probabilidad": 0.38029135473917736,
+        "frecuencia": 0.411
+      },
+      {
+        "split": "test",
+        "bin": "(0.416, 0.507]",
+        "n": 2000,
+        "probabilidad": 0.4557188801545053,
+        "frecuencia": 0.492
+      },
+      {
+        "split": "test",
+        "bin": "(0.507, 1.0]",
+        "n": 2000,
+        "probabilidad": 0.6358066533994636,
+        "frecuencia": 0.638
+      }
+    ],
+    "coeficientes_estandarizados_logit": {
+      "n_pedidos": -0.09797869507067213,
+      "n_vendors": 0.3220507212778888,
+      "dias_desde_ultimo": -0.35308008022560117,
+      "hora_media": 0.015250045305338135,
+      "prop_finde": 0.025716042137206317,
+      "tasa_repeticion_previa": 0.057474033732878994,
+      "pedidos_por_vendor": 0.8638054940624714
+    },
+    "interpretacion_coeficientes": "asociaciones condicionales; no importancia ni causalidad"
+  },
+  "anexo_hibrido_calibrado": {
+    "estado": "experimento negativo; excluido de selección y tablas principales",
+    "componente_descubrimiento": "ALS (factores latentes)",
+    "lectura": "delta < 0 con IC95 que excluye 0: el peso calibrado rinde menos que ese peso fijo",
+    "validacion": {
+      "metricas": {
+        "modelo": "Híbrido repetir/explorar (calibrado)",
+        "precision@10": 5.4265,
+        "recall@10": 32.194768578643576,
+        "ndcg@10": 25.804556276224467,
+        "recall repetidos": 84.47973409657465,
+        "recall nuevos": 7.344949538514621,
+        "cobertura": 67.95304277425448,
+        "segundos": 5.224848508834839
+      },
+      "comparaciones_vs_pesos_fijos": [
+        {
+          "a": "Híbrido repetir/explorar (calibrado)",
+          "b": "Híbrido fijo (w=0.25)",
+          "delta_ndcg_pp": 0.7181946187434667,
+          "ci95_pp": [
+            0.5741276231584652,
+            0.8701884461593978
+          ],
+          "usuarios": 20000,
+          "repeticiones": 1000
+        },
+        {
+          "a": "Híbrido repetir/explorar (calibrado)",
+          "b": "Híbrido fijo (w=0.50)",
+          "delta_ndcg_pp": -1.9508916349737533,
+          "ci95_pp": [
+            -2.1066990496475357,
+            -1.8010656700069545
+          ],
+          "usuarios": 20000,
+          "repeticiones": 1000
+        },
+        {
+          "a": "Híbrido repetir/explorar (calibrado)",
+          "b": "Híbrido fijo (w=0.75)",
+          "delta_ndcg_pp": -2.383588205792422,
+          "ci95_pp": [
+            -2.5428889336526526,
+            -2.2217119793856037
+          ],
+          "usuarios": 20000,
+          "repeticiones": 1000
+        }
+      ]
+    },
+    "test": {
+      "metricas": {
+        "modelo": "Híbrido repetir/explorar (calibrado)",
+        "precision@10": 5.3885000000000005,
+        "recall@10": 33.04711488230239,
+        "ndcg@10": 26.082381118535775,
+        "recall repetidos": 84.44444444444444,
+        "recall nuevos": 7.741847081392163,
+        "cobertura": 70.17946296046418,
+        "segundos": 5.1275553703308105
+      },
+      "comparaciones_vs_pesos_fijos": [
+        {
+          "a": "Híbrido repetir/explorar (calibrado)",
+          "b": "Híbrido fijo (w=0.25)",
+          "delta_ndcg_pp": 0.8395043822090121,
+          "ci95_pp": [
+            0.6853407056578912,
+            0.9907479438306185
+          ],
+          "usuarios": 20000,
+          "repeticiones": 1000
+        },
+        {
+          "a": "Híbrido repetir/explorar (calibrado)",
+          "b": "Híbrido fijo (w=0.50)",
+          "delta_ndcg_pp": -1.569715759273903,
+          "ci95_pp": [
+            -1.719829912443829,
+            -1.4346799352509958
+          ],
+          "usuarios": 20000,
+          "repeticiones": 1000
+        },
+        {
+          "a": "Híbrido repetir/explorar (calibrado)",
+          "b": "Híbrido fijo (w=0.75)",
+          "delta_ndcg_pp": -1.9585427103115627,
+          "ci95_pp": [
+            -2.1245463481551474,
+            -1.812088749790874
+          ],
+          "usuarios": 20000,
+          "repeticiones": 1000
+        }
+      ]
+    }
+  },
+  "generado": "2026-11-19 18:39 CST",
   "ejecucion": {
     "ciudad": "sg",
     "semilla": 42,
     "smoke": false,
-    "python": "3.13.5",
-    "plataforma": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "python": "3.13.18",
+    "plataforma": "Linux-6.18.44-fc-v726-x86_64-with-glibc2.39",
     "zona_horaria": "America/Mexico_City",
     "versiones": {
       "numpy": "2.1.3",
