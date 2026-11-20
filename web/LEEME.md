@@ -6,6 +6,8 @@ En la presentación, el botón de expansión o F muestra solo la diapositiva. Us
 
 La actualización de iconos incorpora 23 ilustraciones originales en SVG, con formas recortadas y la paleta de A domicilio. Sustituyen los pictogramas de comida y de apoyo en la presentación y la demo. Puedes ver la familia en `catalogo-iconos.html`; las fuentes editables, exportaciones y verificaciones están descritas en `ICONOS.md`.
 
+Las fotos y retratos actuales usan WebP con variantes por tamaño. Las imágenes de la presentación se descargan al abrir su diapositiva. La medición local del inicio móvil pasó de 11.4 MB de imágenes a 51 KB. Los detalles, límites de la medición y respaldos están en `OPTIMIZACION.md`.
+
 Para vista previa mediante servidor: desde esta carpeta ejecuta `python3 -m http.server 8000` y visita `http://localhost:8000`.
 
 ## Qué cambió
@@ -77,10 +79,10 @@ Las capturas `platillo-escritorio.jpg` y `platillo-movil.jpg` muestran la nueva 
 
 ## Galería individual y portada corregida
 
-- `img/platillos/` contiene 99 fotografías JPEG distintas, una para cada ID de restaurante de las recomendaciones actuales. Se exportaron a un lado largo máximo de 1200 px y calidad 82.
+- `img/platillos/` contiene 99 fotografías distintas, una para cada ID de restaurante. La versión actual ofrece variantes WebP de 480, 800 y 1200 px. Los JPEG de generación están archivados en el respaldo.
 - `imagenes-platillos.js` mantiene la asociación estable. Cada lista de diez recomendaciones tiene diez fotos distintas; un mismo restaurante conserva su foto cuando aparece para varias personas.
 - Tarjetas y fichas usan la misma asociación. Los datos, el orden de las recomendaciones y los resultados de evaluación no cambian.
-- `img/portada-v2.png` corrige el agarre del tenedor de la mano de la portada. La presentación ahora usa esa versión; se conserva `img/portada.png`.
+- `img/portada-v2.webp` conserva la corrección de el agarre del tenedor de la mano de la portada. La presentación ahora usa esa versión; los PNG originales están archivados en el respaldo.
 - `PROMPTS-galeria.md` documenta la generación integrada y la edición de la mano. `catalogo-imagenes.json` identifica productos, restaurantes, archivos y prompts.
 
 Se revisaron visualmente las 99 fotografías en hojas de contacto y se comprobó su integridad JPEG, resolución, ausencia de archivos idénticos y cobertura de las doce listas. La galería ocupa aproximadamente 30 MB, con una media de 310 KB por fotografía. En navegador se comprobó la primera lista con diez URL de imagen distintas y la ficha del chawanmushi con su imagen específica. La revisión adicional del navegador se interrumpió al reiniciarse el entorno de herramientas; no se atribuye esa incidencia al sitio. Las capturas de versiones anteriores no se incluyen en el paquete actual para evitar confundirlas con esta galería.
@@ -89,7 +91,7 @@ Se revisaron visualmente las 99 fotografías en hojas de contacto y se comprobó
 
 La selección ahora muestra doce retratos individuales: Ale, Rubén, Tere, Niko, Sofi, Beto, Mar, Kari, Pau, Dani, Lupe y Chava. Las cuatro categorías muestran a sus tres integrantes. Se reutilizaron cuatro ilustraciones y se generaron ocho retratos nuevos, con rasgos, peinados y vestuario diferentes. Rubén, Beto, Dani y Chava tienen retratos masculinos propios.
 
-`avatarPersona()` y `RETRATOS_PERSONAS` en `app.js` asocian cada nombre con un JPEG de `img/personas/`. La misma imagen acompaña al personaje en la selección, el perfil y la ficha del platillo. La diapositiva 12 muestra el elenco completo; el ejemplo de Ale conserva su retrato. `PROMPTS-personajes.md` registra las asociaciones y los prompts de generación.
+`avatarPersona()` y `RETRATOS_PERSONAS` en `app.js` asocian cada nombre con sus variantes WebP de `img/personas/`. La misma imagen acompaña al personaje en la selección, el perfil y la ficha del platillo. La diapositiva 12 muestra el elenco completo; el ejemplo de Ale conserva su retrato. `PROMPTS-personajes.md` registra las asociaciones y los prompts de generación.
 
 Se revisaron visualmente los doce retratos y se verificaron doce archivos con hashes distintos. En navegador se recorrieron las doce selecciones, sus perfiles y la primera ficha de cada uno: todas conservaron el retrato correcto. Se comprobaron la selección y el perfil a 390 y 320 px, y la diapositiva del elenco a 1280×720, 1440×900 y 390×844, sin desbordamiento horizontal. Los retratos cargaron correctamente y no se registraron errores ni advertencias de consola. Los datos canónicos, las recomendaciones y los resultados no cambiaron.
 
@@ -102,3 +104,7 @@ Las tarjetas y fichas narran las recomendaciones en tercera persona mediante `ra
 ## Icono de la pestaña
 
 `favicon.svg` reproduce el círculo rojo y la «a.» crema de la marca, con la letra convertida en trazos para no depender de fuentes instaladas. `favicon.ico` incluye tamaños de 16, 32, 48 y 64 px; `apple-touch-icon.png` ofrece una versión de 180 px. La página principal y el catálogo de iconos declaran estos recursos.
+
+## Rendimiento de imágenes
+
+La versión actual sirve 347 WebP adaptativos para las 99 fotos, los doce personajes, cuatro ilustraciones y seis respaldos de comida. La presentación espera a su diapositiva y las tarjetas cargan sus imágenes conforme se acercan a la vista. `OPTIMIZACION.md` y `rendimiento-imagenes.json` documentan la medición y la revisión. Las cifras y referencias a JPEG/PNG de las secciones históricas describen exportaciones anteriores, conservadas fuera de la carpeta web en el respaldo previo a WebP.

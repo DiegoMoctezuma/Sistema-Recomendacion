@@ -1,0 +1,3148 @@
+{
+  "version": "2026-11-18",
+  "imagenes": [
+    {
+      "origen": "img/platillos/0187f833.jpg",
+      "archivo": "img/platillos/0187f833-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 333019,
+      "bytes_webp": 24424
+    },
+    {
+      "origen": "img/platillos/0187f833.jpg",
+      "archivo": "img/platillos/0187f833-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 333019,
+      "bytes_webp": 63638
+    },
+    {
+      "origen": "img/platillos/0187f833.jpg",
+      "archivo": "img/platillos/0187f833.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 333019,
+      "bytes_webp": 136942
+    },
+    {
+      "origen": "img/platillos/083ad332.jpg",
+      "archivo": "img/platillos/083ad332-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 302726,
+      "bytes_webp": 23074
+    },
+    {
+      "origen": "img/platillos/083ad332.jpg",
+      "archivo": "img/platillos/083ad332-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 302726,
+      "bytes_webp": 61172
+    },
+    {
+      "origen": "img/platillos/083ad332.jpg",
+      "archivo": "img/platillos/083ad332.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 302726,
+      "bytes_webp": 122980
+    },
+    {
+      "origen": "img/platillos/08e542f2.jpg",
+      "archivo": "img/platillos/08e542f2-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 336314,
+      "bytes_webp": 24292
+    },
+    {
+      "origen": "img/platillos/08e542f2.jpg",
+      "archivo": "img/platillos/08e542f2-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 336314,
+      "bytes_webp": 66258
+    },
+    {
+      "origen": "img/platillos/08e542f2.jpg",
+      "archivo": "img/platillos/08e542f2.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 336314,
+      "bytes_webp": 141338
+    },
+    {
+      "origen": "img/platillos/0bbfdd16.jpg",
+      "archivo": "img/platillos/0bbfdd16-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 311371,
+      "bytes_webp": 22888
+    },
+    {
+      "origen": "img/platillos/0bbfdd16.jpg",
+      "archivo": "img/platillos/0bbfdd16-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 311371,
+      "bytes_webp": 61152
+    },
+    {
+      "origen": "img/platillos/0bbfdd16.jpg",
+      "archivo": "img/platillos/0bbfdd16.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 311371,
+      "bytes_webp": 130690
+    },
+    {
+      "origen": "img/platillos/0f1e104c.jpg",
+      "archivo": "img/platillos/0f1e104c-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 311697,
+      "bytes_webp": 24146
+    },
+    {
+      "origen": "img/platillos/0f1e104c.jpg",
+      "archivo": "img/platillos/0f1e104c-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 311697,
+      "bytes_webp": 58262
+    },
+    {
+      "origen": "img/platillos/0f1e104c.jpg",
+      "archivo": "img/platillos/0f1e104c.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 311697,
+      "bytes_webp": 117748
+    },
+    {
+      "origen": "img/platillos/0f29a356.jpg",
+      "archivo": "img/platillos/0f29a356-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 279418,
+      "bytes_webp": 19382
+    },
+    {
+      "origen": "img/platillos/0f29a356.jpg",
+      "archivo": "img/platillos/0f29a356-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 279418,
+      "bytes_webp": 49388
+    },
+    {
+      "origen": "img/platillos/0f29a356.jpg",
+      "archivo": "img/platillos/0f29a356.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 279418,
+      "bytes_webp": 103644
+    },
+    {
+      "origen": "img/platillos/0fe59038.jpg",
+      "archivo": "img/platillos/0fe59038-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 354600,
+      "bytes_webp": 29254
+    },
+    {
+      "origen": "img/platillos/0fe59038.jpg",
+      "archivo": "img/platillos/0fe59038-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 354600,
+      "bytes_webp": 73668
+    },
+    {
+      "origen": "img/platillos/0fe59038.jpg",
+      "archivo": "img/platillos/0fe59038.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 354600,
+      "bytes_webp": 146898
+    },
+    {
+      "origen": "img/platillos/100d4dc5.jpg",
+      "archivo": "img/platillos/100d4dc5-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 279073,
+      "bytes_webp": 18228
+    },
+    {
+      "origen": "img/platillos/100d4dc5.jpg",
+      "archivo": "img/platillos/100d4dc5-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 279073,
+      "bytes_webp": 50190
+    },
+    {
+      "origen": "img/platillos/100d4dc5.jpg",
+      "archivo": "img/platillos/100d4dc5.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 279073,
+      "bytes_webp": 108878
+    },
+    {
+      "origen": "img/platillos/118bbadb.jpg",
+      "archivo": "img/platillos/118bbadb-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 349575,
+      "bytes_webp": 28258
+    },
+    {
+      "origen": "img/platillos/118bbadb.jpg",
+      "archivo": "img/platillos/118bbadb-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 349575,
+      "bytes_webp": 69484
+    },
+    {
+      "origen": "img/platillos/118bbadb.jpg",
+      "archivo": "img/platillos/118bbadb.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 349575,
+      "bytes_webp": 144442
+    },
+    {
+      "origen": "img/platillos/1636df05.jpg",
+      "archivo": "img/platillos/1636df05-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 264879,
+      "bytes_webp": 18900
+    },
+    {
+      "origen": "img/platillos/1636df05.jpg",
+      "archivo": "img/platillos/1636df05-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 264879,
+      "bytes_webp": 49198
+    },
+    {
+      "origen": "img/platillos/1636df05.jpg",
+      "archivo": "img/platillos/1636df05.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 264879,
+      "bytes_webp": 99596
+    },
+    {
+      "origen": "img/platillos/1d4d321d.jpg",
+      "archivo": "img/platillos/1d4d321d-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 321065,
+      "bytes_webp": 22708
+    },
+    {
+      "origen": "img/platillos/1d4d321d.jpg",
+      "archivo": "img/platillos/1d4d321d-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 321065,
+      "bytes_webp": 60370
+    },
+    {
+      "origen": "img/platillos/1d4d321d.jpg",
+      "archivo": "img/platillos/1d4d321d.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 321065,
+      "bytes_webp": 129716
+    },
+    {
+      "origen": "img/platillos/1e79d2ac.jpg",
+      "archivo": "img/platillos/1e79d2ac-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 312663,
+      "bytes_webp": 25216
+    },
+    {
+      "origen": "img/platillos/1e79d2ac.jpg",
+      "archivo": "img/platillos/1e79d2ac-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 312663,
+      "bytes_webp": 62992
+    },
+    {
+      "origen": "img/platillos/1e79d2ac.jpg",
+      "archivo": "img/platillos/1e79d2ac.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 312663,
+      "bytes_webp": 129308
+    },
+    {
+      "origen": "img/platillos/2290dadf.jpg",
+      "archivo": "img/platillos/2290dadf-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 292253,
+      "bytes_webp": 24146
+    },
+    {
+      "origen": "img/platillos/2290dadf.jpg",
+      "archivo": "img/platillos/2290dadf-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 292253,
+      "bytes_webp": 59142
+    },
+    {
+      "origen": "img/platillos/2290dadf.jpg",
+      "archivo": "img/platillos/2290dadf.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 292253,
+      "bytes_webp": 112856
+    },
+    {
+      "origen": "img/platillos/2cdc608b.jpg",
+      "archivo": "img/platillos/2cdc608b-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 283965,
+      "bytes_webp": 19794
+    },
+    {
+      "origen": "img/platillos/2cdc608b.jpg",
+      "archivo": "img/platillos/2cdc608b-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 283965,
+      "bytes_webp": 52868
+    },
+    {
+      "origen": "img/platillos/2cdc608b.jpg",
+      "archivo": "img/platillos/2cdc608b.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 283965,
+      "bytes_webp": 112052
+    },
+    {
+      "origen": "img/platillos/2d28cfc5.jpg",
+      "archivo": "img/platillos/2d28cfc5-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 267560,
+      "bytes_webp": 16822
+    },
+    {
+      "origen": "img/platillos/2d28cfc5.jpg",
+      "archivo": "img/platillos/2d28cfc5-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 267560,
+      "bytes_webp": 41858
+    },
+    {
+      "origen": "img/platillos/2d28cfc5.jpg",
+      "archivo": "img/platillos/2d28cfc5.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 267560,
+      "bytes_webp": 92762
+    },
+    {
+      "origen": "img/platillos/328b7265.jpg",
+      "archivo": "img/platillos/328b7265-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 203646,
+      "bytes_webp": 15216
+    },
+    {
+      "origen": "img/platillos/328b7265.jpg",
+      "archivo": "img/platillos/328b7265-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 203646,
+      "bytes_webp": 36624
+    },
+    {
+      "origen": "img/platillos/328b7265.jpg",
+      "archivo": "img/platillos/328b7265.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 203646,
+      "bytes_webp": 71536
+    },
+    {
+      "origen": "img/platillos/3569d4b8.jpg",
+      "archivo": "img/platillos/3569d4b8-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 355160,
+      "bytes_webp": 29258
+    },
+    {
+      "origen": "img/platillos/3569d4b8.jpg",
+      "archivo": "img/platillos/3569d4b8-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 355160,
+      "bytes_webp": 74186
+    },
+    {
+      "origen": "img/platillos/3569d4b8.jpg",
+      "archivo": "img/platillos/3569d4b8.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 355160,
+      "bytes_webp": 154650
+    },
+    {
+      "origen": "img/platillos/3bec2344.jpg",
+      "archivo": "img/platillos/3bec2344-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 308941,
+      "bytes_webp": 22964
+    },
+    {
+      "origen": "img/platillos/3bec2344.jpg",
+      "archivo": "img/platillos/3bec2344-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 308941,
+      "bytes_webp": 58784
+    },
+    {
+      "origen": "img/platillos/3bec2344.jpg",
+      "archivo": "img/platillos/3bec2344.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 308941,
+      "bytes_webp": 125750
+    },
+    {
+      "origen": "img/platillos/438a3ae7.jpg",
+      "archivo": "img/platillos/438a3ae7-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 296374,
+      "bytes_webp": 24338
+    },
+    {
+      "origen": "img/platillos/438a3ae7.jpg",
+      "archivo": "img/platillos/438a3ae7-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 296374,
+      "bytes_webp": 57086
+    },
+    {
+      "origen": "img/platillos/438a3ae7.jpg",
+      "archivo": "img/platillos/438a3ae7.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 296374,
+      "bytes_webp": 114820
+    },
+    {
+      "origen": "img/platillos/442b9508.jpg",
+      "archivo": "img/platillos/442b9508-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 342900,
+      "bytes_webp": 22328
+    },
+    {
+      "origen": "img/platillos/442b9508.jpg",
+      "archivo": "img/platillos/442b9508-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 342900,
+      "bytes_webp": 59806
+    },
+    {
+      "origen": "img/platillos/442b9508.jpg",
+      "archivo": "img/platillos/442b9508.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 342900,
+      "bytes_webp": 137876
+    },
+    {
+      "origen": "img/platillos/44496756.jpg",
+      "archivo": "img/platillos/44496756-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 352004,
+      "bytes_webp": 26774
+    },
+    {
+      "origen": "img/platillos/44496756.jpg",
+      "archivo": "img/platillos/44496756-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 352004,
+      "bytes_webp": 71724
+    },
+    {
+      "origen": "img/platillos/44496756.jpg",
+      "archivo": "img/platillos/44496756.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 352004,
+      "bytes_webp": 152700
+    },
+    {
+      "origen": "img/platillos/445bdef2.jpg",
+      "archivo": "img/platillos/445bdef2-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 276095,
+      "bytes_webp": 16544
+    },
+    {
+      "origen": "img/platillos/445bdef2.jpg",
+      "archivo": "img/platillos/445bdef2-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 276095,
+      "bytes_webp": 47640
+    },
+    {
+      "origen": "img/platillos/445bdef2.jpg",
+      "archivo": "img/platillos/445bdef2.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 276095,
+      "bytes_webp": 107406
+    },
+    {
+      "origen": "img/platillos/49093769.jpg",
+      "archivo": "img/platillos/49093769-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 249400,
+      "bytes_webp": 19274
+    },
+    {
+      "origen": "img/platillos/49093769.jpg",
+      "archivo": "img/platillos/49093769-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 249400,
+      "bytes_webp": 47316
+    },
+    {
+      "origen": "img/platillos/49093769.jpg",
+      "archivo": "img/platillos/49093769.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 249400,
+      "bytes_webp": 95196
+    },
+    {
+      "origen": "img/platillos/4b2eb250.jpg",
+      "archivo": "img/platillos/4b2eb250-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 334803,
+      "bytes_webp": 24580
+    },
+    {
+      "origen": "img/platillos/4b2eb250.jpg",
+      "archivo": "img/platillos/4b2eb250-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 334803,
+      "bytes_webp": 64916
+    },
+    {
+      "origen": "img/platillos/4b2eb250.jpg",
+      "archivo": "img/platillos/4b2eb250.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 334803,
+      "bytes_webp": 132376
+    },
+    {
+      "origen": "img/platillos/4b45e972.jpg",
+      "archivo": "img/platillos/4b45e972-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 387897,
+      "bytes_webp": 30502
+    },
+    {
+      "origen": "img/platillos/4b45e972.jpg",
+      "archivo": "img/platillos/4b45e972-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 387897,
+      "bytes_webp": 84530
+    },
+    {
+      "origen": "img/platillos/4b45e972.jpg",
+      "archivo": "img/platillos/4b45e972.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 387897,
+      "bytes_webp": 176858
+    },
+    {
+      "origen": "img/platillos/4d857200.jpg",
+      "archivo": "img/platillos/4d857200-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 404486,
+      "bytes_webp": 32554
+    },
+    {
+      "origen": "img/platillos/4d857200.jpg",
+      "archivo": "img/platillos/4d857200-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 404486,
+      "bytes_webp": 85608
+    },
+    {
+      "origen": "img/platillos/4d857200.jpg",
+      "archivo": "img/platillos/4d857200.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 404486,
+      "bytes_webp": 181980
+    },
+    {
+      "origen": "img/platillos/4fef0ff9.jpg",
+      "archivo": "img/platillos/4fef0ff9-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 333210,
+      "bytes_webp": 27654
+    },
+    {
+      "origen": "img/platillos/4fef0ff9.jpg",
+      "archivo": "img/platillos/4fef0ff9-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 333210,
+      "bytes_webp": 68508
+    },
+    {
+      "origen": "img/platillos/4fef0ff9.jpg",
+      "archivo": "img/platillos/4fef0ff9.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 333210,
+      "bytes_webp": 135952
+    },
+    {
+      "origen": "img/platillos/52a576e9.jpg",
+      "archivo": "img/platillos/52a576e9-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 389843,
+      "bytes_webp": 31642
+    },
+    {
+      "origen": "img/platillos/52a576e9.jpg",
+      "archivo": "img/platillos/52a576e9-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 389843,
+      "bytes_webp": 83738
+    },
+    {
+      "origen": "img/platillos/52a576e9.jpg",
+      "archivo": "img/platillos/52a576e9.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 389843,
+      "bytes_webp": 175936
+    },
+    {
+      "origen": "img/platillos/551de398.jpg",
+      "archivo": "img/platillos/551de398-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 296474,
+      "bytes_webp": 22908
+    },
+    {
+      "origen": "img/platillos/551de398.jpg",
+      "archivo": "img/platillos/551de398-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 296474,
+      "bytes_webp": 54916
+    },
+    {
+      "origen": "img/platillos/551de398.jpg",
+      "archivo": "img/platillos/551de398.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 296474,
+      "bytes_webp": 111154
+    },
+    {
+      "origen": "img/platillos/56b5d714.jpg",
+      "archivo": "img/platillos/56b5d714-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 318413,
+      "bytes_webp": 24114
+    },
+    {
+      "origen": "img/platillos/56b5d714.jpg",
+      "archivo": "img/platillos/56b5d714-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 318413,
+      "bytes_webp": 62072
+    },
+    {
+      "origen": "img/platillos/56b5d714.jpg",
+      "archivo": "img/platillos/56b5d714.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 318413,
+      "bytes_webp": 129384
+    },
+    {
+      "origen": "img/platillos/595c99a8.jpg",
+      "archivo": "img/platillos/595c99a8-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 353787,
+      "bytes_webp": 22486
+    },
+    {
+      "origen": "img/platillos/595c99a8.jpg",
+      "archivo": "img/platillos/595c99a8-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 353787,
+      "bytes_webp": 64952
+    },
+    {
+      "origen": "img/platillos/595c99a8.jpg",
+      "archivo": "img/platillos/595c99a8.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 353787,
+      "bytes_webp": 151016
+    },
+    {
+      "origen": "img/platillos/5be84f1b.jpg",
+      "archivo": "img/platillos/5be84f1b-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 392856,
+      "bytes_webp": 34282
+    },
+    {
+      "origen": "img/platillos/5be84f1b.jpg",
+      "archivo": "img/platillos/5be84f1b-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 392856,
+      "bytes_webp": 88174
+    },
+    {
+      "origen": "img/platillos/5be84f1b.jpg",
+      "archivo": "img/platillos/5be84f1b.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 392856,
+      "bytes_webp": 178320
+    },
+    {
+      "origen": "img/platillos/5d031bbe.jpg",
+      "archivo": "img/platillos/5d031bbe-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 297051,
+      "bytes_webp": 23694
+    },
+    {
+      "origen": "img/platillos/5d031bbe.jpg",
+      "archivo": "img/platillos/5d031bbe-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 297051,
+      "bytes_webp": 57492
+    },
+    {
+      "origen": "img/platillos/5d031bbe.jpg",
+      "archivo": "img/platillos/5d031bbe.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 297051,
+      "bytes_webp": 116536
+    },
+    {
+      "origen": "img/platillos/5e72a9f1.jpg",
+      "archivo": "img/platillos/5e72a9f1-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 330333,
+      "bytes_webp": 27040
+    },
+    {
+      "origen": "img/platillos/5e72a9f1.jpg",
+      "archivo": "img/platillos/5e72a9f1-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 330333,
+      "bytes_webp": 68038
+    },
+    {
+      "origen": "img/platillos/5e72a9f1.jpg",
+      "archivo": "img/platillos/5e72a9f1.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 330333,
+      "bytes_webp": 139952
+    },
+    {
+      "origen": "img/platillos/60257fe4.jpg",
+      "archivo": "img/platillos/60257fe4-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 324857,
+      "bytes_webp": 24410
+    },
+    {
+      "origen": "img/platillos/60257fe4.jpg",
+      "archivo": "img/platillos/60257fe4-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 324857,
+      "bytes_webp": 63652
+    },
+    {
+      "origen": "img/platillos/60257fe4.jpg",
+      "archivo": "img/platillos/60257fe4.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 324857,
+      "bytes_webp": 135444
+    },
+    {
+      "origen": "img/platillos/61081731.jpg",
+      "archivo": "img/platillos/61081731-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 304355,
+      "bytes_webp": 24174
+    },
+    {
+      "origen": "img/platillos/61081731.jpg",
+      "archivo": "img/platillos/61081731-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 304355,
+      "bytes_webp": 58988
+    },
+    {
+      "origen": "img/platillos/61081731.jpg",
+      "archivo": "img/platillos/61081731.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 304355,
+      "bytes_webp": 119482
+    },
+    {
+      "origen": "img/platillos/61395371.jpg",
+      "archivo": "img/platillos/61395371-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 276806,
+      "bytes_webp": 19876
+    },
+    {
+      "origen": "img/platillos/61395371.jpg",
+      "archivo": "img/platillos/61395371-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 276806,
+      "bytes_webp": 50410
+    },
+    {
+      "origen": "img/platillos/61395371.jpg",
+      "archivo": "img/platillos/61395371.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 276806,
+      "bytes_webp": 102086
+    },
+    {
+      "origen": "img/platillos/63f7a718.jpg",
+      "archivo": "img/platillos/63f7a718-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 377413,
+      "bytes_webp": 31240
+    },
+    {
+      "origen": "img/platillos/63f7a718.jpg",
+      "archivo": "img/platillos/63f7a718-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 377413,
+      "bytes_webp": 78494
+    },
+    {
+      "origen": "img/platillos/63f7a718.jpg",
+      "archivo": "img/platillos/63f7a718.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 377413,
+      "bytes_webp": 158790
+    },
+    {
+      "origen": "img/platillos/63fd4ece.jpg",
+      "archivo": "img/platillos/63fd4ece-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 265523,
+      "bytes_webp": 18510
+    },
+    {
+      "origen": "img/platillos/63fd4ece.jpg",
+      "archivo": "img/platillos/63fd4ece-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 265523,
+      "bytes_webp": 50798
+    },
+    {
+      "origen": "img/platillos/63fd4ece.jpg",
+      "archivo": "img/platillos/63fd4ece.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 265523,
+      "bytes_webp": 108058
+    },
+    {
+      "origen": "img/platillos/64acc16c.jpg",
+      "archivo": "img/platillos/64acc16c-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 394582,
+      "bytes_webp": 30868
+    },
+    {
+      "origen": "img/platillos/64acc16c.jpg",
+      "archivo": "img/platillos/64acc16c-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 394582,
+      "bytes_webp": 83710
+    },
+    {
+      "origen": "img/platillos/64acc16c.jpg",
+      "archivo": "img/platillos/64acc16c.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 394582,
+      "bytes_webp": 181338
+    },
+    {
+      "origen": "img/platillos/65aff882.jpg",
+      "archivo": "img/platillos/65aff882-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 240659,
+      "bytes_webp": 13110
+    },
+    {
+      "origen": "img/platillos/65aff882.jpg",
+      "archivo": "img/platillos/65aff882-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 240659,
+      "bytes_webp": 36538
+    },
+    {
+      "origen": "img/platillos/65aff882.jpg",
+      "archivo": "img/platillos/65aff882.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 240659,
+      "bytes_webp": 83376
+    },
+    {
+      "origen": "img/platillos/6818f514.jpg",
+      "archivo": "img/platillos/6818f514-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 324097,
+      "bytes_webp": 20938
+    },
+    {
+      "origen": "img/platillos/6818f514.jpg",
+      "archivo": "img/platillos/6818f514-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 324097,
+      "bytes_webp": 57418
+    },
+    {
+      "origen": "img/platillos/6818f514.jpg",
+      "archivo": "img/platillos/6818f514.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 324097,
+      "bytes_webp": 125662
+    },
+    {
+      "origen": "img/platillos/6830f847.jpg",
+      "archivo": "img/platillos/6830f847-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 318716,
+      "bytes_webp": 24696
+    },
+    {
+      "origen": "img/platillos/6830f847.jpg",
+      "archivo": "img/platillos/6830f847-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 318716,
+      "bytes_webp": 63574
+    },
+    {
+      "origen": "img/platillos/6830f847.jpg",
+      "archivo": "img/platillos/6830f847.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 318716,
+      "bytes_webp": 131860
+    },
+    {
+      "origen": "img/platillos/6d98d0d6.jpg",
+      "archivo": "img/platillos/6d98d0d6-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 291778,
+      "bytes_webp": 20706
+    },
+    {
+      "origen": "img/platillos/6d98d0d6.jpg",
+      "archivo": "img/platillos/6d98d0d6-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 291778,
+      "bytes_webp": 56848
+    },
+    {
+      "origen": "img/platillos/6d98d0d6.jpg",
+      "archivo": "img/platillos/6d98d0d6.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 291778,
+      "bytes_webp": 119598
+    },
+    {
+      "origen": "img/platillos/6f08e654.jpg",
+      "archivo": "img/platillos/6f08e654-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 278481,
+      "bytes_webp": 22542
+    },
+    {
+      "origen": "img/platillos/6f08e654.jpg",
+      "archivo": "img/platillos/6f08e654-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 278481,
+      "bytes_webp": 54144
+    },
+    {
+      "origen": "img/platillos/6f08e654.jpg",
+      "archivo": "img/platillos/6f08e654.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 278481,
+      "bytes_webp": 107462
+    },
+    {
+      "origen": "img/platillos/729799c2.jpg",
+      "archivo": "img/platillos/729799c2-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 403851,
+      "bytes_webp": 31692
+    },
+    {
+      "origen": "img/platillos/729799c2.jpg",
+      "archivo": "img/platillos/729799c2-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 403851,
+      "bytes_webp": 85700
+    },
+    {
+      "origen": "img/platillos/729799c2.jpg",
+      "archivo": "img/platillos/729799c2.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 403851,
+      "bytes_webp": 180968
+    },
+    {
+      "origen": "img/platillos/75b914bc.jpg",
+      "archivo": "img/platillos/75b914bc-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 294540,
+      "bytes_webp": 20644
+    },
+    {
+      "origen": "img/platillos/75b914bc.jpg",
+      "archivo": "img/platillos/75b914bc-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 294540,
+      "bytes_webp": 54922
+    },
+    {
+      "origen": "img/platillos/75b914bc.jpg",
+      "archivo": "img/platillos/75b914bc.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 294540,
+      "bytes_webp": 116590
+    },
+    {
+      "origen": "img/platillos/768a9585.jpg",
+      "archivo": "img/platillos/768a9585-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 326569,
+      "bytes_webp": 24614
+    },
+    {
+      "origen": "img/platillos/768a9585.jpg",
+      "archivo": "img/platillos/768a9585-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 326569,
+      "bytes_webp": 64330
+    },
+    {
+      "origen": "img/platillos/768a9585.jpg",
+      "archivo": "img/platillos/768a9585.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 326569,
+      "bytes_webp": 134650
+    },
+    {
+      "origen": "img/platillos/77848032.jpg",
+      "archivo": "img/platillos/77848032-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 337540,
+      "bytes_webp": 27898
+    },
+    {
+      "origen": "img/platillos/77848032.jpg",
+      "archivo": "img/platillos/77848032-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 337540,
+      "bytes_webp": 70244
+    },
+    {
+      "origen": "img/platillos/77848032.jpg",
+      "archivo": "img/platillos/77848032.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 337540,
+      "bytes_webp": 142576
+    },
+    {
+      "origen": "img/platillos/77a79d1c.jpg",
+      "archivo": "img/platillos/77a79d1c-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 262623,
+      "bytes_webp": 17390
+    },
+    {
+      "origen": "img/platillos/77a79d1c.jpg",
+      "archivo": "img/platillos/77a79d1c-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 262623,
+      "bytes_webp": 43638
+    },
+    {
+      "origen": "img/platillos/77a79d1c.jpg",
+      "archivo": "img/platillos/77a79d1c.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 262623,
+      "bytes_webp": 96748
+    },
+    {
+      "origen": "img/platillos/78e7877d.jpg",
+      "archivo": "img/platillos/78e7877d-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 388998,
+      "bytes_webp": 31166
+    },
+    {
+      "origen": "img/platillos/78e7877d.jpg",
+      "archivo": "img/platillos/78e7877d-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 388998,
+      "bytes_webp": 80426
+    },
+    {
+      "origen": "img/platillos/78e7877d.jpg",
+      "archivo": "img/platillos/78e7877d.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 388998,
+      "bytes_webp": 168058
+    },
+    {
+      "origen": "img/platillos/792d8263.jpg",
+      "archivo": "img/platillos/792d8263-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 391593,
+      "bytes_webp": 33772
+    },
+    {
+      "origen": "img/platillos/792d8263.jpg",
+      "archivo": "img/platillos/792d8263-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 391593,
+      "bytes_webp": 85170
+    },
+    {
+      "origen": "img/platillos/792d8263.jpg",
+      "archivo": "img/platillos/792d8263.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 391593,
+      "bytes_webp": 174928
+    },
+    {
+      "origen": "img/platillos/7b97256c.jpg",
+      "archivo": "img/platillos/7b97256c-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 326677,
+      "bytes_webp": 26654
+    },
+    {
+      "origen": "img/platillos/7b97256c.jpg",
+      "archivo": "img/platillos/7b97256c-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 326677,
+      "bytes_webp": 64392
+    },
+    {
+      "origen": "img/platillos/7b97256c.jpg",
+      "archivo": "img/platillos/7b97256c.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 326677,
+      "bytes_webp": 129720
+    },
+    {
+      "origen": "img/platillos/830bd2e7.jpg",
+      "archivo": "img/platillos/830bd2e7-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 227286,
+      "bytes_webp": 14856
+    },
+    {
+      "origen": "img/platillos/830bd2e7.jpg",
+      "archivo": "img/platillos/830bd2e7-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 227286,
+      "bytes_webp": 36848
+    },
+    {
+      "origen": "img/platillos/830bd2e7.jpg",
+      "archivo": "img/platillos/830bd2e7.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 227286,
+      "bytes_webp": 78312
+    },
+    {
+      "origen": "img/platillos/83f29713.jpg",
+      "archivo": "img/platillos/83f29713-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 314527,
+      "bytes_webp": 25360
+    },
+    {
+      "origen": "img/platillos/83f29713.jpg",
+      "archivo": "img/platillos/83f29713-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 314527,
+      "bytes_webp": 62228
+    },
+    {
+      "origen": "img/platillos/83f29713.jpg",
+      "archivo": "img/platillos/83f29713.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 314527,
+      "bytes_webp": 127568
+    },
+    {
+      "origen": "img/platillos/886f5bf2.jpg",
+      "archivo": "img/platillos/886f5bf2-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 339372,
+      "bytes_webp": 22774
+    },
+    {
+      "origen": "img/platillos/886f5bf2.jpg",
+      "archivo": "img/platillos/886f5bf2-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 339372,
+      "bytes_webp": 63744
+    },
+    {
+      "origen": "img/platillos/886f5bf2.jpg",
+      "archivo": "img/platillos/886f5bf2.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 339372,
+      "bytes_webp": 141544
+    },
+    {
+      "origen": "img/platillos/893f309e.jpg",
+      "archivo": "img/platillos/893f309e-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 379289,
+      "bytes_webp": 29330
+    },
+    {
+      "origen": "img/platillos/893f309e.jpg",
+      "archivo": "img/platillos/893f309e-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 379289,
+      "bytes_webp": 78584
+    },
+    {
+      "origen": "img/platillos/893f309e.jpg",
+      "archivo": "img/platillos/893f309e.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 379289,
+      "bytes_webp": 168540
+    },
+    {
+      "origen": "img/platillos/91704ac5.jpg",
+      "archivo": "img/platillos/91704ac5-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 256160,
+      "bytes_webp": 17848
+    },
+    {
+      "origen": "img/platillos/91704ac5.jpg",
+      "archivo": "img/platillos/91704ac5-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 256160,
+      "bytes_webp": 45880
+    },
+    {
+      "origen": "img/platillos/91704ac5.jpg",
+      "archivo": "img/platillos/91704ac5.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 256160,
+      "bytes_webp": 94020
+    },
+    {
+      "origen": "img/platillos/935c7328.jpg",
+      "archivo": "img/platillos/935c7328-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 305324,
+      "bytes_webp": 23958
+    },
+    {
+      "origen": "img/platillos/935c7328.jpg",
+      "archivo": "img/platillos/935c7328-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 305324,
+      "bytes_webp": 60572
+    },
+    {
+      "origen": "img/platillos/935c7328.jpg",
+      "archivo": "img/platillos/935c7328.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 305324,
+      "bytes_webp": 122774
+    },
+    {
+      "origen": "img/platillos/96e40f89.jpg",
+      "archivo": "img/platillos/96e40f89-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 246046,
+      "bytes_webp": 15244
+    },
+    {
+      "origen": "img/platillos/96e40f89.jpg",
+      "archivo": "img/platillos/96e40f89-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 246046,
+      "bytes_webp": 42862
+    },
+    {
+      "origen": "img/platillos/96e40f89.jpg",
+      "archivo": "img/platillos/96e40f89.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 246046,
+      "bytes_webp": 90614
+    },
+    {
+      "origen": "img/platillos/992c4d60.jpg",
+      "archivo": "img/platillos/992c4d60-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 344491,
+      "bytes_webp": 25678
+    },
+    {
+      "origen": "img/platillos/992c4d60.jpg",
+      "archivo": "img/platillos/992c4d60-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 344491,
+      "bytes_webp": 68112
+    },
+    {
+      "origen": "img/platillos/992c4d60.jpg",
+      "archivo": "img/platillos/992c4d60.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 344491,
+      "bytes_webp": 142786
+    },
+    {
+      "origen": "img/platillos/9a4d6054.jpg",
+      "archivo": "img/platillos/9a4d6054-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 284020,
+      "bytes_webp": 17894
+    },
+    {
+      "origen": "img/platillos/9a4d6054.jpg",
+      "archivo": "img/platillos/9a4d6054-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 284020,
+      "bytes_webp": 49472
+    },
+    {
+      "origen": "img/platillos/9a4d6054.jpg",
+      "archivo": "img/platillos/9a4d6054.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 284020,
+      "bytes_webp": 108922
+    },
+    {
+      "origen": "img/platillos/9af1399a.jpg",
+      "archivo": "img/platillos/9af1399a-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 402031,
+      "bytes_webp": 32434
+    },
+    {
+      "origen": "img/platillos/9af1399a.jpg",
+      "archivo": "img/platillos/9af1399a-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 402031,
+      "bytes_webp": 83242
+    },
+    {
+      "origen": "img/platillos/9af1399a.jpg",
+      "archivo": "img/platillos/9af1399a.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 402031,
+      "bytes_webp": 180170
+    },
+    {
+      "origen": "img/platillos/9bb29e44.jpg",
+      "archivo": "img/platillos/9bb29e44-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 273174,
+      "bytes_webp": 17440
+    },
+    {
+      "origen": "img/platillos/9bb29e44.jpg",
+      "archivo": "img/platillos/9bb29e44-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 273174,
+      "bytes_webp": 47624
+    },
+    {
+      "origen": "img/platillos/9bb29e44.jpg",
+      "archivo": "img/platillos/9bb29e44.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 273174,
+      "bytes_webp": 104330
+    },
+    {
+      "origen": "img/platillos/9f32423b.jpg",
+      "archivo": "img/platillos/9f32423b-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 254767,
+      "bytes_webp": 18836
+    },
+    {
+      "origen": "img/platillos/9f32423b.jpg",
+      "archivo": "img/platillos/9f32423b-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 254767,
+      "bytes_webp": 45396
+    },
+    {
+      "origen": "img/platillos/9f32423b.jpg",
+      "archivo": "img/platillos/9f32423b.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 254767,
+      "bytes_webp": 93792
+    },
+    {
+      "origen": "img/platillos/9f8a4ee2.jpg",
+      "archivo": "img/platillos/9f8a4ee2-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 236703,
+      "bytes_webp": 15754
+    },
+    {
+      "origen": "img/platillos/9f8a4ee2.jpg",
+      "archivo": "img/platillos/9f8a4ee2-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 236703,
+      "bytes_webp": 40684
+    },
+    {
+      "origen": "img/platillos/9f8a4ee2.jpg",
+      "archivo": "img/platillos/9f8a4ee2.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 236703,
+      "bytes_webp": 83518
+    },
+    {
+      "origen": "img/platillos/a0174ef3.jpg",
+      "archivo": "img/platillos/a0174ef3-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 296836,
+      "bytes_webp": 20036
+    },
+    {
+      "origen": "img/platillos/a0174ef3.jpg",
+      "archivo": "img/platillos/a0174ef3-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 296836,
+      "bytes_webp": 54964
+    },
+    {
+      "origen": "img/platillos/a0174ef3.jpg",
+      "archivo": "img/platillos/a0174ef3.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 296836,
+      "bytes_webp": 118828
+    },
+    {
+      "origen": "img/platillos/a01a0be7.jpg",
+      "archivo": "img/platillos/a01a0be7-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 257624,
+      "bytes_webp": 21776
+    },
+    {
+      "origen": "img/platillos/a01a0be7.jpg",
+      "archivo": "img/platillos/a01a0be7-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 257624,
+      "bytes_webp": 50884
+    },
+    {
+      "origen": "img/platillos/a01a0be7.jpg",
+      "archivo": "img/platillos/a01a0be7.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 257624,
+      "bytes_webp": 95346
+    },
+    {
+      "origen": "img/platillos/a63b419f.jpg",
+      "archivo": "img/platillos/a63b419f-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 366101,
+      "bytes_webp": 31160
+    },
+    {
+      "origen": "img/platillos/a63b419f.jpg",
+      "archivo": "img/platillos/a63b419f-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 366101,
+      "bytes_webp": 77882
+    },
+    {
+      "origen": "img/platillos/a63b419f.jpg",
+      "archivo": "img/platillos/a63b419f.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 366101,
+      "bytes_webp": 156186
+    },
+    {
+      "origen": "img/platillos/a6a7834f.jpg",
+      "archivo": "img/platillos/a6a7834f-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 312265,
+      "bytes_webp": 20768
+    },
+    {
+      "origen": "img/platillos/a6a7834f.jpg",
+      "archivo": "img/platillos/a6a7834f-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 312265,
+      "bytes_webp": 55898
+    },
+    {
+      "origen": "img/platillos/a6a7834f.jpg",
+      "archivo": "img/platillos/a6a7834f.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 312265,
+      "bytes_webp": 119410
+    },
+    {
+      "origen": "img/platillos/a8804f53.jpg",
+      "archivo": "img/platillos/a8804f53-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 326164,
+      "bytes_webp": 24626
+    },
+    {
+      "origen": "img/platillos/a8804f53.jpg",
+      "archivo": "img/platillos/a8804f53-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 326164,
+      "bytes_webp": 62092
+    },
+    {
+      "origen": "img/platillos/a8804f53.jpg",
+      "archivo": "img/platillos/a8804f53.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 326164,
+      "bytes_webp": 129252
+    },
+    {
+      "origen": "img/platillos/aa65eeb5.jpg",
+      "archivo": "img/platillos/aa65eeb5-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 355543,
+      "bytes_webp": 26326
+    },
+    {
+      "origen": "img/platillos/aa65eeb5.jpg",
+      "archivo": "img/platillos/aa65eeb5-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 355543,
+      "bytes_webp": 70594
+    },
+    {
+      "origen": "img/platillos/aa65eeb5.jpg",
+      "archivo": "img/platillos/aa65eeb5.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 355543,
+      "bytes_webp": 154442
+    },
+    {
+      "origen": "img/platillos/aaf3765c.jpg",
+      "archivo": "img/platillos/aaf3765c-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 342716,
+      "bytes_webp": 31304
+    },
+    {
+      "origen": "img/platillos/aaf3765c.jpg",
+      "archivo": "img/platillos/aaf3765c-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 342716,
+      "bytes_webp": 74438
+    },
+    {
+      "origen": "img/platillos/aaf3765c.jpg",
+      "archivo": "img/platillos/aaf3765c.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 342716,
+      "bytes_webp": 146158
+    },
+    {
+      "origen": "img/platillos/ab0cc622.jpg",
+      "archivo": "img/platillos/ab0cc622-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 280125,
+      "bytes_webp": 18092
+    },
+    {
+      "origen": "img/platillos/ab0cc622.jpg",
+      "archivo": "img/platillos/ab0cc622-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 280125,
+      "bytes_webp": 50688
+    },
+    {
+      "origen": "img/platillos/ab0cc622.jpg",
+      "archivo": "img/platillos/ab0cc622.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 280125,
+      "bytes_webp": 110816
+    },
+    {
+      "origen": "img/platillos/aba5f587.jpg",
+      "archivo": "img/platillos/aba5f587-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 376834,
+      "bytes_webp": 33270
+    },
+    {
+      "origen": "img/platillos/aba5f587.jpg",
+      "archivo": "img/platillos/aba5f587-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 376834,
+      "bytes_webp": 85738
+    },
+    {
+      "origen": "img/platillos/aba5f587.jpg",
+      "archivo": "img/platillos/aba5f587.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 376834,
+      "bytes_webp": 169906
+    },
+    {
+      "origen": "img/platillos/b44f5b7b.jpg",
+      "archivo": "img/platillos/b44f5b7b-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 380023,
+      "bytes_webp": 30522
+    },
+    {
+      "origen": "img/platillos/b44f5b7b.jpg",
+      "archivo": "img/platillos/b44f5b7b-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 380023,
+      "bytes_webp": 80382
+    },
+    {
+      "origen": "img/platillos/b44f5b7b.jpg",
+      "archivo": "img/platillos/b44f5b7b.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 380023,
+      "bytes_webp": 168076
+    },
+    {
+      "origen": "img/platillos/b8613243.jpg",
+      "archivo": "img/platillos/b8613243-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 330958,
+      "bytes_webp": 22428
+    },
+    {
+      "origen": "img/platillos/b8613243.jpg",
+      "archivo": "img/platillos/b8613243-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 330958,
+      "bytes_webp": 61962
+    },
+    {
+      "origen": "img/platillos/b8613243.jpg",
+      "archivo": "img/platillos/b8613243.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 330958,
+      "bytes_webp": 136900
+    },
+    {
+      "origen": "img/platillos/bec616c7.jpg",
+      "archivo": "img/platillos/bec616c7-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 269327,
+      "bytes_webp": 17646
+    },
+    {
+      "origen": "img/platillos/bec616c7.jpg",
+      "archivo": "img/platillos/bec616c7-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 269327,
+      "bytes_webp": 46752
+    },
+    {
+      "origen": "img/platillos/bec616c7.jpg",
+      "archivo": "img/platillos/bec616c7.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 269327,
+      "bytes_webp": 103142
+    },
+    {
+      "origen": "img/platillos/c3950feb.jpg",
+      "archivo": "img/platillos/c3950feb-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 383751,
+      "bytes_webp": 31514
+    },
+    {
+      "origen": "img/platillos/c3950feb.jpg",
+      "archivo": "img/platillos/c3950feb-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 383751,
+      "bytes_webp": 84302
+    },
+    {
+      "origen": "img/platillos/c3950feb.jpg",
+      "archivo": "img/platillos/c3950feb.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 383751,
+      "bytes_webp": 174820
+    },
+    {
+      "origen": "img/platillos/c469908a.jpg",
+      "archivo": "img/platillos/c469908a-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 385077,
+      "bytes_webp": 29606
+    },
+    {
+      "origen": "img/platillos/c469908a.jpg",
+      "archivo": "img/platillos/c469908a-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 385077,
+      "bytes_webp": 79334
+    },
+    {
+      "origen": "img/platillos/c469908a.jpg",
+      "archivo": "img/platillos/c469908a.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 385077,
+      "bytes_webp": 166736
+    },
+    {
+      "origen": "img/platillos/c6ed620e.jpg",
+      "archivo": "img/platillos/c6ed620e-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 294299,
+      "bytes_webp": 20248
+    },
+    {
+      "origen": "img/platillos/c6ed620e.jpg",
+      "archivo": "img/platillos/c6ed620e-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 294299,
+      "bytes_webp": 54006
+    },
+    {
+      "origen": "img/platillos/c6ed620e.jpg",
+      "archivo": "img/platillos/c6ed620e.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 294299,
+      "bytes_webp": 115014
+    },
+    {
+      "origen": "img/platillos/ca1e9dfd.jpg",
+      "archivo": "img/platillos/ca1e9dfd-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 356005,
+      "bytes_webp": 28156
+    },
+    {
+      "origen": "img/platillos/ca1e9dfd.jpg",
+      "archivo": "img/platillos/ca1e9dfd-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 356005,
+      "bytes_webp": 73110
+    },
+    {
+      "origen": "img/platillos/ca1e9dfd.jpg",
+      "archivo": "img/platillos/ca1e9dfd.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 356005,
+      "bytes_webp": 152670
+    },
+    {
+      "origen": "img/platillos/d4860ec4.jpg",
+      "archivo": "img/platillos/d4860ec4-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 334594,
+      "bytes_webp": 24758
+    },
+    {
+      "origen": "img/platillos/d4860ec4.jpg",
+      "archivo": "img/platillos/d4860ec4-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 334594,
+      "bytes_webp": 66400
+    },
+    {
+      "origen": "img/platillos/d4860ec4.jpg",
+      "archivo": "img/platillos/d4860ec4.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 334594,
+      "bytes_webp": 142102
+    },
+    {
+      "origen": "img/platillos/d4d6b2dc.jpg",
+      "archivo": "img/platillos/d4d6b2dc-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 199542,
+      "bytes_webp": 11364
+    },
+    {
+      "origen": "img/platillos/d4d6b2dc.jpg",
+      "archivo": "img/platillos/d4d6b2dc-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 199542,
+      "bytes_webp": 29132
+    },
+    {
+      "origen": "img/platillos/d4d6b2dc.jpg",
+      "archivo": "img/platillos/d4d6b2dc.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 199542,
+      "bytes_webp": 59680
+    },
+    {
+      "origen": "img/platillos/d546d7a6.jpg",
+      "archivo": "img/platillos/d546d7a6-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 386082,
+      "bytes_webp": 31116
+    },
+    {
+      "origen": "img/platillos/d546d7a6.jpg",
+      "archivo": "img/platillos/d546d7a6-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 386082,
+      "bytes_webp": 80142
+    },
+    {
+      "origen": "img/platillos/d546d7a6.jpg",
+      "archivo": "img/platillos/d546d7a6.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 386082,
+      "bytes_webp": 166966
+    },
+    {
+      "origen": "img/platillos/d6d62c84.jpg",
+      "archivo": "img/platillos/d6d62c84-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 356640,
+      "bytes_webp": 29780
+    },
+    {
+      "origen": "img/platillos/d6d62c84.jpg",
+      "archivo": "img/platillos/d6d62c84-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 356640,
+      "bytes_webp": 72800
+    },
+    {
+      "origen": "img/platillos/d6d62c84.jpg",
+      "archivo": "img/platillos/d6d62c84.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 356640,
+      "bytes_webp": 148220
+    },
+    {
+      "origen": "img/platillos/d9f645df.jpg",
+      "archivo": "img/platillos/d9f645df-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 304669,
+      "bytes_webp": 21860
+    },
+    {
+      "origen": "img/platillos/d9f645df.jpg",
+      "archivo": "img/platillos/d9f645df-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 304669,
+      "bytes_webp": 56578
+    },
+    {
+      "origen": "img/platillos/d9f645df.jpg",
+      "archivo": "img/platillos/d9f645df.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 304669,
+      "bytes_webp": 123026
+    },
+    {
+      "origen": "img/platillos/dd15e080.jpg",
+      "archivo": "img/platillos/dd15e080-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 411402,
+      "bytes_webp": 36972
+    },
+    {
+      "origen": "img/platillos/dd15e080.jpg",
+      "archivo": "img/platillos/dd15e080-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 411402,
+      "bytes_webp": 92028
+    },
+    {
+      "origen": "img/platillos/dd15e080.jpg",
+      "archivo": "img/platillos/dd15e080.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 411402,
+      "bytes_webp": 184882
+    },
+    {
+      "origen": "img/platillos/dfdd4f79.jpg",
+      "archivo": "img/platillos/dfdd4f79-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 271791,
+      "bytes_webp": 18814
+    },
+    {
+      "origen": "img/platillos/dfdd4f79.jpg",
+      "archivo": "img/platillos/dfdd4f79-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 271791,
+      "bytes_webp": 50322
+    },
+    {
+      "origen": "img/platillos/dfdd4f79.jpg",
+      "archivo": "img/platillos/dfdd4f79.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 271791,
+      "bytes_webp": 105512
+    },
+    {
+      "origen": "img/platillos/e39f4403.jpg",
+      "archivo": "img/platillos/e39f4403-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 251045,
+      "bytes_webp": 15402
+    },
+    {
+      "origen": "img/platillos/e39f4403.jpg",
+      "archivo": "img/platillos/e39f4403-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 251045,
+      "bytes_webp": 40180
+    },
+    {
+      "origen": "img/platillos/e39f4403.jpg",
+      "archivo": "img/platillos/e39f4403.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 251045,
+      "bytes_webp": 91878
+    },
+    {
+      "origen": "img/platillos/e8818130.jpg",
+      "archivo": "img/platillos/e8818130-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 295185,
+      "bytes_webp": 24002
+    },
+    {
+      "origen": "img/platillos/e8818130.jpg",
+      "archivo": "img/platillos/e8818130-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 295185,
+      "bytes_webp": 56038
+    },
+    {
+      "origen": "img/platillos/e8818130.jpg",
+      "archivo": "img/platillos/e8818130.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 295185,
+      "bytes_webp": 110660
+    },
+    {
+      "origen": "img/platillos/ea32cb70.jpg",
+      "archivo": "img/platillos/ea32cb70-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 236295,
+      "bytes_webp": 16224
+    },
+    {
+      "origen": "img/platillos/ea32cb70.jpg",
+      "archivo": "img/platillos/ea32cb70-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 236295,
+      "bytes_webp": 39468
+    },
+    {
+      "origen": "img/platillos/ea32cb70.jpg",
+      "archivo": "img/platillos/ea32cb70.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 236295,
+      "bytes_webp": 81608
+    },
+    {
+      "origen": "img/platillos/ec75acc4.jpg",
+      "archivo": "img/platillos/ec75acc4-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 343835,
+      "bytes_webp": 27656
+    },
+    {
+      "origen": "img/platillos/ec75acc4.jpg",
+      "archivo": "img/platillos/ec75acc4-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 343835,
+      "bytes_webp": 69730
+    },
+    {
+      "origen": "img/platillos/ec75acc4.jpg",
+      "archivo": "img/platillos/ec75acc4.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 343835,
+      "bytes_webp": 143404
+    },
+    {
+      "origen": "img/platillos/f52740c9.jpg",
+      "archivo": "img/platillos/f52740c9-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 263738,
+      "bytes_webp": 18852
+    },
+    {
+      "origen": "img/platillos/f52740c9.jpg",
+      "archivo": "img/platillos/f52740c9-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 263738,
+      "bytes_webp": 49578
+    },
+    {
+      "origen": "img/platillos/f52740c9.jpg",
+      "archivo": "img/platillos/f52740c9.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 263738,
+      "bytes_webp": 96622
+    },
+    {
+      "origen": "img/platillos/f98cbaa3.jpg",
+      "archivo": "img/platillos/f98cbaa3-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 285633,
+      "bytes_webp": 20610
+    },
+    {
+      "origen": "img/platillos/f98cbaa3.jpg",
+      "archivo": "img/platillos/f98cbaa3-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 285633,
+      "bytes_webp": 51742
+    },
+    {
+      "origen": "img/platillos/f98cbaa3.jpg",
+      "archivo": "img/platillos/f98cbaa3.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 285633,
+      "bytes_webp": 110852
+    },
+    {
+      "origen": "img/platillos/fd899663.jpg",
+      "archivo": "img/platillos/fd899663-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 358302,
+      "bytes_webp": 27466
+    },
+    {
+      "origen": "img/platillos/fd899663.jpg",
+      "archivo": "img/platillos/fd899663-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 358302,
+      "bytes_webp": 70728
+    },
+    {
+      "origen": "img/platillos/fd899663.jpg",
+      "archivo": "img/platillos/fd899663.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 358302,
+      "bytes_webp": 148090
+    },
+    {
+      "origen": "img/platillos/fd9acd2e.jpg",
+      "archivo": "img/platillos/fd9acd2e-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 403024,
+      "bytes_webp": 32160
+    },
+    {
+      "origen": "img/platillos/fd9acd2e.jpg",
+      "archivo": "img/platillos/fd9acd2e-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 403024,
+      "bytes_webp": 84666
+    },
+    {
+      "origen": "img/platillos/fd9acd2e.jpg",
+      "archivo": "img/platillos/fd9acd2e.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 403024,
+      "bytes_webp": 176044
+    },
+    {
+      "origen": "img/platillos/ff3fd5ba.jpg",
+      "archivo": "img/platillos/ff3fd5ba-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 262486,
+      "bytes_webp": 18084
+    },
+    {
+      "origen": "img/platillos/ff3fd5ba.jpg",
+      "archivo": "img/platillos/ff3fd5ba-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 262486,
+      "bytes_webp": 45628
+    },
+    {
+      "origen": "img/platillos/ff3fd5ba.jpg",
+      "archivo": "img/platillos/ff3fd5ba.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 262486,
+      "bytes_webp": 97084
+    },
+    {
+      "origen": "img/platillos/ff52813f.jpg",
+      "archivo": "img/platillos/ff52813f-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 316849,
+      "bytes_webp": 21642
+    },
+    {
+      "origen": "img/platillos/ff52813f.jpg",
+      "archivo": "img/platillos/ff52813f-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 316849,
+      "bytes_webp": 58680
+    },
+    {
+      "origen": "img/platillos/ff52813f.jpg",
+      "archivo": "img/platillos/ff52813f.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 316849,
+      "bytes_webp": 125342
+    },
+    {
+      "origen": "img/personas/ale.jpg",
+      "archivo": "img/personas/ale.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 195855,
+      "bytes_webp": 4650
+    },
+    {
+      "origen": "img/personas/ale.jpg",
+      "archivo": "img/personas/ale-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 195855,
+      "bytes_webp": 16608
+    },
+    {
+      "origen": "img/personas/beto.jpg",
+      "archivo": "img/personas/beto.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 175894,
+      "bytes_webp": 3700
+    },
+    {
+      "origen": "img/personas/beto.jpg",
+      "archivo": "img/personas/beto-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 175894,
+      "bytes_webp": 13328
+    },
+    {
+      "origen": "img/personas/chava.jpg",
+      "archivo": "img/personas/chava.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 186994,
+      "bytes_webp": 4274
+    },
+    {
+      "origen": "img/personas/chava.jpg",
+      "archivo": "img/personas/chava-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 186994,
+      "bytes_webp": 16426
+    },
+    {
+      "origen": "img/personas/dani.jpg",
+      "archivo": "img/personas/dani.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 164086,
+      "bytes_webp": 3934
+    },
+    {
+      "origen": "img/personas/dani.jpg",
+      "archivo": "img/personas/dani-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 164086,
+      "bytes_webp": 13414
+    },
+    {
+      "origen": "img/personas/kari.jpg",
+      "archivo": "img/personas/kari.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 177867,
+      "bytes_webp": 3954
+    },
+    {
+      "origen": "img/personas/kari.jpg",
+      "archivo": "img/personas/kari-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 177867,
+      "bytes_webp": 14096
+    },
+    {
+      "origen": "img/personas/lupe.jpg",
+      "archivo": "img/personas/lupe.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 182885,
+      "bytes_webp": 5368
+    },
+    {
+      "origen": "img/personas/lupe.jpg",
+      "archivo": "img/personas/lupe-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 182885,
+      "bytes_webp": 18070
+    },
+    {
+      "origen": "img/personas/mar.jpg",
+      "archivo": "img/personas/mar.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 257744,
+      "bytes_webp": 3832
+    },
+    {
+      "origen": "img/personas/mar.jpg",
+      "archivo": "img/personas/mar-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 257744,
+      "bytes_webp": 14498
+    },
+    {
+      "origen": "img/personas/niko.jpg",
+      "archivo": "img/personas/niko.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 203099,
+      "bytes_webp": 4476
+    },
+    {
+      "origen": "img/personas/niko.jpg",
+      "archivo": "img/personas/niko-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 203099,
+      "bytes_webp": 15750
+    },
+    {
+      "origen": "img/personas/pau.jpg",
+      "archivo": "img/personas/pau.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 184346,
+      "bytes_webp": 3930
+    },
+    {
+      "origen": "img/personas/pau.jpg",
+      "archivo": "img/personas/pau-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 184346,
+      "bytes_webp": 15386
+    },
+    {
+      "origen": "img/personas/ruben.jpg",
+      "archivo": "img/personas/ruben.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 180773,
+      "bytes_webp": 3902
+    },
+    {
+      "origen": "img/personas/ruben.jpg",
+      "archivo": "img/personas/ruben-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 180773,
+      "bytes_webp": 15752
+    },
+    {
+      "origen": "img/personas/sofi.jpg",
+      "archivo": "img/personas/sofi.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 181242,
+      "bytes_webp": 4630
+    },
+    {
+      "origen": "img/personas/sofi.jpg",
+      "archivo": "img/personas/sofi-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 181242,
+      "bytes_webp": 16572
+    },
+    {
+      "origen": "img/personas/tere.jpg",
+      "archivo": "img/personas/tere.webp",
+      "ancho": 192,
+      "alto": 192,
+      "calidad": 80,
+      "bytes_original": 183708,
+      "bytes_webp": 4428
+    },
+    {
+      "origen": "img/personas/tere.jpg",
+      "archivo": "img/personas/tere-480.webp",
+      "ancho": 480,
+      "alto": 480,
+      "calidad": 82,
+      "bytes_original": 183708,
+      "bytes_webp": 15924
+    },
+    {
+      "origen": "img/portada-v2.png",
+      "archivo": "img/portada-v2-960.webp",
+      "ancho": 960,
+      "alto": 640,
+      "calidad": 82,
+      "bytes_original": 2301463,
+      "bytes_webp": 102660
+    },
+    {
+      "origen": "img/portada-v2.png",
+      "archivo": "img/portada-v2.webp",
+      "ancho": 1536,
+      "alto": 1024,
+      "calidad": 84,
+      "bytes_original": 2301463,
+      "bytes_webp": 217528
+    },
+    {
+      "origen": "img/scroll-infinito.png",
+      "archivo": "img/scroll-infinito-960.webp",
+      "ancho": 960,
+      "alto": 640,
+      "calidad": 82,
+      "bytes_original": 1893700,
+      "bytes_webp": 71878
+    },
+    {
+      "origen": "img/scroll-infinito.png",
+      "archivo": "img/scroll-infinito.webp",
+      "ancho": 1536,
+      "alto": 1024,
+      "calidad": 84,
+      "bytes_original": 1893700,
+      "bytes_webp": 146312
+    },
+    {
+      "origen": "img/fonda-sola.png",
+      "archivo": "img/fonda-sola-960.webp",
+      "ancho": 960,
+      "alto": 640,
+      "calidad": 82,
+      "bytes_original": 2229799,
+      "bytes_webp": 61274
+    },
+    {
+      "origen": "img/fonda-sola.png",
+      "archivo": "img/fonda-sola.webp",
+      "ancho": 1536,
+      "alto": 1024,
+      "calidad": 84,
+      "bytes_original": 2229799,
+      "bytes_webp": 147994
+    },
+    {
+      "origen": "img/entrega-fonda.png",
+      "archivo": "img/entrega-fonda-960.webp",
+      "ancho": 960,
+      "alto": 640,
+      "calidad": 82,
+      "bytes_original": 2671466,
+      "bytes_webp": 79350
+    },
+    {
+      "origen": "img/entrega-fonda.png",
+      "archivo": "img/entrega-fonda.webp",
+      "ancho": 1536,
+      "alto": 1024,
+      "calidad": 84,
+      "bytes_original": 2671466,
+      "bytes_webp": 210522
+    },
+    {
+      "origen": "img/comida-arroz.png",
+      "archivo": "img/comida-arroz-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 2760584,
+      "bytes_webp": 24468
+    },
+    {
+      "origen": "img/comida-arroz.png",
+      "archivo": "img/comida-arroz-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 2760584,
+      "bytes_webp": 65630
+    },
+    {
+      "origen": "img/comida-arroz.png",
+      "archivo": "img/comida-arroz.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 2760584,
+      "bytes_webp": 137044
+    },
+    {
+      "origen": "img/comida-cafe.png",
+      "archivo": "img/comida-cafe-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 2564431,
+      "bytes_webp": 19446
+    },
+    {
+      "origen": "img/comida-cafe.png",
+      "archivo": "img/comida-cafe-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 2564431,
+      "bytes_webp": 49226
+    },
+    {
+      "origen": "img/comida-cafe.png",
+      "archivo": "img/comida-cafe.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 2564431,
+      "bytes_webp": 103634
+    },
+    {
+      "origen": "img/comida-dimsum.png",
+      "archivo": "img/comida-dimsum-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 2708235,
+      "bytes_webp": 20266
+    },
+    {
+      "origen": "img/comida-dimsum.png",
+      "archivo": "img/comida-dimsum-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 2708235,
+      "bytes_webp": 56972
+    },
+    {
+      "origen": "img/comida-dimsum.png",
+      "archivo": "img/comida-dimsum.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 2708235,
+      "bytes_webp": 126890
+    },
+    {
+      "origen": "img/comida-fideos.png",
+      "archivo": "img/comida-fideos-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 2870092,
+      "bytes_webp": 30358
+    },
+    {
+      "origen": "img/comida-fideos.png",
+      "archivo": "img/comida-fideos-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 2870092,
+      "bytes_webp": 79288
+    },
+    {
+      "origen": "img/comida-fideos.png",
+      "archivo": "img/comida-fideos.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 2870092,
+      "bytes_webp": 164472
+    },
+    {
+      "origen": "img/comida-pizza.png",
+      "archivo": "img/comida-pizza-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 3031607,
+      "bytes_webp": 35834
+    },
+    {
+      "origen": "img/comida-pizza.png",
+      "archivo": "img/comida-pizza-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 3031607,
+      "bytes_webp": 91970
+    },
+    {
+      "origen": "img/comida-pizza.png",
+      "archivo": "img/comida-pizza.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 3031607,
+      "bytes_webp": 186174
+    },
+    {
+      "origen": "img/comida-postre.png",
+      "archivo": "img/comida-postre-480.webp",
+      "ancho": 480,
+      "alto": 320,
+      "calidad": 76,
+      "bytes_original": 2719189,
+      "bytes_webp": 23740
+    },
+    {
+      "origen": "img/comida-postre.png",
+      "archivo": "img/comida-postre-800.webp",
+      "ancho": 800,
+      "alto": 533,
+      "calidad": 78,
+      "bytes_original": 2719189,
+      "bytes_webp": 62480
+    },
+    {
+      "origen": "img/comida-postre.png",
+      "archivo": "img/comida-postre.webp",
+      "ancho": 1200,
+      "alto": 800,
+      "calidad": 80,
+      "bytes_original": 2719189,
+      "bytes_webp": 130918
+    }
+  ],
+  "medicion_inicio_movil": {
+    "antes": {
+      "imagenes": 16,
+      "bytes_imagenes": 11370921,
+      "bytes_pagina": 12002595,
+      "solicitudes": 34
+    },
+    "despues": {
+      "imagenes": 12,
+      "bytes_imagenes": 51078,
+      "bytes_pagina": 684489,
+      "solicitudes": 30
+    }
+  },
+  "metodo_medicion": "Servidor HTTP local sin caché; viewport de 390×844; suma de tamaños de archivos solicitados, sin cabeceras HTTP. No es una medición del tiempo con internet lento.",
+  "resumen": {
+    "bytes_imagenes_originales": 70374702,
+    "bytes_variantes_webp": 23973926,
+    "archivos_webp": 347
+  }
+}

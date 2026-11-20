@@ -5,793 +5,1387 @@
       "id_restaurante": "60257fe4",
       "producto": "Chicken Drumstick 鸡腿饭",
       "cocina": "chicken rice",
-      "archivo": "img/platillos/60257fe4.jpg",
+      "archivo": "img/platillos/60257fe4.webp",
       "asunto": "A plate of Hainanese chicken drumstick rice: a tender poached chicken drumstick, fragrant rice, cucumber slices and a small chili sauce dish.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/60257fe4.jpg",
+      "variantes": [
+        "img/platillos/60257fe4-480.webp",
+        "img/platillos/60257fe4-800.webp",
+        "img/platillos/60257fe4.webp"
+      ]
     },
     {
       "id_restaurante": "91704ac5",
       "producto": "Chawanmushi (KJM)",
       "cocina": "japanese",
-      "archivo": "img/platillos/91704ac5.jpg",
+      "archivo": "img/platillos/91704ac5.webp",
       "asunto": "Japanese chawanmushi: a delicate steamed savory egg custard in a small lidded ceramic cup, with a shrimp, shiitake mushroom and a little green garnish on top.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/91704ac5.jpg",
+      "variantes": [
+        "img/platillos/91704ac5-480.webp",
+        "img/platillos/91704ac5-800.webp",
+        "img/platillos/91704ac5.webp"
+      ]
     },
     {
       "id_restaurante": "61081731",
       "producto": "B2. Pan-fried Shanghai Pork Bun 上海生煎包",
       "cocina": "chinese",
-      "archivo": "img/platillos/61081731.jpg",
+      "archivo": "img/platillos/61081731.webp",
       "asunto": "Shanghai pan-fried pork buns (sheng jian bao), golden crisp bases, sesame and spring onions, a few buns upright and one cut open to show the savory filling.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/61081731.jpg",
+      "variantes": [
+        "img/platillos/61081731-480.webp",
+        "img/platillos/61081731-800.webp",
+        "img/platillos/61081731.webp"
+      ]
     },
     {
       "id_restaurante": "dd15e080",
       "producto": "Mushroom Minced Meat Noodles",
       "cocina": "noodles",
-      "archivo": "img/platillos/dd15e080.jpg",
+      "archivo": "img/platillos/dd15e080.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Mushroom Minced Meat Noodles', from the 'noodles' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/dd15e080.jpg",
+      "variantes": [
+        "img/platillos/dd15e080-480.webp",
+        "img/platillos/dd15e080-800.webp",
+        "img/platillos/dd15e080.webp"
+      ]
     },
     {
       "id_restaurante": "9bb29e44",
       "producto": "Steamed BBQ Pork Bun 蚝皇叉烧包",
       "cocina": "chinese",
-      "archivo": "img/platillos/9bb29e44.jpg",
+      "archivo": "img/platillos/9bb29e44.webp",
       "asunto": "Fluffy steamed barbecue pork buns (char siu bao) in a bamboo steamer, three buns, one gently opened to reveal the dark reddish savory pork filling.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/9bb29e44.jpg",
+      "variantes": [
+        "img/platillos/9bb29e44-480.webp",
+        "img/platillos/9bb29e44-800.webp",
+        "img/platillos/9bb29e44.webp"
+      ]
     },
     {
       "id_restaurante": "551de398",
       "producto": "Sweet And Sour Pork 咕噜肉",
       "cocina": "thai",
-      "archivo": "img/platillos/551de398.jpg",
+      "archivo": "img/platillos/551de398.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Sweet And Sour Pork 咕噜肉', from the 'thai' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/551de398.jpg",
+      "variantes": [
+        "img/platillos/551de398-480.webp",
+        "img/platillos/551de398-800.webp",
+        "img/platillos/551de398.webp"
+      ]
     },
     {
       "id_restaurante": "77a79d1c",
       "producto": "Samsui Ginger Chicken 三水姜茸鸡",
       "cocina": "soups",
-      "archivo": "img/platillos/77a79d1c.jpg",
+      "archivo": "img/platillos/77a79d1c.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Samsui Ginger Chicken 三水姜茸鸡', from the 'soups' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/77a79d1c.jpg",
+      "variantes": [
+        "img/platillos/77a79d1c-480.webp",
+        "img/platillos/77a79d1c-800.webp",
+        "img/platillos/77a79d1c.webp"
+      ]
     },
     {
       "id_restaurante": "083ad332",
       "producto": "Vanilla Custard Pie Cream Puff",
       "cocina": "dessert",
-      "archivo": "img/platillos/083ad332.jpg",
+      "archivo": "img/platillos/083ad332.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Vanilla Custard Pie Cream Puff', from the 'dessert' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/083ad332.jpg",
+      "variantes": [
+        "img/platillos/083ad332-480.webp",
+        "img/platillos/083ad332-800.webp",
+        "img/platillos/083ad332.webp"
+      ]
     },
     {
       "id_restaurante": "ff3fd5ba",
       "producto": "Shumai",
       "cocina": "chinese",
-      "archivo": "img/platillos/ff3fd5ba.jpg",
+      "archivo": "img/platillos/ff3fd5ba.webp",
       "asunto": "Shumai dumplings in a bamboo steamer: small open-topped yellow wrappers around a savory pork and shrimp filling, tiny orange garnish.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/ff3fd5ba.jpg",
+      "variantes": [
+        "img/platillos/ff3fd5ba-480.webp",
+        "img/platillos/ff3fd5ba-800.webp",
+        "img/platillos/ff3fd5ba.webp"
+      ]
     },
     {
       "id_restaurante": "d6d62c84",
       "producto": "2. Koo Kee Special Noodle 高记招牌面",
       "cocina": "yong tau foo",
-      "archivo": "img/platillos/d6d62c84.jpg",
+      "archivo": "img/platillos/d6d62c84.webp",
       "asunto": "An appetizing serving of the restaurant dish named '2. Koo Kee Special Noodle 高记招牌面', from the 'yong tau foo' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/d6d62c84.jpg",
+      "variantes": [
+        "img/platillos/d6d62c84-480.webp",
+        "img/platillos/d6d62c84-800.webp",
+        "img/platillos/d6d62c84.webp"
+      ]
     },
     {
       "id_restaurante": "ea32cb70",
       "producto": "Steamed BBQ Pork Bun 蚝皇叉烧包",
       "cocina": "chinese",
-      "archivo": "img/platillos/ea32cb70.jpg",
+      "archivo": "img/platillos/ea32cb70.webp",
       "asunto": "Two fluffy steamed barbecue pork buns on a small cobalt ceramic plate, one split in half showing barbecue pork filling, viewed close from table level.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/ea32cb70.jpg",
+      "variantes": [
+        "img/platillos/ea32cb70-480.webp",
+        "img/platillos/ea32cb70-800.webp",
+        "img/platillos/ea32cb70.webp"
+      ]
     },
     {
       "id_restaurante": "aa65eeb5",
       "producto": "Lotus Root Soup With Pork Rib & Peanut养颜莲藕花生排骨汤",
       "cocina": "soups",
-      "archivo": "img/platillos/aa65eeb5.jpg",
+      "archivo": "img/platillos/aa65eeb5.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Lotus Root Soup With Pork Rib & Peanut养颜莲藕花生排骨汤', from the 'soups' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/aa65eeb5.jpg",
+      "variantes": [
+        "img/platillos/aa65eeb5-480.webp",
+        "img/platillos/aa65eeb5-800.webp",
+        "img/platillos/aa65eeb5.webp"
+      ]
     },
     {
       "id_restaurante": "63fd4ece",
       "producto": "102. Mango Pomelo Sago 杨枝甘露",
       "cocina": "dessert",
-      "archivo": "img/platillos/63fd4ece.jpg",
+      "archivo": "img/platillos/63fd4ece.webp",
       "asunto": "Mango pomelo sago dessert in a clear bowl: creamy mango, tiny translucent sago pearls, fresh mango cubes and pomelo pulp.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/63fd4ece.jpg",
+      "variantes": [
+        "img/platillos/63fd4ece-480.webp",
+        "img/platillos/63fd4ece-800.webp",
+        "img/platillos/63fd4ece.webp"
+      ]
     },
     {
       "id_restaurante": "78e7877d",
       "producto": "Kway Teow Goreng with Petai & Prawns 虾仁臭豆炒河粉",
       "cocina": "chinese",
-      "archivo": "img/platillos/78e7877d.jpg",
+      "archivo": "img/platillos/78e7877d.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Kway Teow Goreng with Petai & Prawns 虾仁臭豆炒河粉', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/78e7877d.jpg",
+      "variantes": [
+        "img/platillos/78e7877d-480.webp",
+        "img/platillos/78e7877d-800.webp",
+        "img/platillos/78e7877d.webp"
+      ]
     },
     {
       "id_restaurante": "6f08e654",
       "producto": "108. Porridge with Minced Meat,Century Egg,Salted Egg & Egg 干贝三色蛋肉碎粥",
       "cocina": "chinese",
-      "archivo": "img/platillos/6f08e654.jpg",
+      "archivo": "img/platillos/6f08e654.webp",
       "asunto": "An appetizing serving of the restaurant dish named '108. Porridge with Minced Meat,Century Egg,Salted Egg & Egg 干贝三色蛋肉碎粥', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/6f08e654.jpg",
+      "variantes": [
+        "img/platillos/6f08e654-480.webp",
+        "img/platillos/6f08e654-800.webp",
+        "img/platillos/6f08e654.webp"
+      ]
     },
     {
       "id_restaurante": "6d98d0d6",
       "producto": "Teh C (Large)",
       "cocina": "coffee",
-      "archivo": "img/platillos/6d98d0d6.jpg",
+      "archivo": "img/platillos/6d98d0d6.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Teh C (Large)', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/6d98d0d6.jpg",
+      "variantes": [
+        "img/platillos/6d98d0d6-480.webp",
+        "img/platillos/6d98d0d6-800.webp",
+        "img/platillos/6d98d0d6.webp"
+      ]
     },
     {
       "id_restaurante": "9f8a4ee2",
       "producto": "C709 Thai Fragrant Steam Rice 白米饭",
       "cocina": "thai",
-      "archivo": "img/platillos/9f8a4ee2.jpg",
+      "archivo": "img/platillos/9f8a4ee2.webp",
       "asunto": "Fragrant Thai jasmine rice, plain white and fluffy, in a small cobalt bowl with a cream saucer, no curry or meat.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/9f8a4ee2.jpg",
+      "variantes": [
+        "img/platillos/9f8a4ee2-480.webp",
+        "img/platillos/9f8a4ee2-800.webp",
+        "img/platillos/9f8a4ee2.webp"
+      ]
     },
     {
       "id_restaurante": "a6a7834f",
       "producto": "Curry Chicken with Rice",
       "cocina": "coffee",
-      "archivo": "img/platillos/a6a7834f.jpg",
+      "archivo": "img/platillos/a6a7834f.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Curry Chicken with Rice', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/a6a7834f.jpg",
+      "variantes": [
+        "img/platillos/a6a7834f-480.webp",
+        "img/platillos/a6a7834f-800.webp",
+        "img/platillos/a6a7834f.webp"
+      ]
     },
     {
       "id_restaurante": "1636df05",
       "producto": "5. Fish Roe Siew Mai",
       "cocina": "chinese",
-      "archivo": "img/platillos/1636df05.jpg",
+      "archivo": "img/platillos/1636df05.webp",
       "asunto": "Fish roe siew mai dumplings: four yellow open-topped dim sum dumplings each topped with a little orange fish roe, on a cream plate.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/1636df05.jpg",
+      "variantes": [
+        "img/platillos/1636df05-480.webp",
+        "img/platillos/1636df05-800.webp",
+        "img/platillos/1636df05.webp"
+      ]
     },
     {
       "id_restaurante": "ca1e9dfd",
       "producto": "Kagoshima Pork Belly Don",
       "cocina": "japanese",
-      "archivo": "img/platillos/ca1e9dfd.jpg",
+      "archivo": "img/platillos/ca1e9dfd.webp",
       "asunto": "Japanese pork belly donburi: glossy braised pork belly slices over steamed rice, scallions, a soft egg and pickles, in a deep cobalt bowl.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/ca1e9dfd.jpg",
+      "variantes": [
+        "img/platillos/ca1e9dfd-480.webp",
+        "img/platillos/ca1e9dfd-800.webp",
+        "img/platillos/ca1e9dfd.webp"
+      ]
     },
     {
       "id_restaurante": "61395371",
       "producto": "2. Chicken Rice",
       "cocina": "chicken rice",
-      "archivo": "img/platillos/61395371.jpg",
+      "archivo": "img/platillos/61395371.webp",
       "asunto": "Hainanese chicken rice with sliced poached chicken arranged beside fragrant rice, cucumber and chili dip, on a cream oval plate.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/61395371.jpg",
+      "variantes": [
+        "img/platillos/61395371-480.webp",
+        "img/platillos/61395371-800.webp",
+        "img/platillos/61395371.webp"
+      ]
     },
     {
       "id_restaurante": "a8804f53",
       "producto": "Chicken Cutlet Curry Rice",
       "cocina": "curry",
-      "archivo": "img/platillos/a8804f53.jpg",
+      "archivo": "img/platillos/a8804f53.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Chicken Cutlet Curry Rice', from the 'curry' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/a8804f53.jpg",
+      "variantes": [
+        "img/platillos/a8804f53-480.webp",
+        "img/platillos/a8804f53-800.webp",
+        "img/platillos/a8804f53.webp"
+      ]
     },
     {
       "id_restaurante": "6830f847",
       "producto": "Signature Laksa",
       "cocina": "vegetarian",
-      "archivo": "img/platillos/6830f847.jpg",
+      "archivo": "img/platillos/6830f847.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Signature Laksa', from the 'vegetarian' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/6830f847.jpg",
+      "variantes": [
+        "img/platillos/6830f847-480.webp",
+        "img/platillos/6830f847-800.webp",
+        "img/platillos/6830f847.webp"
+      ]
     },
     {
       "id_restaurante": "44496756",
       "producto": "2 Peanuts, 2 Red Beans, 2 Cheese  2花生,2红豆,2乳酪",
       "cocina": "beverages",
-      "archivo": "img/platillos/44496756.jpg",
+      "archivo": "img/platillos/44496756.webp",
       "asunto": "Six small folded Singapore min jiang kueh pancakes: two filled with crushed peanuts, two with red bean paste, and two with cheese. One open pancake shows its filling.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/44496756.jpg",
+      "variantes": [
+        "img/platillos/44496756-480.webp",
+        "img/platillos/44496756-800.webp",
+        "img/platillos/44496756.webp"
+      ]
     },
     {
       "id_restaurante": "dfdd4f79",
       "producto": "Kaya Butter Toast",
       "cocina": "thai",
-      "archivo": "img/platillos/dfdd4f79.jpg",
+      "archivo": "img/platillos/dfdd4f79.webp",
       "asunto": "Kaya butter toast: crisp toasted bread squares filled with greenish coconut-egg kaya jam and slices of butter, stacked on a small cream plate.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/dfdd4f79.jpg",
+      "variantes": [
+        "img/platillos/dfdd4f79-480.webp",
+        "img/platillos/dfdd4f79-800.webp",
+        "img/platillos/dfdd4f79.webp"
+      ]
     },
     {
       "id_restaurante": "0f1e104c",
       "producto": "Chee Cheong Fun and Siew Mai",
       "cocina": "coffee",
-      "archivo": "img/platillos/0f1e104c.jpg",
+      "archivo": "img/platillos/0f1e104c.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Chee Cheong Fun and Siew Mai', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/0f1e104c.jpg",
+      "variantes": [
+        "img/platillos/0f1e104c-480.webp",
+        "img/platillos/0f1e104c-800.webp",
+        "img/platillos/0f1e104c.webp"
+      ]
     },
     {
       "id_restaurante": "935c7328",
       "producto": "Popiah Prawn",
       "cocina": "nasi lemak",
-      "archivo": "img/platillos/935c7328.jpg",
+      "archivo": "img/platillos/935c7328.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Popiah Prawn', from the 'nasi lemak' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/935c7328.jpg",
+      "variantes": [
+        "img/platillos/935c7328-480.webp",
+        "img/platillos/935c7328-800.webp",
+        "img/platillos/935c7328.webp"
+      ]
     },
     {
       "id_restaurante": "9af1399a",
       "producto": "Hotplate Saba Fish & BBQ Chicken Set",
       "cocina": "korean",
-      "archivo": "img/platillos/9af1399a.jpg",
+      "archivo": "img/platillos/9af1399a.webp",
       "asunto": "A Korean-style hotplate set with grilled saba mackerel and glazed barbecue chicken, steamed rice and a few small vegetable sides.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/9af1399a.jpg",
+      "variantes": [
+        "img/platillos/9af1399a-480.webp",
+        "img/platillos/9af1399a-800.webp",
+        "img/platillos/9af1399a.webp"
+      ]
     },
     {
       "id_restaurante": "3bec2344",
       "producto": "Ala Carte",
       "cocina": "coffee",
-      "archivo": "img/platillos/3bec2344.jpg",
+      "archivo": "img/platillos/3bec2344.webp",
       "asunto": "A simple Singapore cafe breakfast serving: kaya toast triangles with two soft-boiled eggs in a small ceramic bowl and a cup of black coffee. A generic illustrative cafe offering, no claim of an exact published menu item.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/3bec2344.jpg",
+      "variantes": [
+        "img/platillos/3bec2344-480.webp",
+        "img/platillos/3bec2344-800.webp",
+        "img/platillos/3bec2344.webp"
+      ]
     },
     {
       "id_restaurante": "c6ed620e",
       "producto": "Chicago Cheesecake",
       "cocina": "coffee",
-      "archivo": "img/platillos/c6ed620e.jpg",
+      "archivo": "img/platillos/c6ed620e.webp",
       "asunto": "A thick slice of Chicago-style baked cheesecake with a deep golden top, creamy interior and crumb base, on a cream plate with a small fork, side view.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/c6ed620e.jpg",
+      "variantes": [
+        "img/platillos/c6ed620e-480.webp",
+        "img/platillos/c6ed620e-800.webp",
+        "img/platillos/c6ed620e.webp"
+      ]
     },
     {
       "id_restaurante": "3569d4b8",
       "producto": "10 Inches Tortilla Pizza",
       "cocina": "coffee",
-      "archivo": "img/platillos/3569d4b8.jpg",
+      "archivo": "img/platillos/3569d4b8.webp",
       "asunto": "An appetizing serving of the restaurant dish named '10 Inches Tortilla Pizza', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/3569d4b8.jpg",
+      "variantes": [
+        "img/platillos/3569d4b8-480.webp",
+        "img/platillos/3569d4b8-800.webp",
+        "img/platillos/3569d4b8.webp"
+      ]
     },
     {
       "id_restaurante": "118bbadb",
       "producto": "G2 扬州炒饭 Yang Zhou Fried Rice (Contains Prawn)",
       "cocina": "chinese",
-      "archivo": "img/platillos/118bbadb.jpg",
+      "archivo": "img/platillos/118bbadb.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'G2 扬州炒饭 Yang Zhou Fried Rice (Contains Prawn)', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/118bbadb.jpg",
+      "variantes": [
+        "img/platillos/118bbadb-480.webp",
+        "img/platillos/118bbadb-800.webp",
+        "img/platillos/118bbadb.webp"
+      ]
     },
     {
       "id_restaurante": "49093769",
       "producto": "Kopi (Large)",
       "cocina": "coffee",
-      "archivo": "img/platillos/49093769.jpg",
+      "archivo": "img/platillos/49093769.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Kopi (Large)', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/49093769.jpg",
+      "variantes": [
+        "img/platillos/49093769-480.webp",
+        "img/platillos/49093769-800.webp",
+        "img/platillos/49093769.webp"
+      ]
     },
     {
       "id_restaurante": "4b2eb250",
       "producto": "A3 Ebiko Prawn Paste Shrimp Ramen 鱼子虾滑赤汤面",
       "cocina": "ramen",
-      "archivo": "img/platillos/4b2eb250.jpg",
+      "archivo": "img/platillos/4b2eb250.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'A3 Ebiko Prawn Paste Shrimp Ramen 鱼子虾滑赤汤面', from the 'ramen' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/4b2eb250.jpg",
+      "variantes": [
+        "img/platillos/4b2eb250-480.webp",
+        "img/platillos/4b2eb250-800.webp",
+        "img/platillos/4b2eb250.webp"
+      ]
     },
     {
       "id_restaurante": "d9f645df",
       "producto": "2pc Chicken Meal",
       "cocina": "fried chicken",
-      "archivo": "img/platillos/d9f645df.jpg",
+      "archivo": "img/platillos/d9f645df.webp",
       "asunto": "A two-piece fried chicken meal: two golden crispy chicken pieces with a scoop of rice, a small ramekin of gravy and a few cucumber slices.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/d9f645df.jpg",
+      "variantes": [
+        "img/platillos/d9f645df-480.webp",
+        "img/platillos/d9f645df-800.webp",
+        "img/platillos/d9f645df.webp"
+      ]
     },
     {
       "id_restaurante": "442b9508",
       "producto": "2 pcs Chicken Meal",
       "cocina": "fried chicken",
-      "archivo": "img/platillos/442b9508.jpg",
+      "archivo": "img/platillos/442b9508.webp",
       "asunto": "A two-piece fried chicken meal with French fries and a small cup of sauce, served in a plain cream takeaway tray with no lettering.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/442b9508.jpg",
+      "variantes": [
+        "img/platillos/442b9508-480.webp",
+        "img/platillos/442b9508-800.webp",
+        "img/platillos/442b9508.webp"
+      ]
     },
     {
       "id_restaurante": "9f32423b",
       "producto": "Store-selected Half Dozen",
       "cocina": "dessert",
-      "archivo": "img/platillos/9f32423b.jpg",
+      "archivo": "img/platillos/9f32423b.webp",
       "asunto": "A bakery box holding six assorted donuts with different simple glazes, including plain sugar, chocolate and vanilla. No writing or packaging graphics.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/9f32423b.jpg",
+      "variantes": [
+        "img/platillos/9f32423b-480.webp",
+        "img/platillos/9f32423b-800.webp",
+        "img/platillos/9f32423b.webp"
+      ]
     },
     {
       "id_restaurante": "729799c2",
       "producto": "Exclusive for foodpanda: Special Bundle (4-5 pax)",
       "cocina": "pizza",
-      "archivo": "img/platillos/729799c2.jpg",
+      "archivo": "img/platillos/729799c2.webp",
       "asunto": "A family pizza bundle arranged on a cream table: two small pizzas and a portion of garlic bread, no branded packaging.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/729799c2.jpg",
+      "variantes": [
+        "img/platillos/729799c2-480.webp",
+        "img/platillos/729799c2-800.webp",
+        "img/platillos/729799c2.webp"
+      ]
     },
     {
       "id_restaurante": "d4860ec4",
       "producto": "Ayam Penyet (Fried Chicken)",
       "cocina": "ayam penyet",
-      "archivo": "img/platillos/d4860ec4.jpg",
+      "archivo": "img/platillos/d4860ec4.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Ayam Penyet (Fried Chicken)', from the 'ayam penyet' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/d4860ec4.jpg",
+      "variantes": [
+        "img/platillos/d4860ec4-480.webp",
+        "img/platillos/d4860ec4-800.webp",
+        "img/platillos/d4860ec4.webp"
+      ]
     },
     {
       "id_restaurante": "2290dadf",
       "producto": "(Cold) Classic Soymilk 经典豆浆",
       "cocina": "dessert",
-      "archivo": "img/platillos/2290dadf.jpg",
+      "archivo": "img/platillos/2290dadf.webp",
       "asunto": "An appetizing serving of the restaurant dish named '(Cold) Classic Soymilk 经典豆浆', from the 'dessert' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/2290dadf.jpg",
+      "variantes": [
+        "img/platillos/2290dadf-480.webp",
+        "img/platillos/2290dadf-800.webp",
+        "img/platillos/2290dadf.webp"
+      ]
     },
     {
       "id_restaurante": "5e72a9f1",
       "producto": "Chapati",
       "cocina": "indian",
-      "archivo": "img/platillos/5e72a9f1.jpg",
+      "archivo": "img/platillos/5e72a9f1.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Chapati', from the 'indian' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/5e72a9f1.jpg",
+      "variantes": [
+        "img/platillos/5e72a9f1-480.webp",
+        "img/platillos/5e72a9f1-800.webp",
+        "img/platillos/5e72a9f1.webp"
+      ]
     },
     {
       "id_restaurante": "b44f5b7b",
       "producto": "Butter Chicken",
       "cocina": "indian",
-      "archivo": "img/platillos/b44f5b7b.jpg",
+      "archivo": "img/platillos/b44f5b7b.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Butter Chicken', from the 'indian' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/b44f5b7b.jpg",
+      "variantes": [
+        "img/platillos/b44f5b7b-480.webp",
+        "img/platillos/b44f5b7b-800.webp",
+        "img/platillos/b44f5b7b.webp"
+      ]
     },
     {
       "id_restaurante": "0bbfdd16",
       "producto": "Traditional Kaya Toast",
       "cocina": "coffee",
-      "archivo": "img/platillos/0bbfdd16.jpg",
+      "archivo": "img/platillos/0bbfdd16.webp",
       "asunto": "Traditional kaya toast triangles with butter and coconut-egg jam, one slightly open to show the filling, on a dark green plate.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/0bbfdd16.jpg",
+      "variantes": [
+        "img/platillos/0bbfdd16-480.webp",
+        "img/platillos/0bbfdd16-800.webp",
+        "img/platillos/0bbfdd16.webp"
+      ]
     },
     {
       "id_restaurante": "0fe59038",
       "producto": "Brek 'O' Day",
       "cocina": "coffee",
-      "archivo": "img/platillos/0fe59038.jpg",
+      "archivo": "img/platillos/0fe59038.webp",
       "asunto": "An appetizing cafe breakfast plate with scrambled eggs, toast triangles, a grilled sausage, baked beans and grilled tomato.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/0fe59038.jpg",
+      "variantes": [
+        "img/platillos/0fe59038-480.webp",
+        "img/platillos/0fe59038-800.webp",
+        "img/platillos/0fe59038.webp"
+      ]
     },
     {
       "id_restaurante": "768a9585",
       "producto": "Beef Pie with Mashed Potatoes & Double Cheese",
       "cocina": "western",
-      "archivo": "img/platillos/768a9585.jpg",
+      "archivo": "img/platillos/768a9585.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Beef Pie with Mashed Potatoes & Double Cheese', from the 'western' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/768a9585.jpg",
+      "variantes": [
+        "img/platillos/768a9585-480.webp",
+        "img/platillos/768a9585-800.webp",
+        "img/platillos/768a9585.webp"
+      ]
     },
     {
       "id_restaurante": "c469908a",
       "producto": "Pav Bhaji",
       "cocina": "indian",
-      "archivo": "img/platillos/c469908a.jpg",
+      "archivo": "img/platillos/c469908a.webp",
       "asunto": "Indian pav bhaji: thick spiced mashed vegetable curry with a small pat of butter, two toasted pav buns, chopped onions and a lemon wedge.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/c469908a.jpg",
+      "variantes": [
+        "img/platillos/c469908a-480.webp",
+        "img/platillos/c469908a-800.webp",
+        "img/platillos/c469908a.webp"
+      ]
     },
     {
       "id_restaurante": "4fef0ff9",
       "producto": "Executive North Meal",
       "cocina": "indian",
-      "archivo": "img/platillos/4fef0ff9.jpg",
+      "archivo": "img/platillos/4fef0ff9.webp",
       "asunto": "An Indian vegetarian north Indian thali meal: chapati, fragrant rice, lentil dal, vegetable curry, a little yogurt and pickle, served in separate small bowls on a metal thali.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/4fef0ff9.jpg",
+      "variantes": [
+        "img/platillos/4fef0ff9-480.webp",
+        "img/platillos/4fef0ff9-800.webp",
+        "img/platillos/4fef0ff9.webp"
+      ]
     },
     {
       "id_restaurante": "64acc16c",
       "producto": "Chettynad Chicken Set Meal",
       "cocina": "indian",
-      "archivo": "img/platillos/64acc16c.jpg",
+      "archivo": "img/platillos/64acc16c.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Chettynad Chicken Set Meal', from the 'indian' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/64acc16c.jpg",
+      "variantes": [
+        "img/platillos/64acc16c-480.webp",
+        "img/platillos/64acc16c-800.webp",
+        "img/platillos/64acc16c.webp"
+      ]
     },
     {
       "id_restaurante": "aaf3765c",
       "producto": "Garlic Naan",
       "cocina": "indian",
-      "archivo": "img/platillos/aaf3765c.jpg",
+      "archivo": "img/platillos/aaf3765c.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Garlic Naan', from the 'indian' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/aaf3765c.jpg",
+      "variantes": [
+        "img/platillos/aaf3765c-480.webp",
+        "img/platillos/aaf3765c-800.webp",
+        "img/platillos/aaf3765c.webp"
+      ]
     },
     {
       "id_restaurante": "6818f514",
       "producto": "Veg Momos (5PCS)",
       "cocina": "indian",
-      "archivo": "img/platillos/6818f514.jpg",
+      "archivo": "img/platillos/6818f514.webp",
       "asunto": "Five steamed vegetarian momos with pleated dough wrappers, a small orange-red dipping sauce and a little green garnish.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/6818f514.jpg",
+      "variantes": [
+        "img/platillos/6818f514-480.webp",
+        "img/platillos/6818f514-800.webp",
+        "img/platillos/6818f514.webp"
+      ]
     },
     {
       "id_restaurante": "2d28cfc5",
       "producto": "Caffe Latte",
       "cocina": "coffee",
-      "archivo": "img/platillos/2d28cfc5.jpg",
+      "archivo": "img/platillos/2d28cfc5.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Caffe Latte', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/2d28cfc5.jpg",
+      "variantes": [
+        "img/platillos/2d28cfc5-480.webp",
+        "img/platillos/2d28cfc5-800.webp",
+        "img/platillos/2d28cfc5.webp"
+      ]
     },
     {
       "id_restaurante": "886f5bf2",
       "producto": "Jalapeno Cheese Brezel",
       "cocina": "beverages",
-      "archivo": "img/platillos/886f5bf2.jpg",
+      "archivo": "img/platillos/886f5bf2.webp",
       "asunto": "A golden-brown soft pretzel (brezel) with melted cheese and a few sliced jalapenos on top, served on a small cream plate.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/886f5bf2.jpg",
+      "variantes": [
+        "img/platillos/886f5bf2-480.webp",
+        "img/platillos/886f5bf2-800.webp",
+        "img/platillos/886f5bf2.webp"
+      ]
     },
     {
       "id_restaurante": "a0174ef3",
       "producto": "Chicago Cheesecake",
       "cocina": "coffee",
-      "archivo": "img/platillos/a0174ef3.jpg",
+      "archivo": "img/platillos/a0174ef3.webp",
       "asunto": "A classic Chicago-style baked cheesecake slice, golden top, creamy pale interior and buttery crumb base, on a cobalt dessert plate.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/a0174ef3.jpg",
+      "variantes": [
+        "img/platillos/a0174ef3-480.webp",
+        "img/platillos/a0174ef3-800.webp",
+        "img/platillos/a0174ef3.webp"
+      ]
     },
     {
       "id_restaurante": "63f7a718",
       "producto": "Season Sushi Platter (38 pcs)",
       "cocina": "sushi",
-      "archivo": "img/platillos/63f7a718.jpg",
+      "archivo": "img/platillos/63f7a718.webp",
       "asunto": "A generous sushi platter with a visually varied selection of nigiri and maki rolls, salmon, tuna, cucumber, nori and pickled ginger, in an elegant unbranded tray.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/63f7a718.jpg",
+      "variantes": [
+        "img/platillos/63f7a718-480.webp",
+        "img/platillos/63f7a718-800.webp",
+        "img/platillos/63f7a718.webp"
+      ]
     },
     {
       "id_restaurante": "f52740c9",
       "producto": "Cheng Tng 清汤",
       "cocina": "dessert",
-      "archivo": "img/platillos/f52740c9.jpg",
+      "archivo": "img/platillos/f52740c9.webp",
       "asunto": "Cheng tng dessert: a clear sweet soup with dried longan, barley, white fungus and a few lotus seeds in a small glass dessert bowl.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/f52740c9.jpg",
+      "variantes": [
+        "img/platillos/f52740c9-480.webp",
+        "img/platillos/f52740c9-800.webp",
+        "img/platillos/f52740c9.webp"
+      ]
     },
     {
       "id_restaurante": "5be84f1b",
       "producto": "White Carrot Cake",
       "cocina": "singaporean",
-      "archivo": "img/platillos/5be84f1b.jpg",
+      "archivo": "img/platillos/5be84f1b.webp",
       "asunto": "Singapore white carrot cake (chai tow kway): pan-fried radish cake cubes with egg, bean sprouts and spring onions, savory rather than a sweet cake.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/5be84f1b.jpg",
+      "variantes": [
+        "img/platillos/5be84f1b-480.webp",
+        "img/platillos/5be84f1b-800.webp",
+        "img/platillos/5be84f1b.webp"
+      ]
     },
     {
       "id_restaurante": "1e79d2ac",
       "producto": "Homemade Nasi Lemak",
       "cocina": "coffee",
-      "archivo": "img/platillos/1e79d2ac.jpg",
+      "archivo": "img/platillos/1e79d2ac.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Homemade Nasi Lemak', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/1e79d2ac.jpg",
+      "variantes": [
+        "img/platillos/1e79d2ac-480.webp",
+        "img/platillos/1e79d2ac-800.webp",
+        "img/platillos/1e79d2ac.webp"
+      ]
     },
     {
       "id_restaurante": "ff52813f",
       "producto": "Traditional Kaya Toast",
       "cocina": "coffee",
-      "archivo": "img/platillos/ff52813f.jpg",
+      "archivo": "img/platillos/ff52813f.webp",
       "asunto": "Traditional kaya butter toast cut into rectangular fingers, lightly golden, served beside a small saucer of kaya jam, overhead view.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/ff52813f.jpg",
+      "variantes": [
+        "img/platillos/ff52813f-480.webp",
+        "img/platillos/ff52813f-800.webp",
+        "img/platillos/ff52813f.webp"
+      ]
     },
     {
       "id_restaurante": "328b7265",
       "producto": "102. Mango Pomelo Sago 杨枝甘露",
       "cocina": "dessert",
-      "archivo": "img/platillos/328b7265.jpg",
+      "archivo": "img/platillos/328b7265.webp",
       "asunto": "Mango pomelo sago dessert served in a clear wide cup, fresh mango, pale sago pearls and pink pomelo segments. Different composition and vessel from a bowl.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/328b7265.jpg",
+      "variantes": [
+        "img/platillos/328b7265-480.webp",
+        "img/platillos/328b7265-800.webp",
+        "img/platillos/328b7265.webp"
+      ]
     },
     {
       "id_restaurante": "4b45e972",
       "producto": "Kagoshima Pork Belly Don",
       "cocina": "japanese",
-      "archivo": "img/platillos/4b45e972.jpg",
+      "archivo": "img/platillos/4b45e972.webp",
       "asunto": "Japanese pork belly donburi in a black ceramic bowl, thick glazed pork belly slices fanned over rice, chopped scallions and a soft egg. Top-down composition.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/4b45e972.jpg",
+      "variantes": [
+        "img/platillos/4b45e972-480.webp",
+        "img/platillos/4b45e972-800.webp",
+        "img/platillos/4b45e972.webp"
+      ]
     },
     {
       "id_restaurante": "52a576e9",
       "producto": "Spicy Fragrant Hotpot 麻辣香锅",
       "cocina": "mala xiang guo",
-      "archivo": "img/platillos/52a576e9.jpg",
+      "archivo": "img/platillos/52a576e9.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Spicy Fragrant Hotpot 麻辣香锅', from the 'mala xiang guo' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/52a576e9.jpg",
+      "variantes": [
+        "img/platillos/52a576e9-480.webp",
+        "img/platillos/52a576e9-800.webp",
+        "img/platillos/52a576e9.webp"
+      ]
     },
     {
       "id_restaurante": "a01a0be7",
       "producto": "Rice",
       "cocina": "seafood",
-      "archivo": "img/platillos/a01a0be7.jpg",
+      "archivo": "img/platillos/a01a0be7.webp",
       "asunto": "A single bowl of freshly steamed plain white rice, no meat or toppings, a small white bowl on a dark green placemat.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/a01a0be7.jpg",
+      "variantes": [
+        "img/platillos/a01a0be7-480.webp",
+        "img/platillos/a01a0be7-800.webp",
+        "img/platillos/a01a0be7.webp"
+      ]
     },
     {
       "id_restaurante": "bec616c7",
       "producto": "09. Siew Mai 烧卖",
       "cocina": "dim sum",
-      "archivo": "img/platillos/bec616c7.jpg",
+      "archivo": "img/platillos/bec616c7.webp",
       "asunto": "Siew mai dumplings in a dark green steamer basket, several golden yellow open-topped dumplings with savory filling and a small soy sauce dish.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/bec616c7.jpg",
+      "variantes": [
+        "img/platillos/bec616c7-480.webp",
+        "img/platillos/bec616c7-800.webp",
+        "img/platillos/bec616c7.webp"
+      ]
     },
     {
       "id_restaurante": "4d857200",
       "producto": "Bibimbap 拌饭",
       "cocina": "korean",
-      "archivo": "img/platillos/4d857200.jpg",
+      "archivo": "img/platillos/4d857200.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Bibimbap 拌饭', from the 'korean' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/4d857200.jpg",
+      "variantes": [
+        "img/platillos/4d857200-480.webp",
+        "img/platillos/4d857200-800.webp",
+        "img/platillos/4d857200.webp"
+      ]
     },
     {
       "id_restaurante": "e39f4403",
       "producto": "White Rice 白饭",
       "cocina": "chinese",
-      "archivo": "img/platillos/e39f4403.jpg",
+      "archivo": "img/platillos/e39f4403.webp",
       "asunto": "A neat dome of steamed plain white rice on a dark cobalt blue plate, a plain spoon resting to the side, no toppings or other dishes.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/e39f4403.jpg",
+      "variantes": [
+        "img/platillos/e39f4403-480.webp",
+        "img/platillos/e39f4403-800.webp",
+        "img/platillos/e39f4403.webp"
+      ]
     },
     {
       "id_restaurante": "595c99a8",
       "producto": "Curry Chicken with Rice + Laksa + Ham and Cheese Sandwich",
       "cocina": "coffee",
-      "archivo": "img/platillos/595c99a8.jpg",
+      "archivo": "img/platillos/595c99a8.webp",
       "asunto": "A cafe meal set with curry chicken and rice, a small bowl of laksa, and a toasted ham-and-cheese sandwich, arranged as three distinct components of one set meal.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/595c99a8.jpg",
+      "variantes": [
+        "img/platillos/595c99a8-480.webp",
+        "img/platillos/595c99a8-800.webp",
+        "img/platillos/595c99a8.webp"
+      ]
     },
     {
       "id_restaurante": "d4d6b2dc",
       "producto": "白饭 White Rice",
       "cocina": "mala xiang guo",
-      "archivo": "img/platillos/d4d6b2dc.jpg",
+      "archivo": "img/platillos/d4d6b2dc.webp",
       "asunto": "A generous serving of steamed plain white rice in a deep dark green ceramic bowl, three-quarter view, no sauce, meat or toppings.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/d4d6b2dc.jpg",
+      "variantes": [
+        "img/platillos/d4d6b2dc-480.webp",
+        "img/platillos/d4d6b2dc-800.webp",
+        "img/platillos/d4d6b2dc.webp"
+      ]
     },
     {
       "id_restaurante": "a63b419f",
       "producto": "Basil Minced Chicken with Rice 九层塔鸡肉碎饭",
       "cocina": "thai",
-      "archivo": "img/platillos/a63b419f.jpg",
+      "archivo": "img/platillos/a63b419f.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Basil Minced Chicken with Rice 九层塔鸡肉碎饭', from the 'thai' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/a63b419f.jpg",
+      "variantes": [
+        "img/platillos/a63b419f-480.webp",
+        "img/platillos/a63b419f-800.webp",
+        "img/platillos/a63b419f.webp"
+      ]
     },
     {
       "id_restaurante": "aba5f587",
       "producto": "Mala Xiang Guo 麻辣香锅",
       "cocina": "chinese",
-      "archivo": "img/platillos/aba5f587.jpg",
+      "archivo": "img/platillos/aba5f587.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Mala Xiang Guo 麻辣香锅', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/aba5f587.jpg",
+      "variantes": [
+        "img/platillos/aba5f587-480.webp",
+        "img/platillos/aba5f587-800.webp",
+        "img/platillos/aba5f587.webp"
+      ]
     },
     {
       "id_restaurante": "792d8263",
       "producto": "Mala Hotpot Base 麻辣香锅",
       "cocina": "mala xiang guo",
-      "archivo": "img/platillos/792d8263.jpg",
+      "archivo": "img/platillos/792d8263.webp",
       "asunto": "A simmering mala hotpot broth in a dark pot, with chili oil, Sichuan peppercorns, tofu, mushrooms and greens visible, gentle natural steam.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/792d8263.jpg",
+      "variantes": [
+        "img/platillos/792d8263-480.webp",
+        "img/platillos/792d8263-800.webp",
+        "img/platillos/792d8263.webp"
+      ]
     },
     {
       "id_restaurante": "83f29713",
       "producto": "Yuzu Ume Buddy Meal (U.P. $34.50)",
       "cocina": "ramen",
-      "archivo": "img/platillos/83f29713.jpg",
+      "archivo": "img/platillos/83f29713.webp",
       "asunto": "A Japanese ramen meal for two: two bowls of ramen in light yuzu-style broth, spring onions, mushrooms, noodles and egg. An illustrative ramen meal, no brand or signage.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/83f29713.jpg",
+      "variantes": [
+        "img/platillos/83f29713-480.webp",
+        "img/platillos/83f29713-800.webp",
+        "img/platillos/83f29713.webp"
+      ]
     },
     {
       "id_restaurante": "08e542f2",
       "producto": "Pig's Stomach Soup",
       "cocina": "soups",
-      "archivo": "img/platillos/08e542f2.jpg",
+      "archivo": "img/platillos/08e542f2.webp",
       "asunto": "An appetizing serving of the restaurant dish named \"Pig's Stomach Soup\", from the 'soups' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/08e542f2.jpg",
+      "variantes": [
+        "img/platillos/08e542f2-480.webp",
+        "img/platillos/08e542f2-800.webp",
+        "img/platillos/08e542f2.webp"
+      ]
     },
     {
       "id_restaurante": "75b914bc",
       "producto": "Lotus Root Peanut Rib Soup",
       "cocina": "soups",
-      "archivo": "img/platillos/75b914bc.jpg",
+      "archivo": "img/platillos/75b914bc.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Lotus Root Peanut Rib Soup', from the 'soups' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/75b914bc.jpg",
+      "variantes": [
+        "img/platillos/75b914bc-480.webp",
+        "img/platillos/75b914bc-800.webp",
+        "img/platillos/75b914bc.webp"
+      ]
     },
     {
       "id_restaurante": "d546d7a6",
       "producto": "Monster Combo Curry (For 2 PAX)",
       "cocina": "japanese",
-      "archivo": "img/platillos/d546d7a6.jpg",
+      "archivo": "img/platillos/d546d7a6.webp",
       "asunto": "A Japanese curry meal for two, two plates of steamed rice, golden breaded chicken cutlet strips and rich brown curry sauce, presented as a restaurant set meal.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/d546d7a6.jpg",
+      "variantes": [
+        "img/platillos/d546d7a6-480.webp",
+        "img/platillos/d546d7a6-800.webp",
+        "img/platillos/d546d7a6.webp"
+      ]
     },
     {
       "id_restaurante": "7b97256c",
       "producto": "C506D. HK-style Stir-fried Beef Hor Fun",
       "cocina": "chinese",
-      "archivo": "img/platillos/7b97256c.jpg",
+      "archivo": "img/platillos/7b97256c.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'C506D. HK-style Stir-fried Beef Hor Fun', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/7b97256c.jpg",
+      "variantes": [
+        "img/platillos/7b97256c-480.webp",
+        "img/platillos/7b97256c-800.webp",
+        "img/platillos/7b97256c.webp"
+      ]
     },
     {
       "id_restaurante": "c3950feb",
       "producto": "Chicken Katsu Don",
       "cocina": "rice dishes",
-      "archivo": "img/platillos/c3950feb.jpg",
+      "archivo": "img/platillos/c3950feb.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Chicken Katsu Don', from the 'rice dishes' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/c3950feb.jpg",
+      "variantes": [
+        "img/platillos/c3950feb-480.webp",
+        "img/platillos/c3950feb-800.webp",
+        "img/platillos/c3950feb.webp"
+      ]
     },
     {
       "id_restaurante": "77848032",
       "producto": "Cereal Chicken Cutlet Rice 麦片鸡扒饭",
       "cocina": "chinese",
-      "archivo": "img/platillos/77848032.jpg",
+      "archivo": "img/platillos/77848032.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Cereal Chicken Cutlet Rice 麦片鸡扒饭', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/77848032.jpg",
+      "variantes": [
+        "img/platillos/77848032-480.webp",
+        "img/platillos/77848032-800.webp",
+        "img/platillos/77848032.webp"
+      ]
     },
     {
       "id_restaurante": "0f29a356",
       "producto": "Chicken Rice  鸡饭",
       "cocina": "chicken rice",
-      "archivo": "img/platillos/0f29a356.jpg",
+      "archivo": "img/platillos/0f29a356.webp",
       "asunto": "Singapore chicken rice with tender sliced chicken, glossy skin, a small mound of fragrant rice and cucumber, served on a blue-rimmed round plate.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/0f29a356.jpg",
+      "variantes": [
+        "img/platillos/0f29a356-480.webp",
+        "img/platillos/0f29a356-800.webp",
+        "img/platillos/0f29a356.webp"
+      ]
     },
     {
       "id_restaurante": "e8818130",
       "producto": "Salted Egg Diced Chicken with Rice 咸蛋鸡丁饭",
       "cocina": "chinese",
-      "archivo": "img/platillos/e8818130.jpg",
+      "archivo": "img/platillos/e8818130.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Salted Egg Diced Chicken with Rice 咸蛋鸡丁饭', from the 'chinese' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/e8818130.jpg",
+      "variantes": [
+        "img/platillos/e8818130-480.webp",
+        "img/platillos/e8818130-800.webp",
+        "img/platillos/e8818130.webp"
+      ]
     },
     {
       "id_restaurante": "445bdef2",
       "producto": "White Rice 白饭",
       "cocina": "singaporean",
-      "archivo": "img/platillos/445bdef2.jpg",
+      "archivo": "img/platillos/445bdef2.webp",
       "asunto": "A fluffy mound of freshly cooked plain white rice in a shallow cream ceramic bowl on a blue linen napkin, gentle steam and no toppings.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/445bdef2.jpg",
+      "variantes": [
+        "img/platillos/445bdef2-480.webp",
+        "img/platillos/445bdef2-800.webp",
+        "img/platillos/445bdef2.webp"
+      ]
     },
     {
       "id_restaurante": "96e40f89",
       "producto": "Steamed Rice 蒸米饭",
       "cocina": "vegetarian",
-      "archivo": "img/platillos/96e40f89.jpg",
+      "archivo": "img/platillos/96e40f89.webp",
       "asunto": "A small rounded bowl of plain steamed white rice in a pale celadon bowl, close overhead view, a wooden spoon alongside, no meat or toppings.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/96e40f89.jpg",
+      "variantes": [
+        "img/platillos/96e40f89-480.webp",
+        "img/platillos/96e40f89-800.webp",
+        "img/platillos/96e40f89.webp"
+      ]
     },
     {
       "id_restaurante": "65aff882",
       "producto": "White Rice 白饭",
       "cocina": "vegetarian",
-      "archivo": "img/platillos/65aff882.jpg",
+      "archivo": "img/platillos/65aff882.webp",
       "asunto": "A serving of plain white rice shaped into a simple round mound on a dark green plate, side angle, no vegetables, sauce or toppings.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/65aff882.jpg",
+      "variantes": [
+        "img/platillos/65aff882-480.webp",
+        "img/platillos/65aff882-800.webp",
+        "img/platillos/65aff882.webp"
+      ]
     },
     {
       "id_restaurante": "438a3ae7",
       "producto": "Bento Set",
       "cocina": "vegetarian",
-      "archivo": "img/platillos/438a3ae7.jpg",
+      "archivo": "img/platillos/438a3ae7.webp",
       "asunto": "A Japanese vegetarian bento box with steamed rice, tofu, assorted cooked vegetables, seaweed and pickles, in separate neat compartments.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/438a3ae7.jpg",
+      "variantes": [
+        "img/platillos/438a3ae7-480.webp",
+        "img/platillos/438a3ae7-800.webp",
+        "img/platillos/438a3ae7.webp"
+      ]
     },
     {
       "id_restaurante": "893f309e",
       "producto": "Mee Siam",
       "cocina": "coffee",
-      "archivo": "img/platillos/893f309e.jpg",
+      "archivo": "img/platillos/893f309e.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Mee Siam', from the 'coffee' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/893f309e.jpg",
+      "variantes": [
+        "img/platillos/893f309e-480.webp",
+        "img/platillos/893f309e-800.webp",
+        "img/platillos/893f309e.webp"
+      ]
     },
     {
       "id_restaurante": "0187f833",
       "producto": "406. CABONARA",
       "cocina": "western",
-      "archivo": "img/platillos/0187f833.jpg",
+      "archivo": "img/platillos/0187f833.webp",
       "asunto": "A plate of creamy spaghetti carbonara, glossy sauce, black pepper, grated cheese and small crisp pieces of bacon. No text.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/0187f833.jpg",
+      "variantes": [
+        "img/platillos/0187f833-480.webp",
+        "img/platillos/0187f833-800.webp",
+        "img/platillos/0187f833.webp"
+      ]
     },
     {
       "id_restaurante": "992c4d60",
       "producto": "*NEW* Mushroom soup",
       "cocina": "sandwiches",
-      "archivo": "img/platillos/992c4d60.jpg",
+      "archivo": "img/platillos/992c4d60.webp",
       "asunto": "An appetizing serving of the restaurant dish named '*NEW* Mushroom soup', from the 'sandwiches' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/992c4d60.jpg",
+      "variantes": [
+        "img/platillos/992c4d60-480.webp",
+        "img/platillos/992c4d60-800.webp",
+        "img/platillos/992c4d60.webp"
+      ]
     },
     {
       "id_restaurante": "56b5d714",
       "producto": "Hot U.S. Fries and Dips",
       "cocina": "western",
-      "archivo": "img/platillos/56b5d714.jpg",
+      "archivo": "img/platillos/56b5d714.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Hot U.S. Fries and Dips', from the 'western' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/56b5d714.jpg",
+      "variantes": [
+        "img/platillos/56b5d714-480.webp",
+        "img/platillos/56b5d714-800.webp",
+        "img/platillos/56b5d714.webp"
+      ]
     },
     {
       "id_restaurante": "ec75acc4",
       "producto": "Vegetarian White Bee Hoon 齋白米粉",
       "cocina": "noodles",
-      "archivo": "img/platillos/ec75acc4.jpg",
+      "archivo": "img/platillos/ec75acc4.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Vegetarian White Bee Hoon 齋白米粉', from the 'noodles' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/ec75acc4.jpg",
+      "variantes": [
+        "img/platillos/ec75acc4-480.webp",
+        "img/platillos/ec75acc4-800.webp",
+        "img/platillos/ec75acc4.webp"
+      ]
     },
     {
       "id_restaurante": "2cdc608b",
       "producto": "Cheese Pancake",
       "cocina": "dessert",
-      "archivo": "img/platillos/2cdc608b.jpg",
+      "archivo": "img/platillos/2cdc608b.webp",
       "asunto": "A folded cheese-filled pancake, golden and soft, cut to reveal a melted cheese filling, served on a small dark green plate.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/2cdc608b.jpg",
+      "variantes": [
+        "img/platillos/2cdc608b-480.webp",
+        "img/platillos/2cdc608b-800.webp",
+        "img/platillos/2cdc608b.webp"
+      ]
     },
     {
       "id_restaurante": "fd9acd2e",
       "producto": "Egg Fried Rice With Seasoned Prawns",
       "cocina": "fried rice",
-      "archivo": "img/platillos/fd9acd2e.jpg",
+      "archivo": "img/platillos/fd9acd2e.webp",
       "asunto": "Egg fried rice with seasoned prawns, yellow egg pieces, plump prawns and spring onions, served in a shallow cobalt bowl.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/fd9acd2e.jpg",
+      "variantes": [
+        "img/platillos/fd9acd2e-480.webp",
+        "img/platillos/fd9acd2e-800.webp",
+        "img/platillos/fd9acd2e.webp"
+      ]
     },
     {
       "id_restaurante": "9a4d6054",
       "producto": "M1A. Chicken Burger A La Carte",
       "cocina": "chicken",
-      "archivo": "img/platillos/9a4d6054.jpg",
+      "archivo": "img/platillos/9a4d6054.webp",
       "asunto": "A crispy chicken burger with a golden breaded chicken patty, lettuce and a light sauce inside a soft toasted bun, alone on a cream plate. No fries or packaging.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/9a4d6054.jpg",
+      "variantes": [
+        "img/platillos/9a4d6054-480.webp",
+        "img/platillos/9a4d6054-800.webp",
+        "img/platillos/9a4d6054.webp"
+      ]
     },
     {
       "id_restaurante": "b8613243",
       "producto": "Egg Fried Rice With Seasoned Prawns",
       "cocina": "fried rice",
-      "archivo": "img/platillos/b8613243.jpg",
+      "archivo": "img/platillos/b8613243.webp",
       "asunto": "Egg fried rice with seasoned prawns, peas and egg, served as a rounded mound on a cream plate, several prawns arranged on top. Distinct plate and arrangement.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/b8613243.jpg",
+      "variantes": [
+        "img/platillos/b8613243-480.webp",
+        "img/platillos/b8613243-800.webp",
+        "img/platillos/b8613243.webp"
+      ]
     },
     {
       "id_restaurante": "5d031bbe",
       "producto": "Fish Ball Minced Meat Noodle 鱼圆肉脞面",
       "cocina": "noodles",
-      "archivo": "img/platillos/5d031bbe.jpg",
+      "archivo": "img/platillos/5d031bbe.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Fish Ball Minced Meat Noodle 鱼圆肉脞面', from the 'noodles' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/5d031bbe.jpg",
+      "variantes": [
+        "img/platillos/5d031bbe-480.webp",
+        "img/platillos/5d031bbe-800.webp",
+        "img/platillos/5d031bbe.webp"
+      ]
     },
     {
       "id_restaurante": "1d4d321d",
       "producto": "Pork Ribs Soup",
       "cocina": "soups",
-      "archivo": "img/platillos/1d4d321d.jpg",
+      "archivo": "img/platillos/1d4d321d.webp",
       "asunto": "An appetizing serving of the restaurant dish named 'Pork Ribs Soup', from the 'soups' cuisine category. Depict the actual named food, without writing the name in the image.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/1d4d321d.jpg",
+      "variantes": [
+        "img/platillos/1d4d321d-480.webp",
+        "img/platillos/1d4d321d-800.webp",
+        "img/platillos/1d4d321d.webp"
+      ]
     },
     {
       "id_restaurante": "f98cbaa3",
       "producto": "2pc Chickenjoy VM",
       "cocina": "fried chicken",
-      "archivo": "img/platillos/f98cbaa3.jpg",
+      "archivo": "img/platillos/f98cbaa3.webp",
       "asunto": "A crispy fried chicken value meal: two pieces of golden fried chicken, rice and a small gravy cup on a dark green tray, no branding.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/f98cbaa3.jpg",
+      "variantes": [
+        "img/platillos/f98cbaa3-480.webp",
+        "img/platillos/f98cbaa3-800.webp",
+        "img/platillos/f98cbaa3.webp"
+      ]
     },
     {
       "id_restaurante": "fd899663",
       "producto": "726. Kebab Cheese Chicken",
       "cocina": "singaporean",
-      "archivo": "img/platillos/fd899663.jpg",
+      "archivo": "img/platillos/fd899663.webp",
       "asunto": "A chicken and cheese kebab wrap, toasted flatbread wrapped around sliced grilled chicken, melted cheese and lettuce, cut in half to show the filling.",
-      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent."
+      "encuadre": "An overhead editorial composition, crisp food detail, a dark green utensil or cobalt ceramic accent.",
+      "archivo_original": "img/platillos/fd899663.jpg",
+      "variantes": [
+        "img/platillos/fd899663-480.webp",
+        "img/platillos/fd899663-800.webp",
+        "img/platillos/fd899663.webp"
+      ]
     },
     {
       "id_restaurante": "ab0cc622",
       "producto": "1 Shrimp Dumpling 虾饺",
       "cocina": "dim sum",
-      "archivo": "img/platillos/ab0cc622.jpg",
+      "archivo": "img/platillos/ab0cc622.webp",
       "asunto": "Har gow shrimp dumplings with translucent white pleated wrappers and pink shrimp visible through the skin, in a bamboo steamer.",
-      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it."
+      "encuadre": "Three-quarter close view, the dish slightly off-center, a folded dark green cloth beside it.",
+      "archivo_original": "img/platillos/ab0cc622.jpg",
+      "variantes": [
+        "img/platillos/ab0cc622-480.webp",
+        "img/platillos/ab0cc622-800.webp",
+        "img/platillos/ab0cc622.webp"
+      ]
     },
     {
       "id_restaurante": "100d4dc5",
       "producto": "Free Heineken 0.0",
       "cocina": "mexican",
-      "archivo": "img/platillos/100d4dc5.jpg",
+      "archivo": "img/platillos/100d4dc5.webp",
       "asunto": "A chilled green glass bottle of alcohol-free malt beverage with a completely blank cream label, beside a short glass of pale golden drink with a light foam head. No brand, letters, numbers or recognizable trade dress.",
-      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge."
+      "encuadre": "Near-overhead close view, the serving centered, a subtle cobalt accent at the frame edge.",
+      "archivo_original": "img/platillos/100d4dc5.jpg",
+      "variantes": [
+        "img/platillos/100d4dc5-480.webp",
+        "img/platillos/100d4dc5-800.webp",
+        "img/platillos/100d4dc5.webp"
+      ]
     },
     {
       "id_restaurante": "830bd2e7",
       "producto": "Bubble Milk Tea",
       "cocina": "bubble tea",
-      "archivo": "img/platillos/830bd2e7.jpg",
+      "archivo": "img/platillos/830bd2e7.webp",
       "asunto": "A tall clear cup of bubble milk tea, dark tapioca pearls at the bottom, creamy tea, ice and a wide plain dark-green straw. No branding or text.",
-      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background."
+      "encuadre": "Low three-quarter view emphasizing the food's texture, a simple cream background.",
+      "archivo_original": "img/platillos/830bd2e7.jpg",
+      "variantes": [
+        "img/platillos/830bd2e7-480.webp",
+        "img/platillos/830bd2e7-800.webp",
+        "img/platillos/830bd2e7.webp"
+      ]
     }
   ],
   "portada": {
