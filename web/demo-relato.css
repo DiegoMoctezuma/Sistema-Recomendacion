@@ -1,0 +1,209 @@
+/* The same restaurant identity, with quieter surfaces for browsing food. */
+#modo-demo .elegir-intro{position:relative;isolation:isolate;overflow:hidden;padding:12px 0 28px;border-bottom:1px solid var(--line);gap:55px}
+#modo-demo .elegir-intro::before{content:'';position:absolute;inset:0 -25px 0 auto;width:44%;z-index:-1;background:url(img/patron-citricos.svg) center/480px 320px;opacity:.12;pointer-events:none}
+#modo-demo .elegir-intro>div>p:not(.etiqueta){font-size:16px;line-height:1.7}
+#modo-demo .aviso-real{font-size:11px}
+#modo-demo .seleccion-persona{border-radius:18px;background:#f4efdf}
+#modo-demo .grupo-cabecera>p{font-size:14px}
+#modo-demo .persona-opcion{border-radius:10px}
+#modo-demo .preview-persona{background:var(--green);color:var(--cream);padding:24px;border:0;border-radius:12px;gap:25px}
+#modo-demo .preview-texto .etiqueta{color:var(--yellow);font-size:11px;letter-spacing:1px}
+#modo-demo .preview-texto>p{font-size:16px;line-height:1.6}
+#modo-demo .preview-pistas{font-size:12px}
+#modo-demo .ver-recomendaciones{background:var(--yellow);color:var(--green);border-color:var(--yellow);font-size:14px;justify-content:center}
+#modo-demo .demo-nota{font-size:13px}
+#modo-demo .demo-nota>span{font-size:26px}
+#modo-demo .perfil-resumen{position:relative;isolation:isolate;overflow:hidden;border-radius:18px;padding:24px 28px}
+#modo-demo .perfil-resumen::before{content:'';position:absolute;width:270px;height:270px;right:35px;top:-190px;border-radius:50%;border:2px solid #fff8e52b;box-shadow:0 0 0 15px #173e2e,0 0 0 17px #fff8e526,0 0 0 32px #173e2e,0 0 0 34px #fff8e51f;z-index:-1;pointer-events:none}
+#modo-demo .perfil-persona p:not(.etiqueta){font-size:13px}
+#modo-demo .perfil-persona .etiqueta{font-size:10px}
+#modo-demo .perfil-guia{font-size:14px;line-height:1.6;max-width:23ch}
+#modo-demo .demo-tabs{margin:24px 0 30px;gap:28px}
+#modo-demo .demo-tabs button{font-size:14px;min-height:56px}
+#modo-demo .demo-tabs button span{font-size:11px}
+#modo-demo .panel-encabezado>p{font-size:15px;line-height:1.7}
+#modo-demo .panel-encabezado .etiqueta{font-size:11px;letter-spacing:1.1px}
+#modo-demo .composicion-lista{background:transparent;border-block:1px solid var(--line);border-radius:0;padding:16px 0;gap:30px}
+#modo-demo .composicion-lista strong{font-size:34px}
+#modo-demo .composicion-lista span{font-size:13px}
+#modo-demo .reco-card.tarjeta-producto{border-radius:18px;background:#fffaee;box-shadow:0 3px 0 #173e2010}
+#modo-demo .reco-card.tarjeta-producto.nuevo{background:#f1f4eb}
+#modo-demo .reco-foto{height:205px}
+#modo-demo .reco-foto>img{transition:transform .25s ease-out}
+#modo-demo .reco-rango{border:3px double #173e2e45;width:40px;height:40px;font-size:25px}
+#modo-demo .reco-cocina{font-size:11px;letter-spacing:.7px}
+#modo-demo .tipo-reco{font-size:11px;padding:6px 10px}
+#modo-demo .producto-guardado{font-size:10px}
+#modo-demo .tarjeta-producto .reco-razon{border:0;margin-top:0;padding:14px 0 18px}
+#modo-demo .reco-razon p{font-size:14px;line-height:1.65;color:#4e5848}
+#modo-demo .reco-ver{font-size:13px;justify-content:flex-start;min-height:46px;padding:12px 0}
+#modo-demo .coincidencia{font-size:12px}
+#modo-demo .contexto-motor section{padding:24px;border-radius:18px;background:#fffaf0}
+#modo-demo .contexto-motor .etiqueta{font-size:10px}
+#modo-demo .contexto-motor p:not(.etiqueta){font-size:13px}
+#modo-demo .gustos-lista>div{font-size:13px}
+#modo-demo .gustos-lista b{font-size:12px}
+#modo-demo .contexto-sabores{border-top:4px solid var(--yellow)}
+#modo-demo .contexto-sabores .volver-personajes{margin-top:16px;font-size:13px}
+#modo-demo .contexto-motor .contexto-invitacion{background:var(--green);color:var(--cream);border-color:var(--green)}
+#modo-demo .contexto-invitacion .etiqueta{color:var(--yellow)}
+#modo-demo .contexto-motor .contexto-invitacion p{color:var(--cream)}
+#modo-demo .contexto-invitacion .btn{background:var(--yellow);border-color:var(--yellow);color:var(--green);font-size:13px}
+#modo-demo .nota-imagenes{font-size:11px;line-height:1.65;color:var(--muted);padding:0 6px}
+#modo-demo .siguiente-capitulo{display:flex;gap:24px;align-items:center;justify-content:space-between;padding:28px;border-block:1px solid var(--line);margin-top:32px}
+#modo-demo .siguiente-capitulo h3{font-size:29px;margin-top:9px;text-transform:uppercase;max-width:30ch}
+#modo-demo .siguiente-capitulo .etiqueta{font-size:10px}
+#modo-demo .siguiente-capitulo .btn{margin:0;min-height:48px;font-size:14px}
+#modo-demo .historial-resumen{border-radius:16px;padding:24px}
+#modo-demo .historial-resumen span{font-size:13px}
+#modo-demo .historial-pista{font-size:15px;line-height:1.6}
+#modo-demo .historial-item{border-radius:14px;background:#fffaf0}
+#modo-demo .historial-cab h3{font-size:16px;line-height:1.5}
+#modo-demo .historial-cab .etiqueta{font-size:10px}
+#modo-demo .historial-origen{border-top:1px solid var(--line);margin-top:18px;padding-top:9px}
+#modo-demo .historial-origen summary{font-size:12px;color:var(--muted);cursor:pointer;min-height:36px;padding-top:9px}
+#modo-demo .historial-meta{font-size:12px}
+#modo-demo .historia-datos,#modo-demo .resultado-contexto{border-block:1px solid var(--line);padding:12px 0;margin:28px 0}
+#modo-demo .historia-datos summary,#modo-demo .resultado-contexto summary{font-size:14px;font-weight:600;color:var(--green);padding:10px 0;cursor:pointer;min-height:40px}
+#modo-demo .historia-datos p,#modo-demo .resultado-contexto p{font-size:13px;line-height:1.75;color:var(--muted);margin:10px 0;max-width:90ch}
+#modo-demo .sin-historial{border-radius:18px}
+#modo-demo .sin-historial>p{font-size:15px}
+#modo-demo .nota-metodo{font-size:14px}
+#modo-demo .resultado-hero{border-radius:24px;padding:35px;gap:40px}
+#modo-demo .resultado-hero h2{font-size:clamp(42px,4.2vw,62px);text-wrap:balance}
+#modo-demo .resultado-hero>div>p:not(.etiqueta){font-size:16px;line-height:1.7;margin-top:19px}
+#modo-demo .resultado-persona{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+#modo-demo .resultado-persona .etiqueta{color:var(--yellow);font-size:11px}
+#modo-demo .resultado-avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #fff8e560}
+#modo-demo .resultado-numero>p{font-size:14px!important;line-height:1.65}
+#modo-demo .nota-pequena{font-size:12px!important;line-height:1.7}
+#modo-demo .resultado-resumen span{font-size:13px;line-height:1.5}
+#modo-demo .observado{background:#fffaf0;border-radius:15px;padding:23px}
+#modo-demo .observado-acierto{border-color:var(--green);border-left:5px solid var(--green)}
+#modo-demo .observado h3{font-size:16px;line-height:1.5}
+#modo-demo .observado-chip{font-size:12px;line-height:1.5;display:inline-block}
+#modo-demo .resultado-aprendizaje{background:#e9eddd;border-radius:18px;padding:28px;margin-top:28px}
+#modo-demo .resultado-aprendizaje h3{font-size:30px;line-height:1.1;max-width:30ch}
+#modo-demo .resultado-aprendizaje p{font-size:14px;line-height:1.8}
+#modo-demo .resultado-aprendizaje p+p{font-size:12px;color:var(--muted);margin-top:14px}
+#modo-demo .resultado-volver{font-size:14px;min-height:48px}
+#modo-demo .detalle-pie>span{font-size:12px}
+.producto-cuerpo{padding-top:68px}
+.producto-heading .etiqueta{font-size:10px;line-height:1.55}
+.producto-titulo{font-size:25px}
+.producto-para{margin:0 0 14px;padding:16px 0 20px;border-bottom:1px solid var(--line)}
+.producto-para p{font-size:14px}
+.producto-para p>span{font-size:12px;line-height:1.6}
+.producto-avatar{width:43px;height:43px}
+.producto-pregunta{font-size:25px;line-height:1.1;text-transform:uppercase;margin:22px 0}
+.producto-motivo h3{font-size:14px;line-height:1.55}
+.producto-motivo p{font-size:14px;line-height:1.75;color:#4e5848}
+.producto-sin-historia{font-size:14px;line-height:1.75;color:var(--muted);margin:0 0 22px}
+.producto-acciones{padding-top:20px;margin-bottom:18px}
+.producto-guardar{font-size:14px;min-height:50px}
+.producto-acciones>p{font-size:11px;line-height:1.6;margin-bottom:0}
+.producto-afinidad.afinidad-secundaria{grid-template-columns:64px minmax(0,1fr);padding:16px 0;gap:16px;margin:0 0 12px;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent}
+.afinidad-secundaria .afinidad-circulo{width:64px;height:64px}
+.afinidad-secundaria .afinidad-circulo strong{font-size:30px}
+.afinidad-secundaria .afinidad-circulo small{font-size:13px;padding-top:6px}
+.afinidad-secundaria .afinidad-demo{font-size:9px;line-height:1.5}
+.afinidad-secundaria h3{font-size:21px;line-height:1.15;margin:6px 0}
+.afinidad-secundaria p{font-size:12px;line-height:1.7}
+.producto-metodo summary{font-size:13px;min-height:42px}
+.producto-metodo p{font-size:12px;line-height:1.8}
+.producto-fuente{display:grid;grid-template-columns:1fr auto;gap:8px 16px;font-size:12px;line-height:1.6;margin:16px 0;color:var(--muted)}
+.producto-fuente dd{margin:0;text-align:right;font-weight:600;overflow-wrap:anywhere;color:var(--ink)}
+.producto-paginacion{margin-top:16px}
+.producto-paginacion button{font-size:13px;min-height:44px}
+.producto-paginacion>span{font-size:12px}
+#platillo-dialog::backdrop{animation-duration:.2s}
+#platillo-dialog.cerrando::backdrop{animation-duration:.18s}
+@media(max-width:1100px){
+ #modo-demo .elegir-intro{gap:35px}
+ #modo-demo .panel-encabezado{gap:25px}
+ #modo-demo .panel-encabezado>p{font-size:14px}
+ #modo-demo .contexto-motor section{padding:20px}
+ #modo-demo .reco-foto{height:180px}
+}
+@media(max-width:800px){
+ #modo-demo .seleccion-persona{padding:24px}
+ #modo-demo .perfil-resumen{padding:22px}
+ #modo-demo .contexto-motor .nota-imagenes{grid-column:1/-1}
+ #modo-demo .resultado-hero{padding:28px;gap:28px}
+ #modo-demo .resultado-hero>div>p:not(.etiqueta){font-size:15px}
+ #modo-demo .siguiente-capitulo{padding:25px 0}
+}
+@media(max-width:580px){
+ #modo-demo .elegir-intro{gap:20px;padding:0 0 24px}
+ #modo-demo .elegir-intro::before{width:75%;inset:35% -30px 0 auto;opacity:.1}
+ #modo-demo .elegir-intro>div>p:not(.etiqueta){font-size:15px}
+ #modo-demo .seleccion-persona{padding:22px 15px;border-radius:16px}
+ #modo-demo .grupo-cabecera>p{font-size:14px;line-height:1.7}
+ #modo-demo .preview-persona{padding:20px;gap:19px;border-radius:12px}
+ #modo-demo .preview-texto>p{font-size:15px}
+ #modo-demo .preview-pistas{font-size:12px;display:grid;gap:8px}
+ #modo-demo .ver-recomendaciones{font-size:14px;white-space:normal;min-height:48px}
+ #modo-demo .perfil-resumen{padding:20px 16px}
+ #modo-demo .perfil-persona p:not(.etiqueta){font-size:12px;line-height:1.6}
+ #modo-demo .perfil-persona .etiqueta{font-size:9px}
+ #modo-demo .demo-tabs{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:8px;margin:20px 0 26px;padding:0}
+ #modo-demo .demo-tabs button{font-size:12px;white-space:normal;line-height:1.4;justify-content:center;min-height:58px;gap:5px;padding:10px 0}
+ #modo-demo .demo-tabs button span{font-size:10px;min-width:19px}
+ #modo-demo .panel-encabezado{gap:15px}
+ #modo-demo .panel-encabezado h2{font-size:38px;line-height:1}
+ #modo-demo .panel-encabezado>p{font-size:14px}
+ #modo-demo .composicion-lista{gap:12px;padding:16px 0}
+ #modo-demo .composicion-lista span{font-size:11px;line-height:1.6}
+ #modo-demo .composicion-lista strong{font-size:32px}
+ #modo-demo .reco-foto{height:210px}
+ #modo-demo .reco-razon p{font-size:14px}
+ #modo-demo .reco-ver{font-size:13px;min-height:46px}
+ #modo-demo .contexto-motor{grid-template-columns:1fr}
+ #modo-demo .contexto-motor .btn{font-size:14px}
+ #modo-demo .siguiente-capitulo{flex-direction:column;align-items:stretch;padding:26px 0;gap:18px}
+ #modo-demo .siguiente-capitulo h3{font-size:29px}
+ #modo-demo .siguiente-capitulo .btn{width:100%;justify-content:center;white-space:normal}
+ #modo-demo .historial-resumen{padding:20px;gap:24px 14px}
+ #modo-demo .historial-resumen span{font-size:12px}
+ #modo-demo .historial-cab{gap:12px}
+ #modo-demo .historial-cab h3{font-size:14px}
+ #modo-demo .historial-cab .etiqueta{font-size:9px}
+ #modo-demo .historial-pista{font-size:14px}
+ #modo-demo .historial-item{padding:20px 16px}
+ #modo-demo .historial-cab>strong{font-size:32px}
+ #modo-demo .resultado-hero{border-radius:20px;padding:25px 22px;gap:24px}
+ #modo-demo .resultado-hero h2{font-size:44px}
+ #modo-demo .resultado-numero>p{font-size:13px!important;line-height:1.65}
+ #modo-demo .resultado-resumen{gap:13px}
+ #modo-demo .resultado-resumen span{font-size:11px}
+ #modo-demo .observado{padding:22px 18px;gap:14px}
+ #modo-demo .observado h3{font-size:15px}
+ #modo-demo .resultado-aprendizaje{padding:24px 22px}
+ #modo-demo .resultado-aprendizaje h3{font-size:29px}
+ #modo-demo .resultado-aprendizaje p{font-size:14px}
+ #modo-demo .resultado-aprendizaje p+p{font-size:12px}
+ #modo-demo .detalle-pie>span{font-size:11px;line-height:1.6}
+ .producto-cuerpo{padding:26px 20px 20px}
+ .producto-titulo{font-size:24px;line-height:1.4}
+ .producto-pregunta{font-size:24px}
+ .producto-motivo p{font-size:14px}
+ .producto-metodo p{font-size:12px}
+ .producto-acciones>p{font-size:11px}
+ .producto-guardar{font-size:14px}
+ .producto-fuente{font-size:11px}
+}
+@media(max-width:360px){
+ #modo-demo .elegir-intro h1{font-size:49px}
+ #modo-demo .preview-persona{padding:18px}
+ #modo-demo .perfil-persona{gap:12px}
+ #modo-demo .perfil-persona h1{font-size:32px}
+ #modo-demo .composicion-lista span{font-size:10px}
+ #modo-demo .reco-foto{height:185px}
+ .producto-cuerpo{padding:25px 16px 20px}
+ .producto-titulo{font-size:22px}
+ .producto-motivo{gap:10px}
+ .producto-orden{font-size:25px}
+}
+@media(prefers-reduced-motion:reduce){
+ #modo-demo *,#platillo-dialog *{scroll-behavior:auto!important;transition:none!important}
+}

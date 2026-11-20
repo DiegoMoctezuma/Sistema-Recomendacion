@@ -2,6 +2,8 @@
 
 Abre `index.html` junto con el resto de esta carpeta. La entrada principal es el demo. La presentación y su índice están dentro del botón de tres puntos, en la esquina inferior derecha. Las fuentes, imágenes y datos de respaldo están incluidos para no depender de internet.
 
+El demo sigue ahora la historia comercial de la presentación: **Su menú · Su historia · Qué eligió después**. Conserva los doce personajes, sus retratos, sus diez opciones y los resultados originales. Las fichas explican primero las razones de cada sugerencia; el porcentaje ilustrativo ocupa un lugar secundario y los datos técnicos permanecen desplegables. `demo-relato.css` añade detalles discretos de la identidad y entradas breves para teléfono. `FLUJO.md` documenta el recorrido y su revisión del 20 de noviembre de 2026.
+
 En la presentación, el botón de expansión o F muestra solo la diapositiva. Usa las flechas para avanzar y F o Escape para salir. El recorrido actual, los controles y la verificación están en `FLUJO.md`.
 
 La actualización de iconos incorpora 23 ilustraciones originales en SVG, con formas recortadas y la paleta de A domicilio. Sustituyen los pictogramas de comida y de apoyo en la presentación y la demo. Puedes ver la familia en `catalogo-iconos.html`; las fuentes editables, exportaciones y verificaciones están descritas en `ICONOS.md`.

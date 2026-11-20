@@ -1,5 +1,23 @@
 # Recorrido del demo y modo de presentación
 
+## Recorrido comercial — 20 de noviembre de 2026
+
+Se conservan las cuatro categorías, las doce identidades y sus retratos: Ale, Rubén, Tere, Niko, Sofi, Beto, Mar, Kari, Pau, Dani, Lupe y Chava. La selección mantiene categorías, tres integrantes y vista previa. Las asociaciones entre nombre e imagen y los datos de los personajes siguen iguales.
+
+Después de elegir se abre **Su menú**, con sus diez restaurantes en el orden original. Cada tarjeta muestra la foto ilustrativa, el platillo que identifica al lugar, si ya lo conoce o está por descubrir y una razón breve sobre ese personaje. La foto y «Por qué aparece para…» abren la ficha. Las zonas e identificadores se consultan dentro de sus datos desplegables.
+
+La ficha da prioridad a «¿Por qué aparece para…?», los pedidos anteriores y las cocinas observadas. Permite guardar para el personaje, avanzar al platillo anterior o siguiente y cerrar con botón, Escape o Atrás. El indicador porcentual conserva la escala ilustrativa por posición, con su aclaración, y se coloca después de los motivos y del botón para guardar. No se muestra como puntuación principal en las tarjetas. «Datos de esta recomendación» conserva el porcentaje de aporte, la zona, los pedidos en entrenamiento y el cálculo del indicador.
+
+**Su historia** reúne sus lugares más pedidos y cocinas principales. Se presenta como un resumen, sin inventar una secuencia de fechas. Los casos sin pedidos previos explican que sus gustos todavía están por conocerse y que sus sugerencias empiezan por popularidad reciente. Las descripciones visibles de Kari y de quienes empiezan usan los datos actuales y un lenguaje cotidiano.
+
+**Qué eligió después** cuenta el desenlace en tercera persona y conserva todos los resultados. Por ejemplo, Ale mantiene una coincidencia entre tres lugares posteriores; los casos con cero coincidencias también se muestran. Los lugares observados indican cuáles ya estaban en el menú. La muestra comparativa del grupo queda en «Qué pasó en historias parecidas». Se mantiene visible que las personas no vieron las listas y que la comparación no demuestra cambios en decisiones ni ventas.
+
+Las rutas existentes (`recomendaciones`, `historial`, `resultado` y `platillo`) mantienen sus claves, aunque las pestañas tengan nombres nuevos. Se conserva el regreso a la persona seleccionada y su posición, los favoritos locales, los enlaces directos y Atrás/Adelante. Las entradas duran 220–260 ms; la selección por categoría conserva su desplazamiento suave e interrumpible. Se respeta la preferencia de movimiento reducido.
+
+`demo-relato.css` se carga después de las hojas existentes y limita sus cambios al demo y a su ficha. Reutiliza el patrón vectorial de cítricos en una cabecera, círculos discretos en el perfil y colores de papel en las tarjetas. No añade fotografías, cambia retratos ni modifica las slides o sus tiempos.
+
+Verificación: doce recorridos de menú, historia y desenlace, con diez recomendaciones y resultados idénticos a los datos originales; doce fichas con retrato y nombre correctos; 120 motivos en tercera persona sin lenguaje técnico en el texto principal. Se comprobaron favoritos al recargar, platillos anterior/siguiente, cierre de ficha, pestañas por teclado, Atrás y Adelante, así como selección, menú, historia, resultado y ficha larga a 320 px, además de las vistas a 390 y 768 px. Las vistas revisadas no presentan desplazamiento horizontal. Las secciones siguientes documentan revisiones anteriores.
+
 La apertura sin ruta entra en `#demo`. El HTML también muestra el demo por defecto. La presentación permanece en el menú inferior; las rutas directas a una persona, platillo o diapositiva siguen funcionando.
 
 ## Selección restaurada
