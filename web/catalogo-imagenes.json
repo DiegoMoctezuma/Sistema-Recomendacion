@@ -1389,7 +1389,7 @@
     }
   ],
   "portada": {
-    "archivo": "img/portada-v2.png",
+    "archivo": "img/portada-v2.webp",
     "prompt": "Use case: precise-object-edit. Edit ONLY the hand and its grip on the blue fork in the upper-left quadrant of this exact illustration. Replace the awkward extended-finger grip with a clear, anatomically plausible relaxed OVERHAND fork grip: the thumb opposes the bent index finger around the upper handle, the middle finger supports the handle, and the ring and little fingers curl naturally into the palm. Exactly five fingers, clean simple shapes. The blue fork must be one continuous solid utensil, naturally held between fingers, never passing through the hand. Keep its diagonal orientation down toward the small orange food cube. Preserve the wrist entering from upper left with the burgundy sleeve. Match the existing warm cream flat skin color, cut-paper geometric screenprint style and grain. Keep the rest of the image unchanged: all food, dishes, vegetables, background, color palette, texture, composition, aspect ratio, and layout. No text, logos, added objects or photorealism. This is a local correction of hand anatomy, not a redesign."
   }
 }
