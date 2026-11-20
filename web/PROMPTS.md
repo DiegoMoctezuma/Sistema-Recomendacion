@@ -45,3 +45,15 @@ A relaxed woman with short dark hair, cobalt blue sweater, holding a cream takea
 ### img/personaje-nuevo.png
 
 A young adult with dark wavy hair, cream shirt, holding a phone showing a simple empty cream rectangle; tomato orange background.
+
+## Slide 6 — El ranking y el paso del tiempo
+
+Generada el 19 de noviembre de 2026 con la herramienta integrada ImageGen, usando `img/entrega-fonda.webp` como referencia de estilo. Ilustración conceptual: el reloj de arena representa el tiempo; las tarjetas y el tazón sitúan la idea en la comida a domicilio. La cifra 8/20 se presenta como texto HTML, separado de la imagen.
+
+Original PNG con transparencia guardado en `outputs/ilustracion-popularidad.png` dentro del espacio de trabajo. Para la web: `img/popularidad-tiempo.webp` (1536×1024, 227,156 bytes) e `img/popularidad-tiempo-960.webp` (960×640, 107,006 bytes), calidad 84 y alfa conservado.
+
+Prompt exacto:
+
+```text
+Use case: illustration-story. Asset type: a presentation illustration for the food recommendation brand A domicilio. Create a NEW flat editorial cut-paper illustration. The attached image is a STYLE REFERENCE only: match its bold geometric paper shapes, subtle screenprint grain, cream/tomato red/forest green/mustard/cobalt palette and warm food-market feeling. Do not reuse the hands, bag or layout. Primary message: yesterday's popular food choices need to be evaluated again over time. Depict a large elegant mustard-yellow HOURGLASS with visible falling grains, a small overlapping stack of cream restaurant-menu cards behind it (only simple food illustrations and one small star, no writing), and a fresh inviting red-and-cream bowl of noodles with tomato and leafy herbs in the foreground. A lemon slice and two bold green leaves tie the scene together. One coherent still-life composition with the hourglass and food as clear focal points, readable at a distance. Landscape 3:2 framing, generous clean breathing room around every silhouette, every object entirely inside the image. Transparent background: this will sit directly on a deep cobalt slide; no painted backdrop, no rectangular panel, no fake checkerboard. Texture only inside the illustrated objects. Opaque paper-like shapes with crisp edges, no glass photorealism, no 3D, no photographic lighting, no drop shadows, no gradients. No people, no hands, no text, letters, numbers, logos, calendars with dates, closed restaurants, crosses or strikethroughs. The image is a conceptual illustration, not a chart, so do not show counts or data.
+```

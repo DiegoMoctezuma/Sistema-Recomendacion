@@ -108,3 +108,18 @@ Las tarjetas y fichas narran las recomendaciones en tercera persona mediante `ra
 ## Rendimiento de imágenes
 
 La versión actual sirve 347 WebP adaptativos para las 99 fotos, los doce personajes, cuatro ilustraciones y seis respaldos de comida. La presentación espera a su diapositiva y las tarjetas cargan sus imágenes conforme se acercan a la vista. `OPTIMIZACION.md` y `rendimiento-imagenes.json` documentan la medición y la revisión. Las cifras y referencias a JPEG/PNG de las secciones históricas describen exportaciones anteriores, conservadas fuera de la carpeta web en el respaldo previo a WebP.
+
+## Legibilidad y composición de slides — 19 de noviembre de 2026
+
+- Slides 4, 10 y 13: etiquetas de gráficas, periodos y datos de Ale más legibles al proyectar.
+- Slide 11: mejora relativa calculada desde los datos, mostrada como +6.9%, con valores directos en las tres barras y explicación breve de la unidad NDCG × 100.
+- Slide 12: doce retratos agrupados en dos filas escalonadas bajo el texto. El QR ocupa una zona independiente a la derecha, con sombra suave y espacio libre alrededor. En móvil, texto, personajes y QR se apilan.
+- Slide 15: título más corto, cifra principal y explicación separados para aclarar la jerarquía.
+
+Se verificaron las seis slides a 1280×720 y 1440×900 sin desbordamientos. A 390×844 y 320×740 no hay desbordamiento horizontal; las slides largas se recorren verticalmente. Los valores de la gráfica pequeña de la slide 4 no se superponen a 320 px. El QR de la captura de la slide 12 se decodificó a la URL del demo. La revisión de consola no registró errores ni advertencias. Se conservan las otras trece slides y los datos actuales del proyecto.
+
+## Ilustración de la slide 6 y ampliación de la 11
+
+La cuadrícula de la slide 6 se sustituyó por una ilustración original de reloj de arena, menús y comida, con el estilo de la marca. El dato de 8 de los 20 restaurantes populares sin pedidos en prueba se conserva en HTML; la ilustración no representa un conteo ni implica cierres. Se entrega en dos variantes WebP transparentes, cargadas solo al abrir la diapositiva. `PROMPTS.md` documenta la herramienta integrada ImageGen y el prompt exacto.
+
+La slide 11 amplía el título, el porcentaje y su explicación; el bloque amarillo ocupa el ancho de su columna. En la vista de 1280×720, el título pasó de 58 a 74 px y el porcentaje de 88 a 124 px. Las cifras de la gráfica y la mejora relativa se conservan. Se revisaron las slides 6 y 11 en escritorio a 1280×720, 1440×900 y 1920×1080, sin recortes ni desbordamiento. A 390×844 y 320×740 no hay desbordamiento horizontal; el contenido largo mantiene desplazamiento vertical. La imagen cargó correctamente y la consola no registró errores ni advertencias.
