@@ -123,3 +123,51 @@ Se verificaron las seis slides a 1280×720 y 1440×900 sin desbordamientos. A 39
 La cuadrícula de la slide 6 se sustituyó por una ilustración original de reloj de arena, menús y comida, con el estilo de la marca. El dato de 8 de los 20 restaurantes populares sin pedidos en prueba se conserva en HTML; la ilustración no representa un conteo ni implica cierres. Se entrega en dos variantes WebP transparentes, cargadas solo al abrir la diapositiva. `PROMPTS.md` documenta la herramienta integrada ImageGen y el prompt exacto.
 
 La slide 11 amplía el título, el porcentaje y su explicación; el bloque amarillo ocupa el ancho de su columna. En la vista de 1280×720, el título pasó de 58 a 74 px y el porcentaje de 88 a 124 px. Las cifras de la gráfica y la mejora relativa se conservan. Se revisaron las slides 6 y 11 en escritorio a 1280×720, 1440×900 y 1920×1080, sin recortes ni desbordamiento. A 390×844 y 320×740 no hay desbordamiento horizontal; el contenido largo mantiene desplazamiento vertical. La imagen cargó correctamente y la consola no registró errores ni advertencias.
+
+## Relato comercial de las 19 slides
+
+La presentación se reescribió para vender la propuesta de A domicilio. El hilo conecta la dificultad de elegir, los hábitos personales, la oportunidad para restaurantes, la propuesta de una experiencia más personal, evidencia con pedidos reales, la demo, la forma de trabajar juntos y la invitación a un piloto. El cierre se dirige al negocio que ofrecería las recomendaciones.
+
+Los textos, títulos, descripciones de imágenes y etiquetas accesibles de las slides prescinden de métricas por nombre, algoritmos, entrenamiento, validación, API y detalles de ejecución. La explicación técnica sigue disponible en los datos y los materiales del proyecto, fuera de la presentación comercial. La demo mantiene sus funciones y sus datos.
+
+La mejora del +6.9% sigue describiendo la calidad de ordenar sugerencias frente a repetir los favoritos; el texto explica que se compararon con las elecciones posteriores. No se transforma en una promesa de aumento de ventas. Los porcentajes de hábitos y de lugares con pocos pedidos se expresan con palabras sencillas, con redondeos de presentación. El caso de Ale conserva sus 32 pedidos, dos restaurantes y una coincidencia entre sus tres elecciones posteriores. La suscripción se presenta como propuesta; alcance y precio se acordarían en un piloto. Las historias del QR representan pedidos reales con nombres y retratos ilustrativos, sin presentarse como clientes comerciales adquiridos.
+
+Se revisó el lenguaje de las 19 slides, incluidos textos alternativos y etiquetas accesibles, y se recorrieron en navegador a 1280×720, 1440×900, 390×844 y 320×740. No hubo desbordamientos horizontales ni recortes de contenido en escritorio; las slides largas se desplazan verticalmente en móvil. Se verificó la lectura del QR en la captura y no se registraron errores o advertencias de consola.
+
+## Ajustes de círculos y patrones — 19 de noviembre de 2026
+
+- Slides 3 y 14: solo conservan los círculos verdes inferiores. Se añade otro grupo de círculos de 244 px, con el centro horizontal al 25% del ancho y opacidad del 20%, recortado en el borde superior. En teléfono mide 156 px y tiene opacidad del 16%. Se retiraron los alimentos de estas dos slides.
+- Slide 4: se retiraron mantel, alimentos y textura, dejando el texto y la gráfica sobre su fondo.
+- Slide 8: el mantel se sustituyó por un friso de alimentos delineados, generado con ImageGen y compuesto a baja opacidad sobre el fondo vino. Conserva la vajilla superior y el bodegón inferior. El patrón transparente se sirve en WebP adaptativo y las copias reutilizan el mismo recurso.
+- Slide 9: se retiró el bodegón superior y se amplió el espacio entre el título y las cajas; sus arcos y colores se conservan.
+- Slide 13: el adorno de limón y hojas se sustituyó por un fondo repetido de cítricos sin relleno. El vector usa un tono mostaza y baja opacidad para integrarse en el amarillo.
+
+Los textos comerciales, las cifras, la demo y las animaciones mantienen su contenido y comportamiento. `PROMPTS.md` registra la nueva generación y el archivo vectorial.
+
+Se comprobaron estas seis slides a 1280×720, 1440×900, 390×844 y 320×740: 24 vistas sin desbordamiento horizontal ni recortes verticales en escritorio. Los círculos superiores tienen su centro al 25% del ancho; la slide 4 no contiene adornos y la 9 deja aproximadamente 47 px entre el título y las cajas a 1280×720. El patrón de cítricos cargó correctamente. La entrada sigue siendo el demo y mantiene pendientes las imágenes de la presentación, incluidos ambos patrones. No hubo errores ni advertencias de consola.
+
+## Composiciones de restaurante — Revisión del 19 de noviembre de 2026
+
+La slide 7 presenta una mesa ovalada con tres platillos ilustrados, tres cartas de menú con inclinaciones y bordes distintos, y un mantel que atraviesa la base. La ilustración nueva tiene transparencia real, sin rectángulo de fondo ni desvanecido. La cabecera usa una cuadrícula: en teléfono, el texto y los platillos se acomodan debajo del título, y las cartas se apilan.
+
+La slide 8 incorpora una franja amplia de mantel, un plato de cerámica en la esquina superior y un bodegón de tomate, limón y hojas. La 9 organiza sus tres ideas en arcos de colores con iconos centrados. La 16 conserva el mosaico como un marco definido en L, junto con cartas bordeadas y hojas sobre el remate. La 18 tiene un mantel que ocupa la parte inferior, tres propuestas con etiquetas de color y una composición vegetal superior. En las otras slides decoradas, los platos, hojas y cítricos se agrupan en composiciones mayores. El mosaico ya no se utiliza en la 7 y ningún mosaico lleva un desvanecido.
+
+Se conservan las palabras de la presentación comercial, las cifras, el demo y las animaciones anteriores. La única estructura de contenido modificada en `app.js` es la cabecera de la slide 7 para alojar la imagen y adaptarla a móviles. Sus textos siguen iguales. Los adornos se recortan dentro de la slide y el óvalo acompaña a la ilustración al cambiar el tamaño. Los recursos modificados llevan una versión en sus referencias para evitar que el navegador mezcle archivos anteriores con los nuevos.
+
+Se recorrieron las 19 slides a 1280×720 y 1440×900 sin desbordamientos. También se revisaron las 19 a 390×844 y 320×740 sin desplazamiento horizontal; las slides largas conservan su desplazamiento vertical. Se revisaron visualmente la mesa, el comedor, los tres arcos, el marco de mosaico y el piloto. Las transiciones de la 6 a la 7 y de la 11 a la 12 se completaron sin capas residuales; el QR de la captura sigue leyendo la URL del demo. La consola no registró errores ni advertencias. El navegador integrado sigue sin exponer pantalla completa; se conserva la limitación de comprobación descrita abajo.
+
+## Superficies y movimiento — Primera revisión del 19 de noviembre de 2026
+
+Se conservan el relato comercial, los datos y las funciones del demo. Las slides incorporan una textura ligera de papel, detalles de mantel en la 4, 8 y 18, mosaico de alimentos en la 7 y 16, y frutas, hojas o contornos de platos en otros márgenes. Las portadas mantienen sus ilustraciones. Las superficies se recortan dentro de una capa independiente para no crear desplazamientos horizontales ni tapar el contenido. En teléfonos, los adornos se reducen y las etiquetas de la slide 7 se colocan sobre el título de cada tarjeta.
+
+Las tarjetas de las slides 7, 9 y 18, y los tres momentos de la 10, aparecen automáticamente uno a uno: 180 ms de separación y 420 ms de duración, completando la secuencia habitual en 780 ms. No requieren clics adicionales ni cambian de diapositiva por sí solas.
+
+Al avanzar de la 6 a la 7, un círculo amarillo se expande hasta formar el fondo de la propuesta para negocios. De la 11 a la 12, el mismo recurso en azul abre la invitación al demo y su QR. Duran 620 ms; las tarjetas de la 7 terminan de aparecer dentro de 980 ms. Al retroceder o saltar por el índice se conserva el cambio sencillo. La navegación rápida, salir al demo, redimensionar o cambiar de pantalla completa cancelan el efecto y restauran las capas. La preferencia de reducir movimiento muestra el contenido completo de inmediato.
+
+El mosaico se entrega en dos WebP adaptativos (640 y 960 px) y se carga solo cuando se abre su slide. Se comprobó que la entrada al demo mantiene cero imágenes de la presentación cargadas; los dos mosaicos permanecen pendientes. Los SVG y el mantel no requieren descargas adicionales. `PROMPTS.md` registra la imagen generada y su prompt.
+
+Verificación de esta actualización: recorrido de las 19 slides a 1280×720 y 390×844 sin desbordamientos horizontales; ninguna slide desborda verticalmente en escritorio y las largas permiten desplazamiento en móvil. Revisión adicional de las tarjetas de la 7 a 320 px, sin superposición de etiqueta y título. Se probaron ambas transiciones en navegador y la navegación rápida sin capas residuales ni elementos bloqueados; el QR de la captura final conserva la URL correcta. No se registraron errores o advertencias de consola. Una prueba aislada verificó la preferencia de movimiento reducido, el final automático de las listas y la cancelación de transiciones anteriores. El navegador integrado de esta revisión no expone la API de pantalla completa: sus reglas previas se conservaron y el efecto se cancela al recibir ese cambio, pero la reproducción en pantalla completa debe comprobarse en el navegador de exposición.
+
+## Ritmo de las slides 9, 10 y 18
+
+Cada elemento de sus listas aparece durante 750 ms y el siguiente comienza al terminar el anterior. Los tres elementos completan su entrada en 2.25 segundos, automáticamente. La slide 7 y las transiciones circulares conservan sus tiempos. Se mantienen la cancelación al navegar y la preferencia de movimiento reducido.

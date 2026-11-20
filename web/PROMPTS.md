@@ -46,6 +46,44 @@ A relaxed woman with short dark hair, cobalt blue sweater, holding a cream takea
 
 A young adult with dark wavy hair, cream shirt, holding a phone showing a simple empty cream rectangle; tomato orange background.
 
+## Friso de alimentos — Slide 8
+
+Generado el 19 de noviembre de 2026 con ImageGen integrado, modo predeterminado y transparencia. La imagen adjunta del usuario aporta la idea de un friso de alimentos delineados. Se pidió un dibujo nuevo de alimentos reconocibles con trazos crema y textura de impresión, para repetirlo a baja opacidad sobre el fondo vino.
+
+Original: `/Users/mikitl/Documents/Codex/2026-11-17/es-2/outputs/patron-comida.png` (1536×1024, alfa conservado). Variantes de la web: `img/patron-comida.webp` (960×640, 147,978 bytes) y `img/patron-comida-640.webp` (640×427, 75,592 bytes), calidad 82. El mismo archivo se reutiliza en el friso y solo carga al abrir la slide 8.
+
+Prompt exacto:
+
+```text
+Use case: illustration-story. Generate one sophisticated repeating-pattern tile for the food recommendation brand A domicilio. The attached image is a LAYOUT AND INTENT REFERENCE ONLY: a quiet restaurant frieze formed from repeated food outlines. Improve its drawing substantially; do not copy its crude symbols, lettering or brown background. Create warm cream monochrome OUTLINE drawings of recognizable cut lemon slices, whole tomatoes with calyx, wavy noodle bowls, small bread loaves, olive branches and aubergines. The aesthetic is the brand's geometric cut-paper restaurant illustrations translated to refined hand-drawn contour art: bold simple food silhouettes, slightly irregular confident linework, subtle screenprint texture inside strokes. Each motif is a complete clear silhouette with generous space between motifs, similar line weight and optical size. Arrange in three staggered rhythmic rows across a landscape 3:2 tile. Alternate motifs and orientations so the pattern feels designed and lively; do not arrange them in individual cards or circles. Seamless repeat intent with a calm even density, visually aligned opposite edges. All outlines use the single color warm cream #fff8e5 with no colored fills. Genuine transparent background in every gap and inside every contour. No painted background, no wine or brown backdrop, no gradient, no fade, no rectangle, no frame, no shadows or glow. No people, hands, text, letters, numbers, logos, decorative writing or watermark. The result will be repeated at low opacity over a dark wine slide, so keep it graphic and crisp.
+```
+
+El patrón de la slide 13 se dibujó directamente como vector en `img/patron-citricos.svg`: limones enteros y rodajas, sin relleno, con trazos mostaza y repetición. Su color y baja opacidad se adaptan al fondo amarillo. No utiliza generación de imagen ni incorpora alimentos distintos a cítricos.
+
+## Mesa de distintos gustos — Nueva composición de la slide 7
+
+Generada el 19 de noviembre de 2026 con ImageGen integrado, modo predeterminado, con transparencia. La imagen de referencia `img/entrega-fonda.webp` solo aporta el estilo. Los tres platillos representan gustos distintos y no son fotos de pedidos concretos. La mesa verde, las cartas y el mantel se componen en HTML/CSS alrededor de la ilustración.
+
+Original conservado en `/Users/mikitl/Documents/Codex/2026-11-17/es-2/outputs/mesa-gustos.png` (1536×1024, canal alfa conservado). Archivos para la web: `img/mesa-gustos.webp` (960×640, 173,492 bytes) y `img/mesa-gustos-640.webp` (640×427, 89,510 bytes), calidad 83. Se cargan al abrir la slide 7.
+
+Prompt exacto:
+
+```text
+Use case: illustration-story. Create a new editorial food illustration for A domicilio. The reference image supplies STYLE ONLY: bold cut-paper shapes, warm screenprint grain, cream, tomato red, deep forest green, mustard yellow and cobalt blue. Subject: three different inviting dishes seen FROM DIRECTLY OVERHEAD, arranged as a loose triangular still life, one large cream-and-cobalt rimmed plate at lower center filled with rice, sliced grilled chicken, red tomato wedges and leafy herbs; one smaller deep-red bowl at upper left filled with golden curly noodles and herbs; one smaller cream-and-green bowl at upper right filled with colorful leafy vegetables, cucumber and radish. A few separate olive leaves, two olives and a lemon wedge nestle between dishes to make one cohesive composition. Graphic irregular handmade ceramic rims, flat food shapes with detailed subtle grain, no photographic shading. The three dishes are visually distinct and all wholly inside the frame with generous clean space around their silhouettes. Wide landscape 3:2 composition. IMPORTANT: genuine transparent background everywhere around the objects and in their gaps. No tabletop, no backdrop, no rectangle, no vignette, no gradient fade, no checkerboard, no glow, no shadows outside the shapes. This cutout will be placed over a green oval tabletop drawn in CSS. No people, no hands, no utensils, no letters, no text, no numbers, no logos. Keep the look sophisticated, warm and very legible at small slide sizes.
+```
+
+## Mosaico de mercado — Generación original, ahora en la slide 16
+
+Generado el 19 de noviembre de 2026 con ImageGen integrado (modo predeterminado, sin CLI). Referencia de estilo: `img/entrega-fonda.webp`. Es una superficie decorativa nueva de inspiración romana; no representa información ni un mosaico histórico real.
+
+Original opaco: `/Users/mikitl/Documents/Codex/2026-11-17/es-2/outputs/mosaico-mercado.png` (1536×1024). Variantes de la web: `img/mosaico-mercado.webp` (960×640, 182,086 bytes) e `img/mosaico-mercado-640.webp` (640×427, 92,280 bytes), calidad 68. Solo se cargan al abrir las slides correspondientes. El mantel se dibuja con CSS; las frutas y hojas de los márgenes son SVG originales integrados en `ambiente-slides.js`.
+
+Prompt exacto:
+
+```text
+Use case: illustration-story. Asset: decorative food mosaic texture for the A domicilio presentation. Create one beautiful flat ROMAN-INSPIRED MOSAIC of fruits and vegetables, not a photograph of an archaeological site. Use the reference only for its warm cream, tomato red, forest green, mustard and cobalt palette and the geometric food shapes. Make a repeating-feeling all-over composition of lemon slices, whole tomatoes, olives and big simple leaves, constructed from tiny irregular square ceramic tesserae separated by fine warm-cream grout. Clear food silhouettes at a distance, small handcrafted tile variation close up. Cream ground, bright but restrained colors, an occasional simple cobalt geometric border motif. Even soft flat illumination, rich tactile ceramic grain, no shiny reflection, no deep relief, no dramatic shadows, no gradient. Fill the entire landscape 3:2 frame with the mosaic, no tabletop, frame, signage, letters, text, numbers, logos, hands or people. This is an abstract brand surface for use in cropped slide margins, with no information or text to interpret. Crisp well-defined shapes and a calm Mediterranean restaurant feeling.
+```
+
 ## Slide 6 — El ranking y el paso del tiempo
 
 Generada el 19 de noviembre de 2026 con la herramienta integrada ImageGen, usando `img/entrega-fonda.webp` como referencia de estilo. Ilustración conceptual: el reloj de arena representa el tiempo; las tarjetas y el tazón sitúan la idea en la comida a domicilio. La cifra 8/20 se presenta como texto HTML, separado de la imagen.

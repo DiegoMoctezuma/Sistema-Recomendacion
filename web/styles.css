@@ -63,6 +63,121 @@
 @media(max-width:580px){.cabecera{padding:0 12px;gap:7px;height:68px}.marca{font-size:14px;gap:7px}.marca small{letter-spacing:1px}.marca-icono{width:34px;height:34px;font-size:30px;padding-bottom:7px}.modos{padding:3px}.modos button{padding:8px;font-size:9px}.herramientas .icono-btn{width:28px;height:28px;font-size:17px}main{height:calc(100dvh - 68px)}.escenario{padding:10px}.slide{padding:30px 22px}.slide h2{font-size:43px}.slide .lead{font-size:16px}.portada{padding:0}.portada .copy{padding:32px 24px}.portada h2{font-size:62px}.portada .visual{height:230px}.portada .lead{font-size:15px}.portada .sello{width:84px;height:84px;font-size:9px;bottom:-42px;right:15px}.tarjetas{grid-template-columns:1fr}.tarjeta{display:grid;grid-template-columns:55px 1fr;gap:5px 15px}.tarjeta .paso,.tarjeta svg{grid-row:1/3}.tarjeta h3{margin:0;font-size:27px}.tarjeta p{grid-column:2}.tarjeta svg{width:50px;height:50px}.flujo{grid-template-columns:1fr}.flujo>span{transform:rotate(90deg);text-align:center;font-size:22px}.flujo .tarjeta{display:block;min-height:0;padding:18px}.flujo .tarjeta h3{margin-bottom:8px}.timeline{gap:3px;flex-wrap:wrap}.periodo{padding:19px 12px}.periodo:first-child{flex-basis:100%}.periodo b{font-size:27px}.recall{grid-template-columns:1fr;gap:12px}.recall .numero{font-size:72px}.recall h3{margin-top:12px}.recall>div{padding:20px}.tres-stats{grid-template-columns:1fr;gap:22px}.tres-stats b{font-size:50px}.tres-stats p{margin-top:5px;font-size:15px}.banda{gap:14px;font-size:11px}.numero{font-size:110px}.numero.medio{font-size:90px}.grafica{padding:22px 17px}.barras{height:160px;gap:8px}.barra-col b{font-size:10px}.barra-col small{font-size:10px}.grafica h3{font-size:12px}.controles{height:57px;margin:0 14px}.posicion{gap:12px;font-size:10px}.flechas button{width:32px;height:32px}.demo-titulo{grid-template-columns:1fr;gap:18px}.demo-titulo h1{font-size:44px}.intro{font-size:13px}.pasos-demo{gap:12px;font-size:10px;line-height:1.5}.pasos-demo b{display:block}.personajes{grid-template-columns:repeat(3,1fr);gap:7px}.personaje{padding:12px 9px}.avatar{width:44px;height:44px}.mini{font-size:9px}.personaje .etiqueta{font-size:7px}.personaje .nombre{font-size:23px}.carrusel{grid-template-columns:1fr}.plato{display:grid;grid-template-columns:35px 1fr;padding:17px;gap:8px 15px}.plato .puesto{grid-row:1/5;font-size:32px}.plato .titulo{font-size:15px}.plato .meta,.plato .razon,.plato>div:last-child{grid-column:2}.resto ol{columns:1}.ficha{padding:20px;grid-template-columns:55px 1fr;gap:0 15px}.ficha dl{font-size:11px}.lista-cabecera .etiqueta{font-size:10px}#lista-indice{grid-template-columns:1fr}.indice-cabecera h2{font-size:30px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{body{overflow:visible;height:auto}.cabecera,.controles,#modo-demo,dialog{display:none!important}main,.modo,.escenario{height:auto;position:static;display:block!important;padding:0}.slide{display:flex!important;break-after:page;height:185mm;width:270mm;padding:15mm;margin:0;overflow:hidden;print-color-adjust:exact;-webkit-print-color-adjust:exact}.split{grid-template-columns:1fr 1fr}.portada{padding:0}.portada .split{grid-template-columns:1fr 1fr}.portada .copy{padding:15mm}.portada .visual{height:185mm}.slide h2{font-size:48pt}.slide .lead{font-size:15pt}.folio{display:block}}
+/* Restaurant surfaces stay behind the story, never behind the QR. */
+.escenario{position:relative}
+.slide:not(.portada)::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;opacity:.055;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23000' filter='url(%23n)' opacity='.5' d='M0 0h150v150H0z'/%3E%3C/svg%3E")}
+.decoracion{position:absolute;z-index:-1;pointer-events:none;user-select:none}
+.ambiente-capa{inset:0;overflow:hidden;contain:paint}
+.ambiente-capa .decoracion{z-index:auto}
+.decor-plato{width:490px;height:490px;border:3px solid #729943;border-radius:50%;bottom:-310px;left:-160px;background:#224c38}
+.decor-plato::before,.decor-plato::after{content:'';position:absolute;border:2px solid #729943;border-radius:50%;inset:17px}
+.decor-plato::after{inset:40px;border-width:1px}
+.decor-plato-superior{width:244px;height:244px;left:25%;top:-108px;bottom:auto;translate:-50% 0;background:transparent;opacity:.2}
+.slide.ambiente-limpio::before{display:none}
+.decor-mantel{background-color:var(--cream);background-image:repeating-linear-gradient(0deg,#bd32263d 0 24px,transparent 24px 48px),repeating-linear-gradient(90deg,#bd32263d 0 24px,transparent 24px 48px);border-top:3px solid #bd32265c}
+.ingrediente{position:absolute;display:block}
+.ingrediente svg{width:100%;height:auto}
+.decor-bodegon{width:255px;height:205px}
+.decor-bodegon .ramita{width:180px;left:64px;top:-3px;rotate:36deg}
+.decor-bodegon .tomate{width:137px;left:7px;bottom:-3px;rotate:-15deg}
+.decor-bodegon .citrico{width:145px;right:-8px;bottom:-17px;rotate:18deg}
+/* A complete tabletop composition, rather than an image pasted in a corner. */
+.mesa-cabecera{display:grid;grid-template-columns:1fr 1fr;gap:4%;align-items:center}
+.mesa-copy{display:flex;flex-direction:column;gap:20px;min-width:0}
+.slide.ambiente-mesa h2{font-size:clamp(44px,4.7vw,78px);color:var(--green)}
+.slide.ambiente-mesa .mesa-copy .lead{max-width:100%;font-size:clamp(17px,1.45vw,22px)}
+.mesa-banquete{position:relative;isolation:isolate}
+.mesa-banquete::before{content:'';position:absolute;inset:-35px -8px -15px -20px;z-index:-1;border-radius:50%;background:var(--green);border:8px solid #fff8e533;rotate:-13deg}
+.mesa-banquete img{width:100%;height:auto;max-height:42vh;object-fit:contain;rotate:6deg}
+.slide.ambiente-mesa .tarjetas{gap:23px;margin-top:9px}
+.slide.ambiente-mesa .tarjeta{position:relative;border-top:5px solid var(--red);border-bottom:1px solid #173e2e40;box-shadow:5px 7px 0 #173e2e1c;rotate:-1.6deg}
+.slide.ambiente-mesa .tarjeta:nth-child(2){border-top-color:var(--green);rotate:1.2deg;translate:0 8px}
+.slide.ambiente-mesa .tarjeta:nth-child(3){border-top-color:var(--blue);rotate:-.8deg}
+.slide.ambiente-mesa .tarjeta .paso{font-size:25px}
+.ambiente-mesa .decor-mantel{width:110%;height:200px;bottom:-139px;left:-25px;rotate:-3deg}
+/* A table edge and a ceramic plate frame the brand's part in the story. */
+.decor-patron-comida{left:0;right:0;bottom:0;height:18%;min-height:104px;max-height:160px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #fff8e5;opacity:.24}
+.decor-patron-comida img{width:100%;height:100%;min-width:0;min-height:0;object-fit:cover}
+.decor-vajilla{width:330px;height:330px;border-radius:50%;border:17px double #fff8e5;right:-120px;top:-172px;background:var(--blue);box-shadow:0 0 0 9px #f4cf48}
+.bodegon-comedor{right:-18px;bottom:-65px;rotate:-12deg}
+.slide.ambiente-comedor .flujo .tarjeta{border-bottom:5px solid var(--red);box-shadow:5px 7px 0 #250e1326}
+.slide.ambiente-comedor .flujo .tarjeta:nth-child(3){border-bottom-color:var(--yellow)}
+/* Three arches turn the context points into three distinct visual beats. */
+.slide.ambiente-huerta h2{max-width:100%}
+.slide.ambiente-huerta .tarjetas{gap:22px;margin-top:clamp(24px,4vh,42px)}
+.slide.ambiente-huerta .tarjeta{border-radius:125px 125px 8px 8px;padding:30px 25px 25px;text-align:center;border-bottom:7px solid var(--red)}
+.slide.ambiente-huerta .tarjeta:nth-child(2){background:#f4cf48;border-color:var(--blue)}
+.slide.ambiente-huerta .tarjeta:nth-child(3){background:#e2e8cf;border-color:var(--green)}
+.slide.ambiente-huerta .tarjeta svg{width:80px;height:80px;margin:0 auto 18px;padding:9px;background:var(--cream);border-radius:50%}
+.slide.ambiente-huerta .tarjeta h3{margin-top:0}
+.decor-mosaico{overflow:hidden}
+.decor-mosaico img{width:100%;height:100%;max-width:none;object-fit:cover}
+.ambiente-mosaico-marco .decor-mosaico{inset:0;clip-path:polygon(0 0,24px 0,24px calc(100% - 60px),100% calc(100% - 60px),100% 100%,0 100%)}
+.slide.ambiente-mosaico-marco .tarjeta{border-left:5px solid var(--green);box-shadow:5px 5px 0 #173e2e15}
+.slide.ambiente-mosaico-marco .tarjeta+ .tarjeta{border-color:var(--red)}
+.bodegon-acuerdo{right:30px;bottom:-111px;rotate:-12deg}
+.decor-patron-citricos{inset:0;opacity:.22}
+.decor-patron-citricos img{width:100%;height:100%;object-fit:cover}
+.decor-oliva{right:-35px;bottom:-85px;width:300px;height:235px}
+.decor-oliva .ramita{width:230px;right:8px;top:0;rotate:27deg}
+.decor-oliva .ramita-segunda{width:180px;left:0;bottom:8px;rotate:-35deg}
+.decor-oliva .citrico{width:125px;right:-5px;bottom:8px;rotate:20deg}
+/* The pilot uses a broader cloth and perforated menu slips. */
+.ambiente-piloto .decor-mantel{width:100%;height:43%;bottom:0;left:0;clip-path:polygon(0 18%,100% 0,100% 100%,0 100%)}
+.bodegon-piloto{right:-30px;top:-100px;rotate:155deg}
+.slide.ambiente-piloto .tarjeta{border:1px solid #173e2e26;border-bottom:7px double var(--green);box-shadow:5px 6px 0 #511d2818}
+.slide.ambiente-piloto .tarjeta .paso{display:inline-block;padding:6px 15px;border-radius:24px;background:var(--green);color:var(--cream);font-size:24px}
+.slide.ambiente-piloto .tarjeta:nth-child(2) .paso{background:var(--red)}
+.slide.ambiente-piloto .tarjeta:nth-child(3) .paso{background:var(--blue)}
+.semilla-transicion{position:absolute;right:30px;bottom:25px;width:44px;height:44px;border-radius:50%;pointer-events:none;box-shadow:inset 0 0 0 7px #fff8e530,inset 0 0 0 9px #fff8e580}
+.semilla-amarilla{background:var(--yellow)}
+.semilla-azul{background:var(--blue)}
+.slide.salida-circular{display:flex!important;position:absolute;z-index:1;pointer-events:none;animation:none!important}
+.slide.entrada-circular{z-index:2;animation:none!important}
+@media(max-width:900px){
+ .decor-plato{width:310px;height:310px;bottom:-225px;left:-150px}
+ .decor-plato-superior{width:156px;height:156px;left:25%;top:-75px;bottom:auto;opacity:.16}
+ .decor-bodegon{scale:.65;transform-origin:bottom right}
+ .mesa-cabecera{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:18px}
+ .mesa-copy{display:contents}
+ .slide.ambiente-mesa h2{grid-column:1/-1;font-size:clamp(35px,6.4vw,62px)}
+ .slide.ambiente-mesa .mesa-copy .lead{grid-column:1;grid-row:2;font-size:16px}
+ .mesa-banquete{grid-column:2;grid-row:2}
+ .mesa-banquete::before{inset:-12px -7px;border-width:4px;rotate:-8deg}
+ .mesa-banquete img{max-height:230px;rotate:8deg}
+ .slide.ambiente-mesa .tarjetas{gap:16px}
+ .slide.ambiente-mesa .tarjeta{rotate:0deg}
+ .slide.ambiente-mesa .tarjeta:nth-child(2),.slide.ambiente-mesa .tarjeta:nth-child(3){rotate:0deg;translate:none}
+ .slide.ambiente-mesa .tarjeta .paso{font-size:22px}
+ .ambiente-mesa .decor-mantel{bottom:-160px;height:225px}
+ .decor-patron-comida{height:90px;min-height:0;grid-template-columns:repeat(2,1fr);opacity:.2}
+ .decor-patron-comida img:last-child{display:none}
+ .decor-vajilla{width:200px;height:200px;right:-110px;top:-140px;border-width:12px}
+ .bodegon-comedor{right:-60px;bottom:-100px}
+ .slide.ambiente-huerta h2{max-width:100%}
+ .slide.ambiente-huerta .tarjeta{padding:22px 16px;border-radius:85px 85px 8px 8px}
+ .slide.ambiente-huerta .tarjeta svg{width:66px;height:66px;padding:7px}
+ .ambiente-mosaico-marco .decor-mosaico{clip-path:polygon(0 0,9px 0,9px calc(100% - 28px),100% calc(100% - 28px),100% 100%,0 100%)}
+ .bodegon-acuerdo{display:none}
+ .decor-patron-citricos{opacity:.18}
+ .decor-oliva{scale:.65;transform-origin:bottom right;right:-40px;bottom:-80px}
+ .ambiente-piloto .decor-mantel{height:50%}
+ .bodegon-piloto{top:-130px;right:-70px}
+ .semilla-transicion{width:32px;height:32px;right:16px;bottom:16px}
+}
+@media(prefers-reduced-motion:reduce){.slide.entrada-circular{clip-path:none!important}}
+@media(max-width:580px){
+ .slide.ambiente-mesa h2{font-size:clamp(35px,10.6vw,43px)}
+ .slide.ambiente-mesa .tarjeta,.slide.ambiente-piloto .tarjeta{display:block}
+ .slide.ambiente-mesa .tarjeta .paso{display:block;font-size:22px;line-height:1.2;margin-bottom:10px}
+ .slide.ambiente-mesa .tarjeta h3{margin:0 0 9px}
+ .slide.ambiente-huerta .tarjeta{display:grid;grid-template-columns:58px 1fr;text-align:left;border-radius:20px;padding:22px 18px;gap:5px 14px}
+ .slide.ambiente-huerta .tarjeta svg{width:58px;height:58px;margin:0}
+ .slide.ambiente-huerta .tarjeta h3{font-size:27px;margin:0 0 7px}
+ .slide.ambiente-piloto .tarjeta h3{margin:15px 0 10px}
+ .slide.ambiente-piloto .tarjeta .paso{font-size:21px;padding:6px 13px}
+}
+@media print{.decoracion,.semilla-transicion{display:none!important}.slide.salida-circular{display:none!important}}
 /* Keep the portrait quartet within a short projection viewport. */
 .avatars-pila{width:min(100%,52vh);max-width:460px;margin-inline:auto}
 @media(max-width:900px){.avatars-pila{width:min(100%,420px)}}
@@ -154,3 +269,23 @@
 .popularidad-dato p{font-size:17px;line-height:1.5}
 @media(max-width:900px){.popularidad-ilustrada .split{grid-template-columns:1fr;gap:30px}.popularidad-visual{max-width:550px;width:100%;margin:auto}.popularidad-dato strong{font-size:72px}.popularidad-dato p{font-size:16px}}
 @media(max-width:580px){.popularidad-dato{gap:15px;padding-top:16px}.popularidad-dato strong{font-size:60px}.popularidad-dato p{font-size:14px}.popularidad-dato p br{display:none}}
+
+/* Commercial narrative: readable benefits and proof without specialist labels. */
+.dato-origen{font-size:14px;line-height:1.5;margin-top:18px;opacity:.85}
+.barras-habitos{gap:40px}
+.barras-habitos .barra-col .bar{width:70%;margin-inline:auto}
+.barras-habitos .barra-col small{font-weight:600;line-height:1.4}
+.comercial-tarjetas .tarjeta p,.propuesta-experiencia .tarjeta p,.propuesta-comercial .tarjeta p{font-size:16px;line-height:1.55}
+.comercial-tarjetas .tarjeta .paso{font-size:27px}
+.ranking-claro .modelo-fila .ranking-sello{font-size:14px;font-weight:700;line-height:1.4;color:var(--red);white-space:nowrap}
+.promesa-doble .recall h3{font:800 clamp(34px,3.3vw,56px)/1 var(--display);text-transform:uppercase;margin:0 0 20px}
+.promesa-doble .recall p{font-size:18px;line-height:1.55}
+.propuesta-comercial .tarjeta .paso{font-size:27px}
+.cierre h2{font-size:clamp(50px,6.1vw,105px)}
+@media(max-width:900px){.barras-habitos{gap:25px}.promesa-doble .recall p{font-size:16px}}
+@media(max-width:580px){
+ .comercial-tarjetas .tarjeta p,.propuesta-experiencia .tarjeta p,.propuesta-comercial .tarjeta p{font-size:14px}
+ .promesa-doble .recall h3{font-size:31px}.promesa-doble .recall p{font-size:15px}
+ .comercial-tarjetas .tarjeta .paso{font-size:23px}.cierre h2{font-size:clamp(44px,11.5vw,62px)}
+ .barras-habitos .barra-col small{font-size:13px}.barras-habitos{gap:16px}
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <pattern id="limas" width="420" height="300" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#b68b21" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(27 34) rotate(-23 66 42)">
+          <path d="M8 42C1 30 10 18 24 15C46-3 85-1 106 15C120 14 132 25 125 38C133 52 120 64 105 66C81 83 44 82 23 65C9 65-3 53 8 42Z"/>
+          <path d="M23 30C40 11 78 9 95 23M23 45C24 49 27 52 31 53"/>
+        </g>
+        <g transform="translate(314 75) rotate(13)">
+          <path d="M-42 0C-42-24-23-42 0-43C25-42 43-23 42 0C44 24 23 43 0 42C-25 44-44 23-42 0Z"/>
+          <circle r="33"/>
+          <circle r="4"/>
+          <path d="M0-32V-7M23-23 5-5M32 0H7M23 23 5 5M0 32V7M-23 23-5 5M-32 0H-7M-23-23-5-5"/>
+        </g>
+        <g transform="translate(181 184) rotate(22 66 42)">
+          <path d="M8 42C1 30 10 18 24 15C46-3 85-1 106 15C120 14 132 25 125 38C133 52 120 64 105 66C81 83 44 82 23 65C9 65-3 53 8 42Z"/>
+          <path d="M24 30C42 13 76 11 94 23M98 51 103 47"/>
+        </g>
+        <g transform="translate(64 227) rotate(-12)">
+          <path d="M-36 0C-37-21-20-37 0-36C22-38 37-20 36 0C38 20 21 37 0 36C-20 38-38 20-36 0Z"/>
+          <circle r="28"/>
+          <circle r="4"/>
+          <path d="M0-27V-7M19-19 5-5M27 0H7M19 19 5 5M0 27V7M-19 19-5 5M-27 0H-7M-19-19-5-5"/>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <path fill="url(#limas)" d="M0 0H1200V800H0Z"/>
+</svg>
