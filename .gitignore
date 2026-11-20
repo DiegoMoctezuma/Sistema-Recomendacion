@@ -14,3 +14,7 @@ export/metricas_por_usuario.csv
 # Basura del sistema
 .DS_Store
 **/.DS_Store
+
+# Guion del pitch: se queda solo en local
+PITCH.md
+PITCH-2-VOCES.md

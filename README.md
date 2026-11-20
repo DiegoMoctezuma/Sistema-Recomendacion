@@ -117,7 +117,6 @@ La objeción honesta: la caminata recupera el **93.06%** de los lugares conocido
 | [`figs/`](figs) | Las figuras del notebook. |
 | [`web/`](web) | La demo y la presentación. Se publica sola en GitHub Pages con cada cambio en esta carpeta. |
 | [`reporte/`](reporte) | El reporte final en PDF y Word, y el script que lo regenera. |
-| [`PITCH.md`](PITCH.md) · [`PITCH-2-VOCES.md`](PITCH-2-VOCES.md) | El guion del pitch de diez minutos, a una y a dos voces. |
 
 ## Cómo correrlo
 
