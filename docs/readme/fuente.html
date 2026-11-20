@@ -1,0 +1,127 @@
+<!doctype html>
+<!--
+  Fuente de las imágenes del README. Cada <section id> se exporta como una imagen WebP
+  en esta carpeta (banner, cifras, senales, tiempo). Usa las fuentes, colores e
+  ilustraciones de web/ para que el README se vea como la app.
+  Para regenerar: abre este archivo con un servidor en la raíz del proyecto
+  (python3 -m http.server) y toma captura de cada sección a 2x.
+-->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Imágenes del README</title>
+<style>
+@font-face{font-family:'Barlow Condensed';font-weight:800;src:url(../../web/fonts/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1_3E.ttf)}
+@font-face{font-family:'Barlow Condensed';font-weight:900;src:url(../../web/fonts/HTxwL3I-JCGChYJ8VI-L6OO_au7B45L0_3E.ttf)}
+@font-face{font-family:'DM Sans';font-weight:400;src:url(../../web/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf)}
+@font-face{font-family:'DM Sans';font-weight:500;src:url(../../web/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(../../web/fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf)}
+:root{--cream:#fff8e5;--ink:#20251e;--red:#bd3226;--green:#173e2e;--blue:#264a8c;--yellow:#f4cf48;--wine:#511d28;--muted:#5f6355;--line:#d8d3bf;
+  --display:'Barlow Condensed',Impact,sans-serif;--sans:'DM Sans',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+body{background:#ccc;font-family:var(--sans);color:var(--ink);padding:40px;display:grid;gap:40px;justify-content:start}
+section{width:1600px;background:var(--cream);overflow:hidden;position:relative}
+.kicker{font-weight:700;font-size:15px;letter-spacing:3.2px;text-transform:uppercase;color:var(--red)}
+h1,h2,h3,.num{font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.88;letter-spacing:-.5px}
+.marca{display:flex;align-items:center;gap:14px;font-weight:700;font-size:26px;letter-spacing:-.6px;color:var(--cream)}
+.marca small{display:block;font-size:10px;letter-spacing:2.6px;margin-top:5px;font-weight:700}
+.marca-icono{font-family:Georgia,serif;font-size:50px;letter-spacing:-7px;color:var(--cream);background:var(--red);width:58px;height:58px;border-radius:50%;display:flex;align-items:center;padding:0 11px 10px 5px;transform:rotate(-9deg)}
+
+/* Portada */
+#banner{height:640px;display:grid;grid-template-columns:780px 1fr}
+#banner .izq{background:var(--green);color:var(--cream);padding:56px 72px 64px;display:flex;flex-direction:column;justify-content:space-between}
+#banner h1{font-size:118px;margin-top:20px}
+#banner h1 span{color:var(--yellow)}
+#banner .kicker{color:var(--yellow)}
+#banner p{font-size:25px;line-height:1.4;max-width:560px;margin-top:22px}
+#banner .der{background:url(../../web/img/portada-v2.webp) center/cover}
+#banner .sello{position:absolute;left:700px;bottom:46px;width:164px;height:164px;border-radius:50%;background:var(--yellow);color:var(--green);display:grid;place-items:center;text-align:center;font-weight:700;font-size:15px;letter-spacing:2px;line-height:1.45;transform:rotate(8deg);text-transform:uppercase}
+
+/* Cifras */
+#cifras{padding:64px 72px 72px}
+#cifras h2{font-size:76px;margin:14px 0 40px}
+#cifras h2 span{color:var(--red)}
+.tarjetas{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.tarjeta{border-radius:6px;padding:28px 28px 30px;color:var(--green);min-height:330px;display:flex;flex-direction:column}
+.tarjeta .n{font-weight:700;font-size:15px;letter-spacing:1px}
+.tarjeta .num{font-size:100px;margin-top:34px}
+.tarjeta p{font-size:19px;line-height:1.4;margin:14px 0 22px}
+.tarjeta small{display:block;margin-top:auto!important;border-top:1px solid rgba(23,62,46,.25);margin-top:18px;padding-top:12px;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+.t1{background:#f5d360}.t2{background:#dfe7f5}.t3{background:#e5eddc}.t4{background:#f2d4c2}
+
+/* Tres señales */
+#senales{padding:64px 72px 72px;background:var(--green);color:var(--cream)}
+#senales .kicker{color:var(--yellow)}
+#senales h2{font-size:76px;margin:14px 0 44px}
+#senales h2 span{color:var(--yellow)}
+.tres{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.senal{background:var(--cream);color:var(--green);border-radius:6px;padding:30px 32px 34px}
+.senal img{width:96px;height:96px}
+.senal h3{font-size:46px;margin:18px 0 12px}
+.senal p{font-size:19px;line-height:1.45;color:var(--ink)}
+.senal .n{font-weight:700;font-size:15px;color:var(--red);letter-spacing:1px}
+
+/* Línea de tiempo */
+#tiempo{padding:64px 72px 70px}
+#tiempo h2{font-size:76px;margin:14px 0 46px}
+#tiempo h2 span{color:var(--red)}
+.barra{display:grid;grid-template-columns:61fr 15fr 15fr;gap:8px}
+.tramo{border-radius:6px;padding:26px 28px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between}
+.tramo .dias{font-weight:700;font-size:15px;letter-spacing:2.4px;text-transform:uppercase}
+.tramo h3{font-size:54px;margin-bottom:10px}
+.tramo p{font-size:17px;line-height:1.4}
+.a{background:var(--green);color:var(--cream)}.a .dias{color:var(--yellow)}
+.b{background:var(--yellow);color:var(--green)}
+.c{background:var(--red);color:var(--cream)}
+.pie{display:flex;justify-content:space-between;margin-top:22px;font-size:16px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<section id="banner">
+  <div class="izq">
+    <div class="marca"><span class="marca-icono">a.</span><span>A domicilio<small>EL SIGUIENTE ANTOJO</small></span></div>
+    <div>
+      <p class="kicker">Datos Masivos II · FES Acatlán</p>
+      <h1>¿Qué vas<br>a <span>cenar<br>hoy?</span></h1>
+      <p>Un motor de recomendación para ir más allá de lo de siempre.</p>
+    </div>
+  </div>
+  <div class="der"></div>
+  <div class="sello">2 millones<br>de pedidos.<br>Una pregunta.</div>
+</section>
+
+<section id="cifras">
+  <p class="kicker">Lo medimos</p>
+  <h2>La historia en <span>cuatro números.</span></h2>
+  <div class="tarjetas">
+    <div class="tarjeta t1"><span class="n">01</span><div class="num">37.06%</div><p>de los pedidos van a un lugar que la persona ya conocía.</p><small>La costumbre</small></div>
+    <div class="tarjeta t2"><span class="n">02</span><div class="num">1,742</div><p>restaurantes tienen 50 pedidos o menos. Casi la cuarta parte del mercado.</p><small>Los invisibles</small></div>
+    <div class="tarjeta t3"><span class="n">03</span><div class="num">28.06</div><p>de NDCG@10 en la prueba sellada, con la caminata aleatoria (PPR).</p><small>El resultado</small></div>
+    <div class="tarjeta t4"><span class="n">04</span><div class="num">+6.9%</div><p>sobre repetirle a cada quien su historial, un rival durísimo.</p><small>La comparación que importa</small></div>
+  </div>
+</section>
+
+<section id="senales">
+  <p class="kicker">Cómo decide</p>
+  <h2>Tres señales. <span>Una lista de diez.</span></h2>
+  <div class="tres">
+    <div class="senal"><span class="n">01</span><br><img src="../../web/img/iconos/historial.svg" alt=""><h3>Lo que ya pide</h3><p>Su historial: los lugares a los que vuelve y cuántas veces lo hace.</p></div>
+    <div class="senal"><span class="n">02</span><br><img src="../../web/img/iconos/grafo.svg" alt=""><h3>Quién come como tú</h3><p>Una caminata por el grafo de restaurantes que comparten clientes.</p></div>
+    <div class="senal"><span class="n">03</span><br><img src="../../web/img/iconos/lugar.svg" alt=""><h3>Qué hay cerca</h3><p>Su zona y las ocho vecinas, con cocina y precio para los que aún no tienen historia.</p></div>
+  </div>
+</section>
+
+<section id="tiempo">
+  <p class="kicker">Cómo lo medimos</p>
+  <h2>Noventa días, <span>partidos en el tiempo.</span></h2>
+  <div class="barra">
+    <div class="tramo a"><span class="dias">Días 0–60</span><div><h3>Entrenar</h3><p>Todos los modelos aprenden con lo que ya pasó.</p></div></div>
+    <div class="tramo b"><span class="dias">61–75</span><div><h3>Elegir</h3><p>Aquí se escoge el modelo.</p></div></div>
+    <div class="tramo c"><span class="dias">76–90</span><div><h3>Sellado</h3><p>Se abre una sola vez.</p></div></div>
+  </div>
+  <div class="pie"><span>Once modelos · 20,000 clientes evaluados · intervalos del 95% por bootstrap pareado</span><span>DHRD · Singapur</span></div>
+</section>
+
+</body>
+</html>

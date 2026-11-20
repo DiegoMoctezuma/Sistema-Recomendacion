@@ -165,10 +165,10 @@ Nada que no esté en esta tabla se dice como hecho.
 1. **¿Por qué no datos de México?** Rappi, DiDi y Uber Eats no publican pedidos. DHRD es el único conjunto público real. Lo que se transfiere es el método.
 2. **¿Cómo sé que no está sobreajustado?** La prueba final se usó una vez, después de elegir el modelo en validación, y las diferencias traen intervalo del 95% por bootstrap pareado.
 3. **¿Por qué gana un método de grafos y no una red neuronal?** Con historial corto y catálogo que rota, la señal está en la co-visita. Probamos ALS y SVD: quedaron 12 y 24 puntos abajo.
-4. **¿Qué pasa con un cliente nuevo?** 15.20% de los pedidos son de gente sin historial; ahí el motor cae a popularidad reciente de su zona. Es el peor caso y lo decimos.
+4. **¿Qué pasa con un cliente nuevo?** 15.20% de los pedidos son de gente sin historial; ahí el motor cae a la popularidad reciente de toda la ciudad, porque sin historial tampoco sabemos dónde vive. Acierta poco: 0.84% de recall. Es el peor caso y lo decimos.
 5. **¿Y la privacidad de los datos del negocio?** El modelo usa variables de comportamiento, no identificadores. Cada cliente entrena con lo suyo.
 6. **¿Cuánto cuesta operarlo?** Corre en una máquina sin GPU; el costo dominante es el reentrenamiento, que son minutos.
-7. **¿Por qué el híbrido no ganó?** Queda 2.48 puntos abajo de la caminata, con intervalo que no cruza cero. A cambio descubre más. Es una decisión de producto que se puede activar por cliente.
+7. **¿Por qué no eligieron el híbrido?** Porque empata. El mejor híbrido queda a 0.02 puntos de la caminata, con un intervalo que cruza el cero. La regla, fijada antes de ver la prueba, dice que en un empate gana el más simple. El híbrido descubre un poco más: 6.87% de recall en lugares nuevos contra 6.60%. Es una decisión de producto que se puede activar por cliente.
 8. **¿Cómo se integra?** Por una API que recibe el historial y devuelve la lista. *(Plan: no está construida.)*
 9. **¿Qué tan rápido responde?** Las recomendaciones se precalculan por cliente; servirlas es una lectura.
 10. **¿Quién paga, el restaurante o la app?** La plataforma que junta pedidos. Un restaurante solo no genera suficiente señal.
