@@ -200,6 +200,8 @@
 .mejora-ranking strong{font:800 clamp(108px,10vw,174px)/.9 var(--display);letter-spacing:-.03em;white-space:nowrap}
 .mejora-ranking small{font-size:.47em;letter-spacing:0}
 .mejora-ranking p{font-size:21px;line-height:1.4;font-weight:600}
+.mejora-ranking p b{display:block;margin-top:6px;font-weight:800}
+.mejora-detalle{font-size:14px;font-weight:600;letter-spacing:.4px;opacity:.75;margin-top:-12px}
 .resultado-principal .lead{font-size:clamp(21px,1.55vw,26px);max-width:34ch}
 .ranking-claro{padding:28px;border:1px solid var(--line)}
 .ranking-claro h3{font-size:21px;line-height:1.3;margin-bottom:6px}
